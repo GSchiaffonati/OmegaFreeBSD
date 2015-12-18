@@ -1,0 +1,186 @@
+# -DHAS_ISBLANK -I. -I/usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk -DFOPEN_MAX=64 -std=gnu99 awkgram.c /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/b.c /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/lex.c /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/lib.c /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/main.c /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/parse.c proctab.c /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/run.c /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/tran.c
+awkgram.o: awkgram.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h
+b.o:  \
+ /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/b.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  ytab.h
+lex.o:  \
+ /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/lex.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  ytab.h
+lib.o:  \
+ /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/lib.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/errno.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdarg.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  ytab.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/math.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h
+main.o:  \
+ /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/main.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/locale.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_locale.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/signal.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/signal.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_sigset.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/signal.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  ytab.h
+parse.o:  \
+ /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/parse.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  ytab.h
+proctab.o: proctab.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  ytab.h
+run.o:  \
+ /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/run.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/setjmp.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/setjmp.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/math.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  ytab.h
+tran.o:  \
+ /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/tran.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/math.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/awk.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/awk/../../contrib/one-true-awk/proto.h \
+  ytab.h
+awk.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libm.a

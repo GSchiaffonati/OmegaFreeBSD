@@ -1,0 +1,1675 @@
+# -DBFD_DEFAULT_TARGET_SIZE=32 -I. -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include -DDEFAULT_ARCH="mips" -DTARGET_BYTES_BIG_ENDIAN=1 -DTARGET_CPU="mips" -DTARGET_OS="freebsd" -DTARGET_CANONICAL="mips-unknown-freebsd" -DTARGET_ALIAS="mips-unknown-freebsd" -DVERSION="2.17.50 [FreeBSD] 2007-07-03" -D_GNU_SOURCE -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/app.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/atof-generic.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/atof-ieee.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/cond.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/depend.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dw2gencfi.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dwarf2dbg.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ecoff.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ehopt.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum-copy.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum-konst.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum-mult.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/input-file.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/input-scrub.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/literal.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/macro.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/messages.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/output-file.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/sb.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/stabs.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/itbl-ops.c itbl-parse.c itbl-lex.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.c
+app.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/app.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h
+as.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/output-file.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/sb.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/macro.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dwarf2dbg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dw2gencfi.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/dwarf2.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfdver.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/itbl-ops.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/itbl-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/itbl-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/opcode/mips.h
+atof-generic.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/atof-generic.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h
+atof-ieee.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/atof-ieee.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h
+cond.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/cond.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/sb.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/macro.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h
+depend.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/depend.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h
+dw2gencfi.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dw2gencfi.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dw2gencfi.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/dwarf2.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h
+dwarf2dbg.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dwarf2dbg.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dwarf2dbg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/dwarf2.h
+ecoff.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ecoff.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/symconst.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/aout/stab_gnu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/aout/stab.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h
+ehopt.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ehopt.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/dwarf2.h
+expr.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h
+flonum-copy.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum-copy.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h
+flonum-konst.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum-konst.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h
+flonum-mult.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum-mult.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h
+frags.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h
+hash.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h
+input-file.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/input-file.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/input-file.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h
+input-scrub.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/input-scrub.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/input-file.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/sb.h
+listing.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/input-file.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h
+literal.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/literal.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h
+macro.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/macro.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/sb.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/macro.h
+messages.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/messages.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h
+obj-elf.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/struc-symbol.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dwarf2dbg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/reloc-macros.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/aout/aout64.h
+output-file.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/output-file.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/output-file.h
+read.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/sb.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/macro.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dw2gencfi.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/dwarf2.h
+sb.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/sb.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/sb.h
+stabs.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/stabs.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/aout/stab_gnu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/aout/stab.def
+subsegs.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h
+symbols.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/struc-symbol.h
+write.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/output-file.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dwarf2dbg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/hashtab.h
+itbl-ops.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/itbl-ops.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/itbl-ops.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/itbl-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/itbl-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/opcode/mips.h \
+  itbl-parse.h
+itbl-parse.o: itbl-parse.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/itbl-lex.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/itbl-ops.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/itbl-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/itbl-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/opcode/mips.h
+itbl-lex.o: itbl-lex.c /usr/include/sys/cdefs.h /usr/include/stdint.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/errno.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h /usr/include/stdarg.h \
+  /usr/include/x86/stdarg.h /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/itbl-lex.h \
+  itbl-parse.h
+tc-mips.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/as.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/errno.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/progress.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/asintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/flonum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bignum.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/expr.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/targ-env.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/te-freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/obj-format.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/obj-elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/targ-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/tc-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/write.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/bit_fix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/frags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/read.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/symbols.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/tc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/obj.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/listing.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/subsegs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/opcode/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/itbl-ops.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/mips-freebsd/itbl-cpu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/config/itbl-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dwarf2dbg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/dw2gencfi.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/dwarf2.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/elf/reloc-macros.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/gas/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/as/../../../../contrib/binutils/include/coff/ecoff.h
+as.full: /usr/lib/libc.a ../libbfd/libbfd.a ../libiberty/libiberty.a ../libopcodes/libopcodes.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

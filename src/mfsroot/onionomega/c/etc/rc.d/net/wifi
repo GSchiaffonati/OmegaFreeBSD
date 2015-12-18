@@ -1,0 +1,156 @@
+#!/bin/sh
+
+# This configures the wlan clone device.
+
+. /etc/rc.subr
+. /etc/rc.hostapd
+. /etc/rc.wpa_ibss
+. /etc/rc.conf.default
+. /etc/cfg/rc.conf
+
+# variables:
+#
+# netif_IF_type="wifi"
+# netif_IF_enable="yes|no"
+# netif_IF_addrtype="static|dhcp|none"
+# netif_IF_descr="description"
+# netif_IF_name="wlan0"
+#
+# for static addresses:
+# netif_IF_ipv4_address="x.x.x.x"
+# netif_IF_ipv4_netmask="y.y.y.y"
+#
+# Wireless generic configuration:
+#
+# netif_IF_wifi_mode="<hostap|sta|mesh|adhoc|..>"
+# netif_IF_wifi_parent="ath0"
+# netif_IF_wifi_createargs1=""
+# netif_IF_wifi_createargs2=""
+# netif_IF_wifi_createargs3=""
+# netif_IF_wifi_channel="6:ht/20"
+# netif_IF_wifi_country="US"
+
+# Hostap:
+
+# netif_IF_wifi_hostap_ssid="CACHEBOY_11N"
+# netif_IF_wifi_hostap_wpa_passphrase="Sysinit891234"
+# netif_IF_wifi_hostap_wpa_mode=3
+# netif_IF_wifi_hostap_wpa_key_mgmt="WPA-PSK"
+# netif_IF_wifi_hostap_wpa_pairwise="CCMP TKIP"
+
+cmd=$1
+shift
+
+ifname=$1
+shift
+
+netif_enable=`get_if_var $ifname netif_IF_enable no`
+netif_addrtype=`get_if_var $ifname netif_IF_addrtype none`
+netif_descr=`get_if_var $ifname netif_IF_descr ''`
+netif_name=`get_if_var $ifname netif_IF_name`
+
+netif_ipv4_address=`get_if_var $ifname netif_IF_ipv4_address`
+netif_ipv4_netmask=`get_if_var $ifname netif_IF_ipv4_netmask`
+
+netif_wifi_mode="`get_if_var $ifname netif_IF_wifi_mode`"
+netif_wifi_parent="`get_if_var $ifname netif_IF_wifi_parent`"
+netif_wifi_createargs1="`get_if_var $ifname netif_IF_wifi_createargs1 ''`"
+netif_wifi_createargs2="`get_if_var $ifname netif_IF_wifi_createargs2 ''`"
+netif_wifi_createargs3="`get_if_var $ifname netif_IF_wifi_createargs3 ''`"
+
+netif_wifi_channel="`get_if_var $ifname netif_IF_wifi_channel 6:ht/20`"
+netif_wifi_country="`get_if_var $ifname netif_IF_wifi_country ''`"
+
+# The hostap options are handled in the hostapd config file routine.
+
+case $cmd in
+	'start')
+		echo "*** Interface: ${ifname}: start"
+
+		# Create a VAP
+		case ${netif_wifi_mode} in
+			'hostap')
+				ifconfig ${netif_name} create wlandev ${netif_wifi_parent} \
+				    wlanmode hostap bssid
+			;;
+			'ibss')
+				ifconfig ${netif_name} create wlandev ${netif_wifi_parent} \
+				    wlanmode ibss bssid
+			;;
+			*)
+				echo "*** ${ifname}: unknown wifi mode '${netif_wifi_mode}'"
+				exit 1
+			;;
+		esac
+
+		# Create args
+		if [ "x${netif_wifi_createargs1}" != "x" ]; then
+			ifconfig ${netif_name} ${netif_wifi_createargs1}
+		fi
+		if [ "x${netif_wifi_createargs2}" != "x" ]; then
+			ifconfig ${netif_name} ${netif_wifi_createargs2}
+		fi
+		if [ "x${netif_wifi_createargs3}" != "x" ]; then
+			ifconfig ${netif_name} ${netif_wifi_createargs3}
+		fi
+
+		# Set channel and country as appropriate
+		if [ "x${netif_wifi_country}" != "x" ]; then
+			ifconfig ${netif_name} country ${netif_wifi_country} || exit 1
+		fi
+		if [ "x${netif_wifi_channel}" != "x" ]; then
+			ifconfig ${netif_name} channel ${netif_wifi_channel} || exit 1
+		fi
+
+		# If hostap, then create hostap conf file and start it
+		case ${netif_wifi_mode} in
+			'hostap')
+				generate_hostapd_cfg_hostap ${netif_name} || exit 1
+				hostapd -P /var/run/hostapd.${netif_name}.pid -B /var/run/hostapd.${netif_name}.conf || exit 1
+				sleep 1
+				;;
+			'ibss')
+				generate_wpa_cfg_ibss ${netif_name} || exit 1
+				wpa_supplicant -B -P /var/run/wpa_supplicant.${netif_name}.pid -i ${netif_name} -c /var/run/wpa_supplicant.${netif_name}.conf || exit 1
+				sleep 1
+				;;
+		esac
+
+		# ipv4 address
+		if [ "x${netif_addrtype}" = "xstatic" ]; then
+			ifconfig ${netif_name} inet ${netif_ipv4_address} \
+			    netmask ${netif_ipv4_netmask}
+		elif [ "x${netif_addrtype}" = "xdhcp" ]; then
+			dhclient -b ${netif_name}
+		fi
+		echo "*** Interface: ${ifname}: done"
+		exit 0
+	;;
+	'stop')
+		echo "*** Interface: ${ifname}: stop"
+
+		case ${netif_wifi_mode} in
+			'hostap')
+				echo "*** Terminating hostapd.."
+				kill `cat /var/run/hostapd.${netif_name}.pid`
+				sleep 1
+			;;
+			'ibss')
+				echo "*** Terminating wpa_supplicant.."
+				kill `cat /var/run/wpa_supplicant.${netif_name}.pid`
+				sleep 1
+			;;
+
+		esac
+
+		ifconfig ${netif_name} down
+		ifconfig ${netif_name} destroy
+
+		echo "*** Interface: ${ifname}: done"
+		exit 0
+	;;
+	*)
+		echo "Usage: $0 {start|stop} {name}"
+esac
+
+exit 0

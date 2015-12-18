@@ -1,0 +1,777 @@
+   0  $accept : statements $end
+
+   1  statements :
+   2             | statements statement
+
+   3  statement : control_statement
+   4            | pidfile_statement
+   5            | listen_statement
+   6            | replication_statement
+   7            | checksum_statement
+   8            | compression_statement
+   9            | timeout_statement
+  10            | exec_statement
+  11            | metaflush_statement
+  12            | node_statement
+  13            | resource_statement
+
+  14  control_statement : CONTROL STR
+
+  15  pidfile_statement : PIDFILE STR
+
+  16  listen_statement : LISTEN STR
+
+  17  replication_statement : REPLICATION replication_type
+
+  18  replication_type : FULLSYNC
+  19                   | MEMSYNC
+  20                   | ASYNC
+
+  21  checksum_statement : CHECKSUM checksum_type
+
+  22  checksum_type : NONE
+  23                | CRC32
+  24                | SHA256
+
+  25  compression_statement : COMPRESSION compression_type
+
+  26  compression_type : NONE
+  27                   | HOLE
+  28                   | LZF
+
+  29  timeout_statement : TIMEOUT NUM
+
+  30  exec_statement : EXEC STR
+
+  31  metaflush_statement : METAFLUSH boolean
+
+  32  boolean : ON
+  33          | OFF
+
+  34  node_statement : ON node_start OB node_entries CB
+
+  35  node_start : STR
+
+  36  node_entries :
+  37               | node_entries node_entry
+
+  38  node_entry : control_statement
+  39             | pidfile_statement
+  40             | listen_statement
+
+  41  resource_statement : RESOURCE resource_start OB resource_entries CB
+
+  42  resource_start : STR
+
+  43  resource_entries :
+  44                   | resource_entries resource_entry
+
+  45  resource_entry : replication_statement
+  46                 | checksum_statement
+  47                 | compression_statement
+  48                 | timeout_statement
+  49                 | exec_statement
+  50                 | metaflush_statement
+  51                 | name_statement
+  52                 | local_statement
+  53                 | resource_node_statement
+
+  54  name_statement : NAME STR
+
+  55  local_statement : LOCAL STR
+
+  56  resource_node_statement : ON resource_node_start OB resource_node_entries CB
+
+  57  resource_node_start : STR
+
+  58  resource_node_entries :
+  59                        | resource_node_entries resource_node_entry
+
+  60  resource_node_entry : name_statement
+  61                      | local_statement
+  62                      | remote_statement
+  63                      | source_statement
+  64                      | metaflush_statement
+
+  65  remote_statement : REMOTE remote_str
+
+  66  remote_str : NONE
+  67             | STR
+
+  68  source_statement : SOURCE STR
+
+state 0
+	$accept : . statements $end  (0)
+	statements : .  (1)
+
+	.  reduce 1
+
+	statements  goto 1
+
+
+state 1
+	$accept : statements . $end  (0)
+	statements : statements . statement  (2)
+
+	$end  accept
+	CONTROL  shift 2
+	PIDFILE  shift 3
+	LISTEN  shift 4
+	REPLICATION  shift 5
+	CHECKSUM  shift 6
+	COMPRESSION  shift 7
+	METAFLUSH  shift 8
+	TIMEOUT  shift 9
+	EXEC  shift 10
+	RESOURCE  shift 11
+	ON  shift 12
+	.  error
+
+	statement  goto 13
+	control_statement  goto 14
+	pidfile_statement  goto 15
+	listen_statement  goto 16
+	replication_statement  goto 17
+	checksum_statement  goto 18
+	compression_statement  goto 19
+	timeout_statement  goto 20
+	exec_statement  goto 21
+	metaflush_statement  goto 22
+	node_statement  goto 23
+	resource_statement  goto 24
+
+
+state 2
+	control_statement : CONTROL . STR  (14)
+
+	STR  shift 25
+	.  error
+
+
+state 3
+	pidfile_statement : PIDFILE . STR  (15)
+
+	STR  shift 26
+	.  error
+
+
+state 4
+	listen_statement : LISTEN . STR  (16)
+
+	STR  shift 27
+	.  error
+
+
+state 5
+	replication_statement : REPLICATION . replication_type  (17)
+
+	FULLSYNC  shift 28
+	MEMSYNC  shift 29
+	ASYNC  shift 30
+	.  error
+
+	replication_type  goto 31
+
+
+state 6
+	checksum_statement : CHECKSUM . checksum_type  (21)
+
+	NONE  shift 32
+	CRC32  shift 33
+	SHA256  shift 34
+	.  error
+
+	checksum_type  goto 35
+
+
+state 7
+	compression_statement : COMPRESSION . compression_type  (25)
+
+	NONE  shift 36
+	HOLE  shift 37
+	LZF  shift 38
+	.  error
+
+	compression_type  goto 39
+
+
+state 8
+	metaflush_statement : METAFLUSH . boolean  (31)
+
+	ON  shift 40
+	OFF  shift 41
+	.  error
+
+	boolean  goto 42
+
+
+state 9
+	timeout_statement : TIMEOUT . NUM  (29)
+
+	NUM  shift 43
+	.  error
+
+
+state 10
+	exec_statement : EXEC . STR  (30)
+
+	STR  shift 44
+	.  error
+
+
+state 11
+	resource_statement : RESOURCE . resource_start OB resource_entries CB  (41)
+
+	STR  shift 45
+	.  error
+
+	resource_start  goto 46
+
+
+state 12
+	node_statement : ON . node_start OB node_entries CB  (34)
+
+	STR  shift 47
+	.  error
+
+	node_start  goto 48
+
+
+state 13
+	statements : statements statement .  (2)
+
+	.  reduce 2
+
+
+state 14
+	statement : control_statement .  (3)
+
+	.  reduce 3
+
+
+state 15
+	statement : pidfile_statement .  (4)
+
+	.  reduce 4
+
+
+state 16
+	statement : listen_statement .  (5)
+
+	.  reduce 5
+
+
+state 17
+	statement : replication_statement .  (6)
+
+	.  reduce 6
+
+
+state 18
+	statement : checksum_statement .  (7)
+
+	.  reduce 7
+
+
+state 19
+	statement : compression_statement .  (8)
+
+	.  reduce 8
+
+
+state 20
+	statement : timeout_statement .  (9)
+
+	.  reduce 9
+
+
+state 21
+	statement : exec_statement .  (10)
+
+	.  reduce 10
+
+
+state 22
+	statement : metaflush_statement .  (11)
+
+	.  reduce 11
+
+
+state 23
+	statement : node_statement .  (12)
+
+	.  reduce 12
+
+
+state 24
+	statement : resource_statement .  (13)
+
+	.  reduce 13
+
+
+state 25
+	control_statement : CONTROL STR .  (14)
+
+	.  reduce 14
+
+
+state 26
+	pidfile_statement : PIDFILE STR .  (15)
+
+	.  reduce 15
+
+
+state 27
+	listen_statement : LISTEN STR .  (16)
+
+	.  reduce 16
+
+
+state 28
+	replication_type : FULLSYNC .  (18)
+
+	.  reduce 18
+
+
+state 29
+	replication_type : MEMSYNC .  (19)
+
+	.  reduce 19
+
+
+state 30
+	replication_type : ASYNC .  (20)
+
+	.  reduce 20
+
+
+state 31
+	replication_statement : REPLICATION replication_type .  (17)
+
+	.  reduce 17
+
+
+state 32
+	checksum_type : NONE .  (22)
+
+	.  reduce 22
+
+
+state 33
+	checksum_type : CRC32 .  (23)
+
+	.  reduce 23
+
+
+state 34
+	checksum_type : SHA256 .  (24)
+
+	.  reduce 24
+
+
+state 35
+	checksum_statement : CHECKSUM checksum_type .  (21)
+
+	.  reduce 21
+
+
+state 36
+	compression_type : NONE .  (26)
+
+	.  reduce 26
+
+
+state 37
+	compression_type : HOLE .  (27)
+
+	.  reduce 27
+
+
+state 38
+	compression_type : LZF .  (28)
+
+	.  reduce 28
+
+
+state 39
+	compression_statement : COMPRESSION compression_type .  (25)
+
+	.  reduce 25
+
+
+state 40
+	boolean : ON .  (32)
+
+	.  reduce 32
+
+
+state 41
+	boolean : OFF .  (33)
+
+	.  reduce 33
+
+
+state 42
+	metaflush_statement : METAFLUSH boolean .  (31)
+
+	.  reduce 31
+
+
+state 43
+	timeout_statement : TIMEOUT NUM .  (29)
+
+	.  reduce 29
+
+
+state 44
+	exec_statement : EXEC STR .  (30)
+
+	.  reduce 30
+
+
+state 45
+	resource_start : STR .  (42)
+
+	.  reduce 42
+
+
+state 46
+	resource_statement : RESOURCE resource_start . OB resource_entries CB  (41)
+
+	OB  shift 49
+	.  error
+
+
+state 47
+	node_start : STR .  (35)
+
+	.  reduce 35
+
+
+state 48
+	node_statement : ON node_start . OB node_entries CB  (34)
+
+	OB  shift 50
+	.  error
+
+
+state 49
+	resource_statement : RESOURCE resource_start OB . resource_entries CB  (41)
+	resource_entries : .  (43)
+
+	.  reduce 43
+
+	resource_entries  goto 51
+
+
+state 50
+	node_statement : ON node_start OB . node_entries CB  (34)
+	node_entries : .  (36)
+
+	.  reduce 36
+
+	node_entries  goto 52
+
+
+state 51
+	resource_statement : RESOURCE resource_start OB resource_entries . CB  (41)
+	resource_entries : resource_entries . resource_entry  (44)
+
+	REPLICATION  shift 5
+	CHECKSUM  shift 6
+	COMPRESSION  shift 7
+	METAFLUSH  shift 8
+	TIMEOUT  shift 9
+	EXEC  shift 10
+	NAME  shift 53
+	LOCAL  shift 54
+	ON  shift 55
+	CB  shift 56
+	.  error
+
+	replication_statement  goto 57
+	checksum_statement  goto 58
+	compression_statement  goto 59
+	timeout_statement  goto 60
+	exec_statement  goto 61
+	metaflush_statement  goto 62
+	resource_entry  goto 63
+	name_statement  goto 64
+	local_statement  goto 65
+	resource_node_statement  goto 66
+
+
+state 52
+	node_statement : ON node_start OB node_entries . CB  (34)
+	node_entries : node_entries . node_entry  (37)
+
+	CONTROL  shift 2
+	PIDFILE  shift 3
+	LISTEN  shift 4
+	CB  shift 67
+	.  error
+
+	control_statement  goto 68
+	pidfile_statement  goto 69
+	listen_statement  goto 70
+	node_entry  goto 71
+
+
+state 53
+	name_statement : NAME . STR  (54)
+
+	STR  shift 72
+	.  error
+
+
+state 54
+	local_statement : LOCAL . STR  (55)
+
+	STR  shift 73
+	.  error
+
+
+state 55
+	resource_node_statement : ON . resource_node_start OB resource_node_entries CB  (56)
+
+	STR  shift 74
+	.  error
+
+	resource_node_start  goto 75
+
+
+state 56
+	resource_statement : RESOURCE resource_start OB resource_entries CB .  (41)
+
+	.  reduce 41
+
+
+state 57
+	resource_entry : replication_statement .  (45)
+
+	.  reduce 45
+
+
+state 58
+	resource_entry : checksum_statement .  (46)
+
+	.  reduce 46
+
+
+state 59
+	resource_entry : compression_statement .  (47)
+
+	.  reduce 47
+
+
+state 60
+	resource_entry : timeout_statement .  (48)
+
+	.  reduce 48
+
+
+state 61
+	resource_entry : exec_statement .  (49)
+
+	.  reduce 49
+
+
+state 62
+	resource_entry : metaflush_statement .  (50)
+
+	.  reduce 50
+
+
+state 63
+	resource_entries : resource_entries resource_entry .  (44)
+
+	.  reduce 44
+
+
+state 64
+	resource_entry : name_statement .  (51)
+
+	.  reduce 51
+
+
+state 65
+	resource_entry : local_statement .  (52)
+
+	.  reduce 52
+
+
+state 66
+	resource_entry : resource_node_statement .  (53)
+
+	.  reduce 53
+
+
+state 67
+	node_statement : ON node_start OB node_entries CB .  (34)
+
+	.  reduce 34
+
+
+state 68
+	node_entry : control_statement .  (38)
+
+	.  reduce 38
+
+
+state 69
+	node_entry : pidfile_statement .  (39)
+
+	.  reduce 39
+
+
+state 70
+	node_entry : listen_statement .  (40)
+
+	.  reduce 40
+
+
+state 71
+	node_entries : node_entries node_entry .  (37)
+
+	.  reduce 37
+
+
+state 72
+	name_statement : NAME STR .  (54)
+
+	.  reduce 54
+
+
+state 73
+	local_statement : LOCAL STR .  (55)
+
+	.  reduce 55
+
+
+state 74
+	resource_node_start : STR .  (57)
+
+	.  reduce 57
+
+
+state 75
+	resource_node_statement : ON resource_node_start . OB resource_node_entries CB  (56)
+
+	OB  shift 76
+	.  error
+
+
+state 76
+	resource_node_statement : ON resource_node_start OB . resource_node_entries CB  (56)
+	resource_node_entries : .  (58)
+
+	.  reduce 58
+
+	resource_node_entries  goto 77
+
+
+state 77
+	resource_node_statement : ON resource_node_start OB resource_node_entries . CB  (56)
+	resource_node_entries : resource_node_entries . resource_node_entry  (59)
+
+	METAFLUSH  shift 8
+	NAME  shift 53
+	LOCAL  shift 54
+	REMOTE  shift 78
+	SOURCE  shift 79
+	CB  shift 80
+	.  error
+
+	metaflush_statement  goto 81
+	name_statement  goto 82
+	local_statement  goto 83
+	resource_node_entry  goto 84
+	remote_statement  goto 85
+	source_statement  goto 86
+
+
+state 78
+	remote_statement : REMOTE . remote_str  (65)
+
+	NONE  shift 87
+	STR  shift 88
+	.  error
+
+	remote_str  goto 89
+
+
+state 79
+	source_statement : SOURCE . STR  (68)
+
+	STR  shift 90
+	.  error
+
+
+state 80
+	resource_node_statement : ON resource_node_start OB resource_node_entries CB .  (56)
+
+	.  reduce 56
+
+
+state 81
+	resource_node_entry : metaflush_statement .  (64)
+
+	.  reduce 64
+
+
+state 82
+	resource_node_entry : name_statement .  (60)
+
+	.  reduce 60
+
+
+state 83
+	resource_node_entry : local_statement .  (61)
+
+	.  reduce 61
+
+
+state 84
+	resource_node_entries : resource_node_entries resource_node_entry .  (59)
+
+	.  reduce 59
+
+
+state 85
+	resource_node_entry : remote_statement .  (62)
+
+	.  reduce 62
+
+
+state 86
+	resource_node_entry : source_statement .  (63)
+
+	.  reduce 63
+
+
+state 87
+	remote_str : NONE .  (66)
+
+	.  reduce 66
+
+
+state 88
+	remote_str : STR .  (67)
+
+	.  reduce 67
+
+
+state 89
+	remote_statement : REMOTE remote_str .  (65)
+
+	.  reduce 65
+
+
+state 90
+	source_statement : SOURCE STR .  (68)
+
+	.  reduce 68
+
+
+30 terminals, 33 nonterminals
+69 grammar rules, 91 states

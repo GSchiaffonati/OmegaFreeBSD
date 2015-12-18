@@ -1,0 +1,74 @@
+# -I/usr/home/freebsd/omega/src/lib/libkiconv/../../sys -DICONV_DLOPEN -std=gnu99 /usr/home/freebsd/omega/src/lib/libkiconv/kiconv_sysctl.c /usr/home/freebsd/omega/src/lib/libkiconv/xlat16_iconv.c /usr/home/freebsd/omega/src/lib/libkiconv/xlat16_sysctl.c /usr/home/freebsd/omega/src/lib/libkiconv/quirks.c
+kiconv_sysctl.o kiconv_sysctl.po kiconv_sysctl.So:  \
+ /usr/home/freebsd/omega/src/lib/libkiconv/kiconv_sysctl.c \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/types.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/select.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/iconv.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/sysctl.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/queue.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/errno.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h
+xlat16_iconv.o xlat16_iconv.po xlat16_iconv.So: /usr/home/freebsd/omega/src/lib/libkiconv/xlat16_iconv.c \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/types.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/select.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/iconv.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/errno.h
+xlat16_sysctl.o xlat16_sysctl.po xlat16_sysctl.So:  \
+ /usr/home/freebsd/omega/src/lib/libkiconv/xlat16_sysctl.c \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/types.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/select.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/iconv.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/errno.h
+quirks.o quirks.po quirks.So: /usr/home/freebsd/omega/src/lib/libkiconv/quirks.c \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/types.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/select.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/lib/libkiconv/../../sys/sys/iconv.h

@@ -1,0 +1,28 @@
+# -I/usr/home/freebsd/omega/src/usr.sbin/fifolog/fifolog_create/../lib -std=gnu99 /usr/home/freebsd/omega/src/usr.sbin/fifolog/fifolog_create/fifolog_create.c
+fifolog_create.o:  \
+ /usr/home/freebsd/omega/src/usr.sbin/fifolog/fifolog_create/fifolog_create.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sysexits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_pthreadtypes.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/select.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_sigset.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timeval.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/err.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/libutil.h \
+  /usr/home/freebsd/omega/src/usr.sbin/fifolog/fifolog_create/../lib/libfifolog.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_stdint.h \
+  /usr/home/freebsd/omega/src/usr.sbin/fifolog/fifolog_create/../lib/fifolog_write.h
+fifolog_create.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libutil.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/usr.sbin/ntp/libopts/libfifolog.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libz.a

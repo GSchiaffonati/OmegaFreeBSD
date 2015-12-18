@@ -1,0 +1,76 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../src/include -std=gnu99 /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/utils/indxbib/signal.c
+signal.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/utils/indxbib/signal.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../src/include/config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_pthreadtypes.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/select.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_sigset.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timeval.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/signal.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/signal.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/signal.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/unistd.h
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../src/include /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/utils/indxbib/indxbib.cpp
+indxbib.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/utils/indxbib/indxbib.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../src/include/config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/getopt.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/locale.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_locale.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdarg.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/assert.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/posix.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_pthreadtypes.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/select.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_sigset.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timeval.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/stat.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/fcntl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/error.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/cset.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/cmap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../src/include/defs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/index.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../../../../contrib/groff/src/include/nonposix.h
+indxbib.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../src/libs/libbib/libbib.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/indxbib/../../../src/libs/libgroff/libgroff.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libm.a
+indxbib.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libstdc++.a

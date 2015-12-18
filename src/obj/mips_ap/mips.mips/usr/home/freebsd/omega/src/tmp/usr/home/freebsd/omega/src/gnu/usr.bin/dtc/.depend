@@ -1,0 +1,312 @@
+# -I. -I/usr/home/freebsd/omega/src/gnu/usr.bin/dtc -I/usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc -I/usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/checks.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/fstree.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/livetree.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/treesource.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/data.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/flattree.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/srcpos.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_ro.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_rw.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_strerror.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_sw.c /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_wip.c
+dtc.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdbool.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/srcpos.h
+checks.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/checks.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdbool.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/getopt.h
+fstree.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/fstree.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdbool.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/getopt.h /usr/include/dirent.h /usr/include/sys/dirent.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h
+livetree.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/livetree.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdbool.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/getopt.h
+treesource.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/treesource.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdbool.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/srcpos.h
+data.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/data.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdbool.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/getopt.h
+flattree.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/flattree.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdbool.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/srcpos.h
+srcpos.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/srcpos.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/dtc.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdbool.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/srcpos.h
+util.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.c \
+  /usr/include/ctype.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/assert.h /usr/include/errno.h /usr/include/fcntl.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../contrib/dtc/util.h \
+  /usr/include/stdbool.h /usr/include/getopt.h version_gen.h
+fdt.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_internal.h
+fdt_ro.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_ro.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_internal.h
+fdt_rw.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_rw.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_internal.h
+fdt_strerror.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_strerror.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_internal.h
+fdt_sw.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_sw.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_internal.h
+fdt_wip.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt_wip.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_env.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/fdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/dtc/../../../sys/contrib/libfdt/libfdt_internal.h
+dtc.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

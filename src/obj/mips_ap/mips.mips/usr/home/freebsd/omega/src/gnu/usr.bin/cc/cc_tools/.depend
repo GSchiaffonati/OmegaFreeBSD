@@ -1,0 +1,1820 @@
+# -I. -DGCCVER="4.2" -DIN_GCC -DHAVE_CONFIG_H -DPREFIX="/usr" -DCROSS_DIRECTORY_STRUCTURE -DMIPS_ABI_DEFAULT=ABI_32 -DMIPS_CPU_STRING_DEFAULT="mips32" -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libdecnumber -DGENERATOR_FILE -DHAVE_CONFIG_H -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu89 /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genattr.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genattrtab.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genautomata.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gencheck.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genchecksum.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gencodes.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genconditions.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genconfig.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genconstants.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genemit.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genextract.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genflags.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gengenrtl.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gengtype.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genmodes.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genopinit.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genoutput.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genpeep.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genpreds.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genrecog.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/ggc-none.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/print-rtl.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/read-rtl.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.c gengtype-lex.c gengtype-yacc+%DIKED.c insn-conditions.c min-insn-modes.c gencondmd.c
+errors.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h
+genattr.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genattr.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genattrtab.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genattrtab.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h
+genautomata.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genautomata.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h \
+  /usr/include/math.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/hashtab.h
+gencheck.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gencheck.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/tree.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/c-common.def \
+  gencheck.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/cp/cp-tree.def
+genchecksum.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genchecksum.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/md5.h
+gencodes.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gencodes.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genconditions.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genconditions.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genconfig.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genconfig.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genconstants.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genconstants.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genemit.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genemit.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genextract.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genextract.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vecprim.h
+genflags.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genflags.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+gengenrtl.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gengenrtl.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def
+gengtype.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gengtype.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gengtype.h \
+  gtyp-gen.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def
+genmodes.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genmodes.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips-modes.def
+genopinit.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genopinit.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genoutput.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genoutput.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genpeep.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genpeep.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genpreds.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genpreds.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+genrecog.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/genrecog.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+gensupport.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+ggc-none.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/ggc-none.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/ggc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  gtype-desc.h
+print-rtl.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/print-rtl.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def
+read-rtl.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/read-rtl.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gensupport.h
+rtl.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/ggc.h \
+  gtype-desc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/errors.h
+vec.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.c \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/ggc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  gtype-desc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/tree.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/tree.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/sync-builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/omp-builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/treestruct.def \
+  tree-check.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/symtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/toplev.h
+gengtype-lex.o: gengtype-lex.c /usr/include/sys/cdefs.h \
+  /usr/include/stdint.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/sys/_stdint.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/param.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gengtype.h \
+  gengtype-yacc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h
+gengtype-yacc+%DIKED.o: gengtype-yacc+%DIKED.c bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gengtype.h
+insn-conditions.o: insn-conditions.c bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  insn-constants.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  tm_p.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips-protos.h \
+  tm-preds.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/function.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/tree.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/tree.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/sync-builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/omp-builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/treestruct.def \
+  tree-check.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/symtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/regs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/varray.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hard-reg-set.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/basic-block.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/bitmap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/sbitmap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/partition.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/predict.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/predict.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/cfghooks.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/recog.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/output.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/flags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/resource.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/toplev.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reload.h \
+  tm-constrs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/except.h
+min-insn-modes.o: min-insn-modes.c bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def
+gencondmd.o: gencondmd.c bconfig.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/auto-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/system.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/safe-ctype.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/errno.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/limits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hwint.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/sys/wait.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/double-int.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/coretypes.h \
+  tm.h options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/dbxelf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/elfos-undef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/elfos.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../cc_tools/freebsd-native.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd-spec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/elf.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/freebsd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/defaults.h \
+  insn-constants.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/statistics.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/machmode.h \
+  insn-modes.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/mode-classes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/line-map.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/real.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/vec.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/rtl.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reg-notes.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/insn-notes.def \
+  tm_p.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/config/mips/mips-protos.h \
+  tm-preds.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/function.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/tree.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/tree.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/sync-builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/omp-builtins.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/treestruct.def \
+  tree-check.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/libcpp/include/symtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/obstack.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/regs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/varray.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/hard-reg-set.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/basic-block.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/bitmap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/sbitmap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcclibs/include/partition.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/predict.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/predict.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/cfghooks.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/recog.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/output.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/flags.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/resource.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/toplev.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/reload.h \
+  tm-constrs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/except.h

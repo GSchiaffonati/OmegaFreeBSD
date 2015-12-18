@@ -1,0 +1,235 @@
+. type=dir uname=root gname=wheel mode=0755
+./c type=dir uname=root gname=wheel mode=0755
+./c/etc type=dir uname=root gname=wheel mode=0755
+./c/etc/cfg type=dir uname=root gname=wheel mode=0755
+./c/etc/rc.d type=dir uname=root gname=wheel mode=0755
+./c/etc/rc.d/base type=dir uname=root gname=wheel mode=0755
+./c/etc/rc.d/net type=dir uname=root gname=wheel mode=0755
+./c/etc/pam.d type=dir uname=root gname=wheel mode=0755
+./etc type=dir uname=root gname=wheel mode=0755
+./lib type=dir uname=root gname=wheel mode=0755
+./bin type=dir uname=root gname=wheel mode=0755
+./data type=dir uname=root gname=wheel mode=0755
+./data/1 type=dir uname=root gname=wheel mode=0755
+./data/2 type=dir uname=root gname=wheel mode=0755
+./data/3 type=dir uname=root gname=wheel mode=0755
+./data/4 type=dir uname=root gname=wheel mode=0755
+./boot type=dir uname=root gname=wheel mode=0755
+./boot/kernel type=dir uname=root gname=wheel mode=0755
+./dev type=dir uname=root gname=wheel mode=0755
+./tmp type=dir uname=root gname=wheel mode=0755
+./mnt type=dir uname=root gname=wheel mode=0755
+./proc type=dir uname=root gname=wheel mode=0755
+./var type=dir uname=root gname=wheel mode=0755
+./sbin type=dir uname=root gname=wheel mode=0755
+./libexec type=dir uname=root gname=wheel mode=0755
+./usr type=dir uname=root gname=wheel mode=0755
+./usr/libexec type=dir uname=root gname=wheel mode=0755
+./usr/lib type=dir uname=root gname=wheel mode=0755
+./usr/bin type=dir uname=root gname=wheel mode=0755
+./usr/sbin type=dir uname=root gname=wheel mode=0755
+./usr/share type=dir uname=root gname=wheel mode=0755
+./usr/share/misc type=dir uname=root gname=wheel mode=0755
+./usr/share/tabset type=dir uname=root gname=wheel mode=0755
+./sbin//mount type=file uname=root gname=wheel mode=0755 size=25416
+./sbin//mount_mfs type=file uname=root gname=wheel mode=0755 size=14968
+./sbin//umount type=file uname=root gname=wheel mode=0755 size=18276
+./sbin//mdconfig type=file uname=root gname=wheel mode=0755 size=15864
+./sbin//fsck_ffs type=file uname=root gname=wheel mode=0755 size=166300
+./sbin//newfs type=file uname=root gname=wheel mode=0755 size=45768
+./lib//libgeom.so.5 type=file uname=root gname=wheel mode=0755 size=21884
+./lib//libufs.so.6 type=file uname=root gname=wheel mode=0755 size=20348
+./sbin//init type=file uname=root gname=wheel mode=0755 size=904352
+./sbin//reboot type=file uname=root gname=wheel mode=0755 size=8792
+./sbin//sysctl type=file uname=root gname=wheel mode=0755 size=22444
+./sbin//dmesg type=file uname=root gname=wheel mode=0755 size=8168
+./sbin//kldload type=file uname=root gname=wheel mode=0755 size=7508
+./sbin//kldunload type=file uname=root gname=wheel mode=0755 size=6112
+./sbin//kldstat type=file uname=root gname=wheel mode=0755 size=7128
+./sbin//ipfw type=file uname=root gname=wheel mode=0755 size=147248
+./sbin//etherswitchcfg type=file uname=root gname=wheel mode=0755 size=26336
+./sbin//mount_msdosfs type=file uname=root gname=wheel mode=0755 size=12988
+./usr/lib//libkiconv.so type=file uname=root gname=wheel mode=0755 size=12064
+./bin//true type=file uname=root gname=wheel mode=0755 size=4336
+./bin//false type=file uname=root gname=wheel mode=0755 size=4348
+./bin//sh type=file uname=root gname=wheel mode=0755 size=197284
+./bin//rm type=file uname=root gname=wheel mode=0755 size=15208
+./bin//ls type=file uname=root gname=wheel mode=0755 size=37988
+./bin//ln type=file uname=root gname=wheel mode=0755 size=10304
+./bin//cp type=file uname=root gname=wheel mode=0755 size=22152
+./bin//mv type=file uname=root gname=wheel mode=0755 size=13840
+./bin//df type=file uname=root gname=wheel mode=0755 size=19828
+./bin//cp type=file uname=root gname=wheel mode=0755 size=22152
+./bin//cat type=file uname=root gname=wheel mode=0755 size=11344
+./bin//kenv type=file uname=root gname=wheel mode=0755 size=7192
+./bin//dd type=file uname=root gname=wheel mode=0755 size=31136
+./bin//ps type=file uname=root gname=wheel mode=0755 size=51152
+./bin//expr type=file uname=root gname=wheel mode=0755 size=23136
+./bin//sleep type=file uname=root gname=wheel mode=0755 size=8896
+./bin//hostname type=file uname=root gname=wheel mode=0755 size=5432
+./bin//mkdir type=file uname=root gname=wheel mode=0755 size=6784
+./bin//chmod type=file uname=root gname=wheel mode=0755 size=7568
+./usr/bin//hexdump type=file uname=root gname=wheel mode=0755 size=32376
+./usr/bin//more type=file uname=root gname=wheel mode=0755 size=207148
+./usr/bin/less type=link uname=root gname=wheel mode=0755 link=/usr/bin/more
+./usr/bin//nc type=file uname=root gname=wheel mode=0755 size=32196
+./usr/bin//uptime type=file uname=root gname=wheel mode=0755 size=21164
+./usr/bin//head type=file uname=root gname=wheel mode=0755 size=7348
+./usr/bin//tail type=file uname=root gname=wheel mode=0755 size=23292
+./usr/bin//uname type=file uname=root gname=wheel mode=0755 size=10492
+./usr/bin//clear type=file uname=root gname=wheel mode=0755 size=1647
+./usr/bin//reset type=file uname=root gname=wheel mode=0755 size=20544
+./usr/bin//tput type=file uname=root gname=wheel mode=0755 size=7884
+./usr/bin//passwd type=file uname=root gname=wheel mode=04711 size=8276
+./usr/sbin//chown type=file uname=root gname=wheel mode=0755 size=9240
+./usr/sbin//pciconf type=file uname=root gname=wheel mode=0755 size=34552
+./usr/sbin//gpioctl type=file uname=root gname=wheel mode=0755 size=9648
+./usr/bin//ee type=file uname=root gname=wheel mode=0755 size=91532
+./usr/bin//gzip type=file uname=root gname=wheel mode=0755 size=42064
+./usr/bin/gunzip type=link uname=root gname=wheel mode=0755 link=/usr/bin/gzip
+./usr/libexec//getty type=file uname=root gname=wheel mode=0755 size=30020
+./usr/bin//vmstat type=file uname=root gname=wheel mode=0755 size=44596
+./usr/bin//systat type=file uname=root gname=wheel mode=0755 size=151820
+./lib//libdevstat.so.7 type=file uname=root gname=wheel mode=0755 size=28016
+./usr/bin//tar type=file uname=root gname=wheel mode=0755 size=64068
+./usr/bin//cpio type=file uname=root gname=wheel mode=0755 size=37912
+./usr/bin//grep type=file uname=root gname=wheel mode=0755 size=112420
+./usr/lib//libgnuregex.so.5 type=file uname=root gname=wheel mode=0755 size=84912
+./usr/lib//libbz2.so.4 type=file uname=root gname=wheel mode=0755 size=76364
+./lib//libz.so.6 type=file uname=root gname=wheel mode=0755 size=90468
+./usr/lib//libarchive.so.6 type=file uname=root gname=wheel mode=0755 size=757476
+./lib//libmd.so.6 type=file uname=root gname=wheel mode=0755 size=112248
+./usr/lib//liblzma.so.5 type=file uname=root gname=wheel mode=0755 size=184144
+./lib//libxo.so.0 type=file uname=root gname=wheel mode=0755 size=103764
+./usr/lib//libprivatebsdstat.so.1 type=file uname=root gname=wheel mode=0755 size=7168
+./usr/bin//ath_ee_v14_print type=file uname=root gname=wheel mode=0755 size=14936
+./usr/bin//ath_prom_read type=file uname=root gname=wheel mode=0755 size=6088
+./usr/bin//athdecode type=file uname=root gname=wheel mode=0755 size=49624
+./usr/bin//athpeek type=file uname=root gname=wheel mode=0755 size=44672
+./usr/bin//athregs type=file uname=root gname=wheel mode=0755 size=53108
+./usr/bin//ath_ee_v4k_print type=file uname=root gname=wheel mode=0755 size=14304
+./usr/bin//ath_ee_9300_print type=file uname=root gname=wheel mode=0755 size=8212
+./usr/bin//athdebug type=file uname=root gname=wheel mode=0755 size=7580
+./usr/bin//athkey type=file uname=root gname=wheel mode=0755 size=7748
+./usr/bin//athpoke type=file uname=root gname=wheel mode=0755 size=44672
+./usr/bin//athrd type=file uname=root gname=wheel mode=0755 size=52732
+./usr/bin//athstats type=file uname=root gname=wheel mode=0755 size=38832
+./usr/bin//athsurvey type=file uname=root gname=wheel mode=0755 size=12272
+./usr/bin//athradar type=file uname=root gname=wheel mode=0755 size=9336
+./usr/bin//athspectral type=file uname=root gname=wheel mode=0755 size=8764
+./usr/bin//athaggrstats type=file uname=root gname=wheel mode=0755 size=15940
+./usr/bin//athratestats type=file uname=root gname=wheel mode=0755 size=11716
+./usr/sbin//wlandebug type=file uname=root gname=wheel mode=0755 size=7608
+./usr/bin//wlanstats type=file uname=root gname=wheel mode=0755 size=42752
+./usr/bin//wlanwatch type=file uname=root gname=wheel mode=0755 size=11616
+./usr/bin//login type=file uname=root gname=wheel mode=04711 size=27648
+./usr/sbin//pwd_mkdb type=file uname=root gname=wheel mode=0755 size=22956
+./usr/bin//cap_mkdb type=file uname=root gname=wheel mode=0755 size=7464
+./usr/lib//libpam.so.5 type=file uname=root gname=wheel mode=0755 size=56624
+./usr/lib//libbsm.so.3 type=file uname=root gname=wheel mode=0755 size=137808
+./usr/lib/pam_deny.so type=file uname=root gname=wheel mode=0755 size=3992
+./usr/lib/pam_group.so type=file uname=root gname=wheel mode=0755 size=5028
+./usr/lib/pam_lastlog.so type=file uname=root gname=wheel mode=0755 size=6220
+./usr/lib/pam_login_access.so type=file uname=root gname=wheel mode=0755 size=8436
+./usr/lib/pam_nologin.so type=file uname=root gname=wheel mode=0755 size=5252
+./usr/lib/pam_permit.so type=file uname=root gname=wheel mode=0755 size=3980
+./usr/lib/pam_rhosts.so type=file uname=root gname=wheel mode=0755 size=4176
+./usr/lib/pam_rootok.so type=file uname=root gname=wheel mode=0755 size=4020
+./usr/lib/pam_securetty.so type=file uname=root gname=wheel mode=0755 size=4536
+./usr/lib/pam_self.so type=file uname=root gname=wheel mode=0755 size=4264
+./usr/lib/pam_ssh.so type=file uname=root gname=wheel mode=0755 size=10924
+./usr/lib/pam_unix.so type=file uname=root gname=wheel mode=0755 size=10928
+./c/etc/nsswitch.conf type=file uname=root gname=wheel mode=0644 size=258
+./usr/share/misc//termcap type=file uname=root gname=wheel mode=0644 size=208315
+./usr/share/tabset//vt100 type=file uname=root gname=wheel mode=0644 size=99
+./c/etc/pam.d//atrun type=file uname=root gname=wheel mode=0644 size=312
+./c/etc/pam.d//cron type=file uname=root gname=wheel mode=0644 size=189
+./c/etc/pam.d//ftp type=file uname=root gname=wheel mode=0644 size=523
+./c/etc/pam.d//ftpd type=file uname=root gname=wheel mode=0644 size=523
+./c/etc/pam.d//imap type=file uname=root gname=wheel mode=0644 size=355
+./c/etc/pam.d//kde type=file uname=root gname=wheel mode=0644 size=467
+./c/etc/pam.d//passwd type=file uname=root gname=wheel mode=0644 size=308
+./c/etc/pam.d//pop3 type=file uname=root gname=wheel mode=0644 size=355
+./c/etc/pam.d//rsh type=file uname=root gname=wheel mode=0644 size=318
+./c/etc/pam.d//sshd type=file uname=root gname=wheel mode=0644 size=740
+./c/etc/pam.d//su type=file uname=root gname=wheel mode=0644 size=368
+./c/etc/pam.d//xdm type=file uname=root gname=wheel mode=0644 size=519
+./c/etc/pam.d//login type=file uname=root gname=wheel mode=0644 size=364
+./c/etc/pam.d//telnetd type=file uname=root gname=wheel mode=0644 size=794
+./c/etc/pam.d//other type=file uname=root gname=wheel mode=0644 size=700
+./c/etc/pam.d//system type=file uname=root gname=wheel mode=0644 size=706
+./usr/bin//su type=file uname=root gname=wheel mode=04711 size=16988
+./usr/bin//telnet type=file uname=root gname=wheel mode=0755 size=160928
+./usr/sbin//inetd type=file uname=root gname=wheel mode=0755 size=56432
+./usr/lib//libwrap.so.6 type=file uname=root gname=wheel mode=0755 size=34120
+./c/etc//inetd.conf type=file uname=root gname=wheel mode=0644 size=60
+./usr/libexec//telnetd type=file uname=root gname=wheel mode=0755 size=112172
+./sbin//ifconfig type=file uname=root gname=wheel mode=0755 size=201408
+./sbin//route type=file uname=root gname=wheel mode=0755 size=33760
+./sbin//ping type=file uname=root gname=wheel mode=0755 size=40652
+./usr/bin//netstat type=file uname=root gname=wheel mode=0755 size=191936
+./usr/sbin//arp type=file uname=root gname=wheel mode=0755 size=17596
+./usr/sbin//tcpdump type=file uname=root gname=wheel mode=0755 size=1002320
+./usr/sbin//hostapd type=file uname=root gname=wheel mode=0755 size=847780
+./usr/sbin//hostapd_cli type=file uname=root gname=wheel mode=0755 size=75796
+./usr/sbin//wpa_supplicant type=file uname=root gname=wheel mode=0755 size=1042848
+./usr/sbin//wpa_cli type=file uname=root gname=wheel mode=0755 size=109000
+./libexec//ld-elf.so.1 type=file uname=root gname=wheel mode=0755 size=147412
+./lib//libc.so.7 type=file uname=root gname=wheel mode=0755 size=1747540
+./lib//libedit.so.7 type=file uname=root gname=wheel mode=0755 size=204676
+./lib//libncurses.so.8 type=file uname=root gname=wheel mode=0755 size=326144
+./lib//libncursesw.so.8 type=file uname=root gname=wheel mode=0755 size=396348
+./lib//libcrypt.so.5 type=file uname=root gname=wheel mode=0755 size=98644
+./lib//libgcc_s.so.1 type=file uname=root gname=wheel mode=0755 size=76580
+./lib//libbsdxml.so.4 type=file uname=root gname=wheel mode=0755 size=160452
+./lib//libsbuf.so.6 type=file uname=root gname=wheel mode=0755 size=9960
+./lib//libutil.so.9 type=file uname=root gname=wheel mode=0755 size=77764
+./lib//libkiconv.so.4 type=file uname=root gname=wheel mode=0755 size=12064
+./lib//libkvm.so.6 type=file uname=root gname=wheel mode=0755 size=77056
+./lib//libnv.so.0 type=file uname=root gname=wheel mode=0755 size=87164
+./lib//libpcap.so.8 type=file uname=root gname=wheel mode=0755 size=271464
+./lib//libcrypto.so.8 type=file uname=root gname=wheel mode=0755 size=2101524
+./lib//libm.so.5 type=file uname=root gname=wheel mode=0755 size=321532
+./lib//libipsec.so.4 type=file uname=root gname=wheel mode=0755 size=30748
+./lib//libthr.so.3 type=file uname=root gname=wheel mode=0755 size=148536
+./lib//libjail.so.1 type=file uname=root gname=wheel mode=0755 size=19700
+./usr/lib//libmemstat.so.3 type=file uname=root gname=wheel mode=0755 size=18492
+./usr/lib//libnetgraph.so.4 type=file uname=root gname=wheel mode=0755 size=15908
+./usr/lib//libssl.so.8 type=file uname=root gname=wheel mode=0755 size=433064
+./usr/lib//libmp.so.7 type=file uname=root gname=wheel mode=0755 size=14100
+./usr/lib//libgpio.so.0 type=file uname=root gname=wheel mode=0755 size=7664
+./etc//rc type=file uname=root gname=wheel mode=0755 size=301
+./c/etc//rc2 type=file uname=root gname=wheel mode=0755 size=1156
+./c/etc//ttys type=file uname=root gname=wheel mode=0644 size=213
+./c/etc//login.conf type=file uname=root gname=wheel mode=0644 size=6709
+./c/etc//gettytab type=file uname=root gname=wheel mode=0644 size=6158
+./c/etc//passwd type=file uname=root gname=wheel mode=0644 size=1352
+./c/etc//master.passwd type=file uname=root gname=wheel mode=0644 size=1460
+./c/etc//group type=file uname=root gname=wheel mode=0644 size=431
+./c/etc//wpa_supplicant.conf type=file uname=root gname=wheel mode=0644 size=436
+./c/etc/cfg//manifest type=file uname=root gname=wheel mode=0644 size=61
+./c/etc//rc.conf.default type=file uname=root gname=wheel mode=0644 size=56
+./usr/sbin//pmcstat type=file uname=root gname=wheel mode=0755 size=92884
+./usr/sbin//pmccontrol type=file uname=root gname=wheel mode=0755 size=11276
+./usr/lib//libpmc.so.5 type=file uname=root gname=wheel mode=0755 size=166416
+./c/etc//rc.subr type=file uname=root gname=wheel mode=0755 size=2312
+./c/etc//rc.hostapd type=file uname=root gname=wheel mode=0755 size=1373
+./c/etc//rc.wpa_ibss type=file uname=root gname=wheel mode=0755 size=1495
+./c/etc/rc.d/base//net type=file uname=root gname=wheel mode=0755 size=294
+./c/etc/rc.d/net//ether type=file uname=root gname=wheel mode=0755 size=1361
+./c/etc/rc.d/net//bridge type=file uname=root gname=wheel mode=0755 size=1860
+./c/etc/rc.d/net//ath type=file uname=root gname=wheel mode=0755 size=1129
+./c/etc/rc.d/net//wifi type=file uname=root gname=wheel mode=0755 size=4189
+./c/etc/rc.d/net//vlan type=file uname=root gname=wheel mode=0755 size=1625
+./c/etc/rc.d/net//etherswitch type=file uname=root gname=wheel mode=0755 size=2955
+./bin/cfg_save type=file uname=root gname=wheel mode=0755 size=496
+./bin/cfg_load type=file uname=root gname=wheel mode=0755 size=227
+./c/etc//regdomain.xml type=file uname=root gname=wheel mode=0644 size=53654
+./c/etc//services type=file uname=root gname=wheel mode=0644 size=86953
+./c/etc//protocols type=file uname=root gname=wheel mode=0644 size=6393
+./c/etc//netconfig type=file uname=root gname=wheel mode=0644 size=729
+./c/etc//board.cfg type=file uname=root gname=wheel mode=0644 size=73
+./c/etc/cfg//rc.conf type=file uname=root gname=wheel mode=0644 size=776
+./boot/kernel//if_vlan.ko type=file uname=root gname=wheel mode=0555 size=25756
+./boot/kernel//if_gif.ko type=file uname=root gname=wheel mode=0555 size=19156
+./boot/kernel//if_gre.ko type=file uname=root gname=wheel mode=0555 size=18016

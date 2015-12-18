@@ -1,0 +1,2166 @@
+# -I. -I/usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf -I/usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common -I/usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_abbrev.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_arange.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_attr.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_attrval.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_cu.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_dealloc.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_die.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_dump.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_errmsg.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_finish.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_form.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_frame.c dwarf_funcs.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_init.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_lineno.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_loclist.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_macinfo.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_arange.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_attr.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_die.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_expr.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_finish.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_frame.c dwarf_pro_funcs.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_init.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_lineno.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_macinfo.c dwarf_pro_pubnames.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_reloc.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_sections.c dwarf_pro_types.c dwarf_pro_vars.c dwarf_pro_weaks.c dwarf_pubnames.c dwarf_pubtypes.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_ranges.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_reloc.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_sections.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_seterror.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_str.c dwarf_types.c dwarf_vars.c dwarf_weaks.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_abbrev.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_arange.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_attr.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_die.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_error.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_elf_access.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_elf_init.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_frame.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_info.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_init.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_lineno.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_loc.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_loclist.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_macinfo.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_nametbl.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_ranges.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_reloc.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_rw.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_sections.c /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_str.c
+dwarf_abbrev.o dwarf_abbrev.po dwarf_abbrev.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_abbrev.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_arange.o dwarf_arange.po dwarf_arange.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_arange.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_attr.o dwarf_attr.po dwarf_attr.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_attr.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_attrval.o dwarf_attrval.po dwarf_attrval.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_attrval.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_cu.o dwarf_cu.po dwarf_cu.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_cu.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_dealloc.o dwarf_dealloc.po dwarf_dealloc.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_dealloc.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_die.o dwarf_die.po dwarf_die.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_die.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_dump.o dwarf_dump.po dwarf_dump.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_dump.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_errmsg.o dwarf_errmsg.po dwarf_errmsg.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_errmsg.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_finish.o dwarf_finish.po dwarf_finish.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_finish.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_form.o dwarf_form.po dwarf_form.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_form.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_frame.o dwarf_frame.po dwarf_frame.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_frame.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_funcs.o dwarf_funcs.po dwarf_funcs.So: dwarf_funcs.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_init.o dwarf_init.po dwarf_init.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_init.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_lineno.o dwarf_lineno.po dwarf_lineno.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_lineno.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_loclist.o dwarf_loclist.po dwarf_loclist.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_loclist.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_macinfo.o dwarf_macinfo.po dwarf_macinfo.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_macinfo.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_arange.o dwarf_pro_arange.po dwarf_pro_arange.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_arange.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_attr.o dwarf_pro_attr.po dwarf_pro_attr.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_attr.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_die.o dwarf_pro_die.po dwarf_pro_die.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_die.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_expr.o dwarf_pro_expr.po dwarf_pro_expr.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_expr.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_finish.o dwarf_pro_finish.po dwarf_pro_finish.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_finish.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_frame.o dwarf_pro_frame.po dwarf_pro_frame.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_frame.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_funcs.o dwarf_pro_funcs.po dwarf_pro_funcs.So: dwarf_pro_funcs.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_init.o dwarf_pro_init.po dwarf_pro_init.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_init.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_lineno.o dwarf_pro_lineno.po dwarf_pro_lineno.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_lineno.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_macinfo.o dwarf_pro_macinfo.po dwarf_pro_macinfo.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_macinfo.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_pubnames.o dwarf_pro_pubnames.po dwarf_pro_pubnames.So: dwarf_pro_pubnames.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_reloc.o dwarf_pro_reloc.po dwarf_pro_reloc.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_reloc.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_sections.o dwarf_pro_sections.po dwarf_pro_sections.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_pro_sections.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_types.o dwarf_pro_types.po dwarf_pro_types.So: dwarf_pro_types.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_vars.o dwarf_pro_vars.po dwarf_pro_vars.So: dwarf_pro_vars.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pro_weaks.o dwarf_pro_weaks.po dwarf_pro_weaks.So: dwarf_pro_weaks.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pubnames.o dwarf_pubnames.po dwarf_pubnames.So: dwarf_pubnames.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_pubtypes.o dwarf_pubtypes.po dwarf_pubtypes.So: dwarf_pubtypes.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_ranges.o dwarf_ranges.po dwarf_ranges.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_ranges.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_reloc.o dwarf_reloc.po dwarf_reloc.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_reloc.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_sections.o dwarf_sections.po dwarf_sections.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_sections.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_seterror.o dwarf_seterror.po dwarf_seterror.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_seterror.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_str.o dwarf_str.po dwarf_str.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf_str.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_types.o dwarf_types.po dwarf_types.So: dwarf_types.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_vars.o dwarf_vars.po dwarf_vars.So: dwarf_vars.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+dwarf_weaks.o dwarf_weaks.po dwarf_weaks.So: dwarf_weaks.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf.o libdwarf.po libdwarf.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_abbrev.o libdwarf_abbrev.po libdwarf_abbrev.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_abbrev.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_arange.o libdwarf_arange.po libdwarf_arange.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_arange.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_attr.o libdwarf_attr.po libdwarf_attr.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_attr.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_die.o libdwarf_die.po libdwarf_die.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_die.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_error.o libdwarf_error.po libdwarf_error.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_error.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_elf_access.o libdwarf_elf_access.po libdwarf_elf_access.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_elf_access.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_elf_init.o libdwarf_elf_init.po libdwarf_elf_init.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_elf_init.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_frame.o libdwarf_frame.po libdwarf_frame.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_frame.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_info.o libdwarf_info.po libdwarf_info.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_info.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_init.o libdwarf_init.po libdwarf_init.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_init.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_lineno.o libdwarf_lineno.po libdwarf_lineno.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_lineno.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_loc.o libdwarf_loc.po libdwarf_loc.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_loc.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_loclist.o libdwarf_loclist.po libdwarf_loclist.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_loclist.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_macinfo.o libdwarf_macinfo.po libdwarf_macinfo.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_macinfo.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_nametbl.o libdwarf_nametbl.po libdwarf_nametbl.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_nametbl.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_ranges.o libdwarf_ranges.po libdwarf_ranges.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_ranges.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_reloc.o libdwarf_reloc.po libdwarf_reloc.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_reloc.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_rw.o libdwarf_rw.po libdwarf_rw.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_rw.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_sections.o libdwarf_sections.po libdwarf_sections.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_sections.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+libdwarf_str.o libdwarf_str.po libdwarf_str.So: \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf_str.c \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/_libdwarf.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/queue.h /usr/include/assert.h /usr/include/limits.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/gelf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libelf/libelf.h \
+  sys/elf32.h sys/elf_common.h sys/elf64.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/dwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/libdwarf/libdwarf.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/lib/libdwarf/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h

@@ -1,0 +1,80 @@
+# -nostdinc -D_KERNEL -DKLD_MODULE -DHAVE_KERNEL_OPTION_HEADERS -I. -I/usr/home/freebsd/omega/src/sys -I/usr/home/freebsd/omega/obj/mips_ap/mips.mips/usr/home/freebsd/omega/src/sys/ONIONOMEGA -std=iso9899:1999 /usr/home/freebsd/omega/src/sys/modules/usb/ugensa/../../../dev/usb/serial/ugensa.c
+ugensa.o:  \
+ /usr/home/freebsd/omega/src/sys/modules/usb/ugensa/../../../dev/usb/serial/ugensa.c \
+  /usr/home/freebsd/omega/src/sys/sys/stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/sys/sys/_types.h machine/_types.h \
+  machine/_stdint.h /usr/home/freebsd/omega/src/sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/stddef.h \
+  /usr/home/freebsd/omega/src/sys/sys/_null.h \
+  /usr/home/freebsd/omega/src/sys/sys/param.h \
+  /usr/home/freebsd/omega/src/sys/sys/types.h machine/endian.h \
+  /usr/home/freebsd/omega/src/sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/sys/sys/select.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/sys/sys/errno.h \
+  /usr/home/freebsd/omega/src/sys/sys/time.h \
+  /usr/home/freebsd/omega/src/sys/sys/priority.h machine/param.h \
+  machine/_align.h machine/cpu.h machine/cpufunc.h machine/cpuregs.h \
+  machine/frame.h /usr/home/freebsd/omega/src/sys/sys/queue.h \
+  /usr/home/freebsd/omega/src/sys/sys/systm.h machine/atomic.h \
+  /usr/home/freebsd/omega/src/sys/sys/callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/_callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/libkern.h \
+  /usr/home/freebsd/omega/src/sys/sys/kernel.h \
+  /usr/home/freebsd/omega/src/sys/sys/linker_set.h \
+  /usr/home/freebsd/omega/src/sys/sys/bus.h machine/_limits.h \
+  /usr/home/freebsd/omega/src/sys/sys/_bus_dma.h \
+  /usr/home/freebsd/omega/src/sys/sys/ioccom.h \
+  /usr/home/freebsd/omega/src/sys/sys/eventhandler.h \
+  /usr/home/freebsd/omega/src/sys/sys/lock.h \
+  /usr/home/freebsd/omega/src/sys/sys/_lock.h \
+  /usr/home/freebsd/omega/src/sys/sys/ktr_class.h \
+  /usr/home/freebsd/omega/src/sys/sys/ktr.h \
+  /usr/home/freebsd/omega/src/sys/sys/_cpuset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_bitset.h \
+  /usr/home/freebsd/omega/src/sys/sys/mutex.h \
+  /usr/home/freebsd/omega/src/sys/sys/_mutex.h \
+  /usr/home/freebsd/omega/src/sys/sys/pcpu.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sx.h \
+  /usr/home/freebsd/omega/src/sys/sys/_rmlock.h \
+  /usr/home/freebsd/omega/src/sys/sys/vmmeter.h \
+  /usr/home/freebsd/omega/src/sys/sys/resource.h machine/pcpu.h \
+  machine/pte.h /usr/home/freebsd/omega/src/sys/sys/lock_profile.h \
+  /usr/home/freebsd/omega/src/sys/sys/lockstat.h \
+  /usr/home/freebsd/omega/src/sys/sys/sdt.h \
+  /usr/home/freebsd/omega/src/sys/sys/kobj.h device_if.h bus_if.h \
+  /usr/home/freebsd/omega/src/sys/sys/module.h \
+  /usr/home/freebsd/omega/src/sys/sys/condvar.h \
+  /usr/home/freebsd/omega/src/sys/sys/sysctl.h \
+  /usr/home/freebsd/omega/src/sys/sys/sx.h \
+  /usr/home/freebsd/omega/src/sys/sys/unistd.h \
+  /usr/home/freebsd/omega/src/sys/sys/malloc.h \
+  /usr/home/freebsd/omega/src/sys/sys/priv.h \
+  /usr/home/freebsd/omega/src/sys/dev/usb/usb.h opt_usb.h \
+  /usr/home/freebsd/omega/src/sys/dev/usb/usb_endian.h \
+  /usr/home/freebsd/omega/src/sys/sys/endian.h \
+  /usr/home/freebsd/omega/src/sys/dev/usb/usb_freebsd.h \
+  /usr/home/freebsd/omega/src/sys/dev/usb/usbdi.h usbdevs.h \
+  /usr/home/freebsd/omega/src/sys/dev/usb/usb_debug.h \
+  /usr/home/freebsd/omega/src/sys/dev/usb/usb_process.h \
+  /usr/home/freebsd/omega/src/sys/sys/interrupt.h \
+  /usr/home/freebsd/omega/src/sys/sys/runq.h machine/runq.h \
+  /usr/home/freebsd/omega/src/sys/dev/usb/serial/usb_serial.h \
+  /usr/home/freebsd/omega/src/sys/sys/tty.h \
+  /usr/home/freebsd/omega/src/sys/sys/selinfo.h \
+  /usr/home/freebsd/omega/src/sys/sys/event.h \
+  /usr/home/freebsd/omega/src/sys/sys/_termios.h \
+  /usr/home/freebsd/omega/src/sys/sys/ttycom.h \
+  /usr/home/freebsd/omega/src/sys/sys/ttyqueue.h \
+  /usr/home/freebsd/omega/src/sys/sys/ttydisc.h \
+  /usr/home/freebsd/omega/src/sys/sys/ttydevsw.h \
+  /usr/home/freebsd/omega/src/sys/sys/ttyhook.h \
+  /usr/home/freebsd/omega/src/sys/sys/serial.h \
+  /usr/home/freebsd/omega/src/sys/sys/fcntl.h \
+  /usr/home/freebsd/omega/src/sys/sys/timepps.h \
+  /usr/home/freebsd/omega/src/sys/sys/_ffcounter.h

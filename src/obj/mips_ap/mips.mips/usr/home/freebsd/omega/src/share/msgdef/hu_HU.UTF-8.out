@@ -1,0 +1,4 @@
+^(([iI]([gG][eE][nN])?)|([iI])|([yY]([eE][sS])?)|([yY]))
+^(([nN]([eE][mM])?)|([nN])|([nN]([oO])?)|([nN]))
+igen:i:IGEN:I:yes:y:YES:Y
+nem:n:NEM:N:no:n:NO:N

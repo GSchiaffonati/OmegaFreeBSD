@@ -1,0 +1,942 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/ -I/usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/sqlite3 -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_hash.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_macro.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_validate.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/att.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/lib.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_argv.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_hash.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_macro.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_validate.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/st.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/eqn.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/roff.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_data.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_layout.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_opts.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/chars.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/msec.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/preconv.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/read.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/eqn_html.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/html.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_html.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_html.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_html.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_man.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/eqn_term.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_term.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_term.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term_ascii.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term_ps.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_term.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tree.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandocdb.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mansearch.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mansearch_const.c /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/manpath.c
+man.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libman.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h
+man_hash.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_hash.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/string.h \
+  /usr/include/sys/_null.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libman.h
+man_macro.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_macro.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libman.h
+man_validate.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_validate.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/errno.h /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdarg.h \
+  /usr/include/x86/stdarg.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libman.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h
+att.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/att.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/string.h /usr/include/sys/_null.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmdoc.h
+lib.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/lib.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/string.h /usr/include/sys/_null.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/lib.in
+mdoc.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h
+mdoc_argv.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_argv.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h
+mdoc_hash.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_hash.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmdoc.h
+mdoc_macro.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_macro.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h
+mdoc_validate.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_validate.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/utsname.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h
+st.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/st.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/string.h /usr/include/sys/_null.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/st.in
+eqn.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/eqn.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libroff.h
+roff.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/roff.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libroff.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/predefs.in
+tbl.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libroff.h
+tbl_data.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_data.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libroff.h
+tbl_layout.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_layout.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libroff.h
+tbl_opts.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_opts.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libroff.h
+chars.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/chars.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/chars.in
+mandoc.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/errno.h /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h
+mandoc_aux.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/stdio.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h
+msec.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/msec.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/string.h /usr/include/sys/_null.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/msec.in
+preconv.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/preconv.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h
+read.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/read.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/mman.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h /usr/include/sys/_null.h \
+  /usr/include/xlocale/_time.h /usr/include/sys/wait.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/errno.h /usr/include/err.h /usr/include/fcntl.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/zlib.h \
+  /usr/include/zconf.h /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/libmandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h
+eqn_html.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/eqn_html.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/html.h
+html.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/html.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/html.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+man_html.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_html.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/html.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+mdoc_html.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_html.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/html.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+tbl_html.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_html.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/html.h
+mdoc_man.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_man.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+eqn_term.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/eqn_term.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.h
+man_term.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man_term.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+mdoc_term.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc_term.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+term.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+term_ascii.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term_ascii.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/locale.h /usr/include/sys/_null.h \
+  /usr/include/xlocale/_locale.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/wchar.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_wchar.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+term_ps.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term_ps.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+tbl_term.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tbl_term.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/term.h
+main.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/wait.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/fcntl.h /usr/include/glob.h /usr/include/stdio.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/manpath.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mansearch.h
+out.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/out.h
+tree.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/tree.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/assert.h /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/main.h
+mandocdb.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandocdb.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_time.h \
+  /usr/include/sys/wait.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/include/fcntl.h /usr/include/fts.h /usr/include/getopt.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stddef.h \
+  /usr/include/stdio.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/ohash.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/sqlite3/sqlite3.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mdoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/man.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/manpath.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mansearch.h
+mansearch.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mansearch.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/mman.h /usr/include/assert.h /usr/include/errno.h \
+  /usr/include/fcntl.h /usr/include/getopt.h /usr/include/glob.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/regex.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../lib/libopenbsd/ohash.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/sqlite3/sqlite3.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/manpath.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mansearch.h
+mansearch_const.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mansearch_const.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mansearch.h
+manpath.o: \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/manpath.c \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/config.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_time.h \
+  /usr/include/assert.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/mandoc_aux.h \
+  /usr/home/freebsd/omega/src/usr.bin/mandoc/../../contrib/mdocml/manpath.h
+mandoc.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/lib/libopenbsd/libopenbsd.a /usr/lib/libprivatesqlite3.a /usr/lib/libpthread.a /usr/lib/libz.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

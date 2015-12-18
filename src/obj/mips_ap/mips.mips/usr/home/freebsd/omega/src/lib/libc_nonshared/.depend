@@ -1,0 +1,2 @@
+# -DPIC -std=gnu99 /usr/home/freebsd/omega/src/lib/libc_nonshared/__stub.c
+__stub.o __stub.po __stub.So: /usr/home/freebsd/omega/src/lib/libc_nonshared/__stub.c

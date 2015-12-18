@@ -1,0 +1,68 @@
+# -I/usr/home/freebsd/omega/src/usr.bin/xinstall/../../contrib/mtree -I/usr/home/freebsd/omega/src/usr.bin/xinstall/../../lib/libnetbsd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/xinstall/xinstall.c /usr/home/freebsd/omega/src/usr.bin/xinstall/../../contrib/mtree/getid.c
+xinstall.o: /usr/home/freebsd/omega/src/usr.bin/xinstall/xinstall.c \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../lib/libnetbsd/sys/cdefs.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/param.h \
+  /usr/include/sys/_null.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/mman.h /usr/include/sys/mount.h \
+  /usr/include/sys/ucred.h /usr/include/bsm/audit.h \
+  /usr/include/sys/queue.h /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../lib/libnetbsd/sys/time.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/sys/wait.h \
+  /usr/include/err.h /usr/include/errno.h /usr/include/fcntl.h \
+  /usr/include/grp.h /usr/include/libgen.h /usr/include/md5.h \
+  /usr/include/sys/md5.h /usr/include/paths.h /usr/include/pwd.h \
+  /usr/include/ripemd.h /usr/include/sha.h /usr/include/sha256.h \
+  /usr/include/sha512.h /usr/include/spawn.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../lib/libnetbsd/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/sysexits.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/vis.h \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../contrib/mtree/mtree.h
+getid.o: \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../contrib/mtree/getid.c \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../lib/libnetbsd/sys/cdefs.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/param.h \
+  /usr/include/sys/_null.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h /usr/include/grp.h \
+  /usr/include/limits.h /usr/include/pwd.h \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../lib/libnetbsd/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdio.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../contrib/mtree/extern.h \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../contrib/mtree/mtree.h \
+  /usr/include/err.h /usr/include/fts.h \
+  /usr/home/freebsd/omega/src/usr.bin/xinstall/../../lib/libnetbsd/util.h \
+  /usr/include/libutil.h /usr/include/stdbool.h
+xinstall.full: /usr/lib/libc.a /usr/lib/libmd.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

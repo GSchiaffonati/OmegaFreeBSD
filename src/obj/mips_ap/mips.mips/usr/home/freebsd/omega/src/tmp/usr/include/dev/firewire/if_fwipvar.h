@@ -1,0 +1,1 @@
+../../../../sys/dev/firewire/if_fwipvar.h

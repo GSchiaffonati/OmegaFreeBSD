@@ -1,0 +1,5 @@
+# -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/lex/lib/../../../contrib/flex/libmain.c /usr/home/freebsd/omega/src/usr.bin/lex/lib/../../../contrib/flex/libyywrap.c
+libmain.o libmain.po libmain.So:  \
+ /usr/home/freebsd/omega/src/usr.bin/lex/lib/../../../contrib/flex/libmain.c
+libyywrap.o libyywrap.po libyywrap.So:  \
+ /usr/home/freebsd/omega/src/usr.bin/lex/lib/../../../contrib/flex/libyywrap.c

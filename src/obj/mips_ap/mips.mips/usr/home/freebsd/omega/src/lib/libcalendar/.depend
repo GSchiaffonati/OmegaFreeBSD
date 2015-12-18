@@ -1,0 +1,7 @@
+# -std=gnu99 /usr/home/freebsd/omega/src/lib/libcalendar/calendar.c /usr/home/freebsd/omega/src/lib/libcalendar/easter.c
+calendar.o calendar.po calendar.So: /usr/home/freebsd/omega/src/lib/libcalendar/calendar.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/lib/libcalendar/calendar.h
+easter.o easter.po easter.So: /usr/home/freebsd/omega/src/lib/libcalendar/easter.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/lib/libcalendar/calendar.h

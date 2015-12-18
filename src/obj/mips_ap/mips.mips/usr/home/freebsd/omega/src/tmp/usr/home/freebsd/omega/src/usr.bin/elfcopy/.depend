@@ -1,0 +1,222 @@
+# -I/usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/libelftc -I/usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/common -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/archive.c /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/ascii.c /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/binary.c /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/main.c /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/sections.c /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/segments.c /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/symbols.c
+archive.o: \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/archive.c \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/err.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/archive.h \
+  /usr/include/stddef.h /usr/include/stdio.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/archive_entry.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/elfcopy.h \
+  /usr/include/sys/queue.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf64.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/libelftc/libelftc.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+ascii.o: \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/ascii.c \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/err.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf64.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/elfcopy.h \
+  /usr/include/sys/queue.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/libelftc/libelftc.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+binary.o: \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/binary.c \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/err.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf64.h /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/elfcopy.h \
+  /usr/include/sys/queue.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/libelftc/libelftc.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+main.o: \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/main.c \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/err.h /usr/include/errno.h \
+  /usr/include/fcntl.h /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/libelftc/libelftc.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf64.h /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/elfcopy.h \
+  /usr/include/sys/queue.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+sections.o: \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/sections.c \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/err.h /usr/include/libgen.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/elfcopy.h \
+  /usr/include/sys/queue.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf64.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/libelftc/libelftc.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+segments.o: \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/segments.c \
+  /usr/include/sys/queue.h /usr/include/sys/cdefs.h /usr/include/err.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf64.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/elfcopy.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/libelftc/libelftc.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+symbols.o: \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/symbols.c \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h /usr/include/err.h \
+  /usr/include/fnmatch.h /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/elfcopy/elfcopy.h \
+  /usr/include/sys/queue.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf64.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/libelftc/libelftc.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/elfcopy/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+elfcopy.full: /usr/lib/libc.a /usr/lib/libarchive.a /usr/lib/libz.a /usr/lib/libbz2.a /usr/lib/liblzma.a /usr/lib/libpthread.a /usr/lib/libbsdxml.a /usr/lib/libcrypto.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/lib/libelftc/libelftc.a /usr/lib/libelf.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

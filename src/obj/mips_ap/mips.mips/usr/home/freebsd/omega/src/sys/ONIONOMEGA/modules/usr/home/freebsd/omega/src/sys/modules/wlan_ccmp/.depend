@@ -1,0 +1,116 @@
+# -nostdinc -D_KERNEL -DKLD_MODULE -DHAVE_KERNEL_OPTION_HEADERS -I. -I/usr/home/freebsd/omega/src/sys -I/usr/home/freebsd/omega/obj/mips_ap/mips.mips/usr/home/freebsd/omega/src/sys/ONIONOMEGA -std=iso9899:1999 /usr/home/freebsd/omega/src/sys/modules/wlan_ccmp/../../net80211/ieee80211_crypto_ccmp.c /usr/home/freebsd/omega/src/sys/modules/wlan_ccmp/../../crypto/rijndael/rijndael-alg-fst.c /usr/home/freebsd/omega/src/sys/modules/wlan_ccmp/../../crypto/rijndael/rijndael-api.c
+ieee80211_crypto_ccmp.o:  \
+ /usr/home/freebsd/omega/src/sys/modules/wlan_ccmp/../../net80211/ieee80211_crypto_ccmp.c \
+  /usr/home/freebsd/omega/src/sys/sys/cdefs.h opt_wlan.h \
+  /usr/home/freebsd/omega/src/sys/sys/param.h \
+  /usr/home/freebsd/omega/src/sys/sys/_null.h \
+  /usr/home/freebsd/omega/src/sys/sys/types.h machine/endian.h \
+  /usr/home/freebsd/omega/src/sys/sys/_types.h machine/_types.h \
+  /usr/home/freebsd/omega/src/sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/select.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/sys/sys/errno.h \
+  /usr/home/freebsd/omega/src/sys/sys/time.h \
+  /usr/home/freebsd/omega/src/sys/sys/priority.h machine/param.h \
+  machine/_align.h machine/cpu.h machine/cpufunc.h machine/cpuregs.h \
+  machine/frame.h /usr/home/freebsd/omega/src/sys/sys/systm.h \
+  machine/atomic.h /usr/home/freebsd/omega/src/sys/sys/callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/_callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/queue.h \
+  /usr/home/freebsd/omega/src/sys/sys/stdint.h machine/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/libkern.h \
+  /usr/home/freebsd/omega/src/sys/sys/mbuf.h \
+  /usr/home/freebsd/omega/src/sys/vm/uma.h \
+  /usr/home/freebsd/omega/src/sys/sys/malloc.h \
+  /usr/home/freebsd/omega/src/sys/sys/_lock.h \
+  /usr/home/freebsd/omega/src/sys/sys/_mutex.h \
+  /usr/home/freebsd/omega/src/sys/sys/kernel.h \
+  /usr/home/freebsd/omega/src/sys/sys/linker_set.h \
+  /usr/home/freebsd/omega/src/sys/sys/module.h \
+  /usr/home/freebsd/omega/src/sys/sys/socket.h \
+  /usr/home/freebsd/omega/src/sys/sys/_iovec.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sockaddr_storage.h \
+  /usr/home/freebsd/omega/src/sys/net/if.h \
+  /usr/home/freebsd/omega/src/sys/net/if_media.h \
+  /usr/home/freebsd/omega/src/sys/net/ethernet.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_var.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_freebsd.h \
+  /usr/home/freebsd/omega/src/sys/sys/counter.h machine/counter.h \
+  /usr/home/freebsd/omega/src/sys/sys/pcpu.h \
+  /usr/home/freebsd/omega/src/sys/sys/_cpuset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_bitset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sx.h \
+  /usr/home/freebsd/omega/src/sys/sys/_rmlock.h \
+  /usr/home/freebsd/omega/src/sys/sys/vmmeter.h \
+  /usr/home/freebsd/omega/src/sys/sys/resource.h machine/pcpu.h \
+  machine/pte.h /usr/home/freebsd/omega/src/sys/sys/lock.h \
+  /usr/home/freebsd/omega/src/sys/sys/ktr_class.h \
+  /usr/home/freebsd/omega/src/sys/sys/mutex.h \
+  /usr/home/freebsd/omega/src/sys/sys/lock_profile.h \
+  /usr/home/freebsd/omega/src/sys/sys/lockstat.h \
+  /usr/home/freebsd/omega/src/sys/sys/sdt.h \
+  /usr/home/freebsd/omega/src/sys/sys/rwlock.h \
+  /usr/home/freebsd/omega/src/sys/sys/_rwlock.h \
+  /usr/home/freebsd/omega/src/sys/sys/sysctl.h \
+  /usr/home/freebsd/omega/src/sys/sys/taskqueue.h \
+  /usr/home/freebsd/omega/src/sys/sys/_task.h \
+  /usr/home/freebsd/omega/src/sys/net80211/_ieee80211.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_ageq.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_crypto.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_dfs.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_ioctl.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_phy.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_power.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_node.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_ht.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_proto.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_radiotap.h \
+  /usr/home/freebsd/omega/src/sys/net80211/ieee80211_scan.h \
+  /usr/home/freebsd/omega/src/sys/crypto/rijndael/rijndael.h
+rijndael-alg-fst.o:  \
+ /usr/home/freebsd/omega/src/sys/modules/wlan_ccmp/../../crypto/rijndael/rijndael-alg-fst.c \
+  /usr/home/freebsd/omega/src/sys/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/sys/sys/types.h machine/endian.h \
+  /usr/home/freebsd/omega/src/sys/sys/_types.h machine/_types.h \
+  /usr/home/freebsd/omega/src/sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/select.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/systm.h machine/atomic.h \
+  machine/cpufunc.h machine/cpuregs.h \
+  /usr/home/freebsd/omega/src/sys/sys/callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/_callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/queue.h \
+  /usr/home/freebsd/omega/src/sys/sys/stdint.h machine/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/libkern.h \
+  /usr/home/freebsd/omega/src/sys/crypto/rijndael/rijndael.h \
+  /usr/home/freebsd/omega/src/sys/crypto/rijndael/rijndael_local.h
+rijndael-api.o:  \
+ /usr/home/freebsd/omega/src/sys/modules/wlan_ccmp/../../crypto/rijndael/rijndael-api.c \
+  /usr/home/freebsd/omega/src/sys/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/sys/sys/types.h machine/endian.h \
+  /usr/home/freebsd/omega/src/sys/sys/_types.h machine/_types.h \
+  /usr/home/freebsd/omega/src/sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/select.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/systm.h machine/atomic.h \
+  machine/cpufunc.h machine/cpuregs.h \
+  /usr/home/freebsd/omega/src/sys/sys/callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/_callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/queue.h \
+  /usr/home/freebsd/omega/src/sys/sys/stdint.h machine/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/libkern.h \
+  /usr/home/freebsd/omega/src/sys/crypto/rijndael/rijndael.h

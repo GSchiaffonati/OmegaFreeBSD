@@ -1,0 +1,3 @@
+#define AH_DEBUG 1
+#define AH_DEBUG_COUNTRY 1
+#define AH_SUPPORT_AR5416 1

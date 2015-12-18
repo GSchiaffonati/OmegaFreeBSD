@@ -1,0 +1,1 @@
+../../../../sys/dev/wi/if_wivar.h

@@ -1,0 +1,44 @@
+# -DBFD_DEFAULT_TARGET_SIZE=32 -I. -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../libbfd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../libbfd -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include -D_GNU_SOURCE -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../libbinutils -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/binutils -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/bfd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/binutils/objcopy.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/binutils/not-strip.c
+objcopy.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/binutils/objcopy.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/binutils/sysdep.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../libbfd/bfdver.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../libbfd/config.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/errno.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/progress.h \
+  /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/binutils/bucomm.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/binutils/budbg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/fnmatch.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/include/hashtab.h
+not-strip.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/objcopy/../../../../contrib/binutils/binutils/not-strip.c
+objcopy.full: /usr/lib/libc.a ../libbinutils/libbinutils.a ../libbfd/libbfd.a ../libiberty/libiberty.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

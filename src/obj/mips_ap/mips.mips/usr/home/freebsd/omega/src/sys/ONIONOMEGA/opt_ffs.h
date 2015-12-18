@@ -1,0 +1,1 @@
+#define NO_FFS_SNAPSHOT 1

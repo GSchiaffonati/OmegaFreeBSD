@@ -1,0 +1,1 @@
+../../../../sys/dev/smbus/smbconf.h

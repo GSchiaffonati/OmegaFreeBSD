@@ -1,0 +1,65 @@
+# -I/usr/home/freebsd/omega/src/lib/libexpat -DHAVE_EXPAT_CONFIG_H -std=gnu99 /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmlparse.c /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmlrole.c /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmltok.c
+xmlparse.o xmlparse.po xmlparse.So:  \
+ /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmlparse.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/expat_config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/ascii.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/expat.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/expat_external.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/internal.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmltok.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmlrole.h
+xmlrole.o xmlrole.po xmlrole.So:  \
+ /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmlrole.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/expat_config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/expat_external.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/internal.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmlrole.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmltok.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/ascii.h
+xmltok.o xmltok.po xmltok.So:  \
+ /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmltok.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/expat_config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/expat_external.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/internal.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmltok.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/nametab.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmltok_impl.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/ascii.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmltok_impl.c \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/asciitab.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/utf8tab.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/iasciitab.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/latin1tab.h \
+  /usr/home/freebsd/omega/src/lib/libexpat/../../contrib/expat/lib/xmltok_ns.c

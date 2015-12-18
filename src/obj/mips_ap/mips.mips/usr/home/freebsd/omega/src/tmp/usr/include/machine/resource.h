@@ -1,0 +1,1 @@
+../../../sys/mips/include/resource.h

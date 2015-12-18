@@ -1,0 +1,609 @@
+   0  $accept : statements $end
+
+   1  statements :
+   2             | statements statement
+
+   3  statement : name_statement
+   4            | pidfile_statement
+   5            | timeout_statement
+   6            | sender_statement
+   7            | receiver_statement
+
+   8  name_statement : NAME STR
+
+   9  pidfile_statement : PIDFILE STR
+
+  10  timeout_statement : TIMEOUT NUM
+
+  11  sender_statement : SENDER sender_start sender_entries CB
+
+  12  sender_start : OB
+
+  13  sender_entries :
+  14                 | sender_entries sender_entry
+
+  15  sender_entry : source_statement
+  16               | directory_statement
+  17               | sender_host_statement
+
+  18  receiver_statement : RECEIVER receiver_start receiver_entries CB
+
+  19  receiver_start : OB
+
+  20  receiver_entries :
+  21                   | receiver_entries receiver_entry
+
+  22  receiver_entry : listen_statement
+  23                 | directory_statement
+  24                 | certfile_statement
+  25                 | keyfile_statement
+  26                 | receiver_host_statement
+
+  27  directory_statement : DIRECTORY STR
+
+  28  source_statement : SOURCE STR
+
+  29  fingerprint_statement : FINGERPRINT STR
+
+  30  password_statement : PASSWORD STR
+
+  31  certfile_statement : CERTFILE STR
+
+  32  keyfile_statement : KEYFILE STR
+
+  33  listen_statement : LISTEN STR
+
+  34  sender_host_statement : HOST host_start OB sender_host_entries CB
+
+  35  receiver_host_statement : HOST host_start OB receiver_host_entries CB
+
+  36  host_start : STR
+
+  37  sender_host_entries :
+  38                      | sender_host_entries sender_host_entry
+
+  39  sender_host_entry : source_statement
+  40                    | remote_statement
+  41                    | directory_statement
+  42                    | fingerprint_statement
+  43                    | password_statement
+
+  44  receiver_host_entries :
+  45                        | receiver_host_entries receiver_host_entry
+
+  46  receiver_host_entry : remote_statement
+  47                      | directory_statement
+  48                      | password_statement
+
+  49  remote_statement : REMOTE STR
+
+state 0
+	$accept : . statements $end  (0)
+	statements : .  (1)
+
+	.  reduce 1
+
+	statements  goto 1
+
+
+state 1
+	$accept : statements . $end  (0)
+	statements : statements . statement  (2)
+
+	$end  accept
+	NAME  shift 2
+	PIDFILE  shift 3
+	RECEIVER  shift 4
+	SENDER  shift 5
+	TIMEOUT  shift 6
+	.  error
+
+	statement  goto 7
+	name_statement  goto 8
+	pidfile_statement  goto 9
+	timeout_statement  goto 10
+	sender_statement  goto 11
+	receiver_statement  goto 12
+
+
+state 2
+	name_statement : NAME . STR  (8)
+
+	STR  shift 13
+	.  error
+
+
+state 3
+	pidfile_statement : PIDFILE . STR  (9)
+
+	STR  shift 14
+	.  error
+
+
+state 4
+	receiver_statement : RECEIVER . receiver_start receiver_entries CB  (18)
+
+	OB  shift 15
+	.  error
+
+	receiver_start  goto 16
+
+
+state 5
+	sender_statement : SENDER . sender_start sender_entries CB  (11)
+
+	OB  shift 17
+	.  error
+
+	sender_start  goto 18
+
+
+state 6
+	timeout_statement : TIMEOUT . NUM  (10)
+
+	NUM  shift 19
+	.  error
+
+
+state 7
+	statements : statements statement .  (2)
+
+	.  reduce 2
+
+
+state 8
+	statement : name_statement .  (3)
+
+	.  reduce 3
+
+
+state 9
+	statement : pidfile_statement .  (4)
+
+	.  reduce 4
+
+
+state 10
+	statement : timeout_statement .  (5)
+
+	.  reduce 5
+
+
+state 11
+	statement : sender_statement .  (6)
+
+	.  reduce 6
+
+
+state 12
+	statement : receiver_statement .  (7)
+
+	.  reduce 7
+
+
+state 13
+	name_statement : NAME STR .  (8)
+
+	.  reduce 8
+
+
+state 14
+	pidfile_statement : PIDFILE STR .  (9)
+
+	.  reduce 9
+
+
+state 15
+	receiver_start : OB .  (19)
+
+	.  reduce 19
+
+
+state 16
+	receiver_statement : RECEIVER receiver_start . receiver_entries CB  (18)
+	receiver_entries : .  (20)
+
+	.  reduce 20
+
+	receiver_entries  goto 20
+
+
+state 17
+	sender_start : OB .  (12)
+
+	.  reduce 12
+
+
+state 18
+	sender_statement : SENDER sender_start . sender_entries CB  (11)
+	sender_entries : .  (13)
+
+	.  reduce 13
+
+	sender_entries  goto 21
+
+
+state 19
+	timeout_statement : TIMEOUT NUM .  (10)
+
+	.  reduce 10
+
+
+state 20
+	receiver_statement : RECEIVER receiver_start receiver_entries . CB  (18)
+	receiver_entries : receiver_entries . receiver_entry  (21)
+
+	CB  shift 22
+	CERTFILE  shift 23
+	DIRECTORY  shift 24
+	HOST  shift 25
+	KEYFILE  shift 26
+	LISTEN  shift 27
+	.  error
+
+	directory_statement  goto 28
+	receiver_entry  goto 29
+	listen_statement  goto 30
+	certfile_statement  goto 31
+	keyfile_statement  goto 32
+	receiver_host_statement  goto 33
+
+
+state 21
+	sender_statement : SENDER sender_start sender_entries . CB  (11)
+	sender_entries : sender_entries . sender_entry  (14)
+
+	CB  shift 34
+	DIRECTORY  shift 24
+	HOST  shift 35
+	SOURCE  shift 36
+	.  error
+
+	sender_entry  goto 37
+	source_statement  goto 38
+	directory_statement  goto 39
+	sender_host_statement  goto 40
+
+
+state 22
+	receiver_statement : RECEIVER receiver_start receiver_entries CB .  (18)
+
+	.  reduce 18
+
+
+state 23
+	certfile_statement : CERTFILE . STR  (31)
+
+	STR  shift 41
+	.  error
+
+
+state 24
+	directory_statement : DIRECTORY . STR  (27)
+
+	STR  shift 42
+	.  error
+
+
+state 25
+	receiver_host_statement : HOST . host_start OB receiver_host_entries CB  (35)
+
+	STR  shift 43
+	.  error
+
+	host_start  goto 44
+
+
+state 26
+	keyfile_statement : KEYFILE . STR  (32)
+
+	STR  shift 45
+	.  error
+
+
+state 27
+	listen_statement : LISTEN . STR  (33)
+
+	STR  shift 46
+	.  error
+
+
+state 28
+	receiver_entry : directory_statement .  (23)
+
+	.  reduce 23
+
+
+state 29
+	receiver_entries : receiver_entries receiver_entry .  (21)
+
+	.  reduce 21
+
+
+state 30
+	receiver_entry : listen_statement .  (22)
+
+	.  reduce 22
+
+
+state 31
+	receiver_entry : certfile_statement .  (24)
+
+	.  reduce 24
+
+
+state 32
+	receiver_entry : keyfile_statement .  (25)
+
+	.  reduce 25
+
+
+state 33
+	receiver_entry : receiver_host_statement .  (26)
+
+	.  reduce 26
+
+
+state 34
+	sender_statement : SENDER sender_start sender_entries CB .  (11)
+
+	.  reduce 11
+
+
+state 35
+	sender_host_statement : HOST . host_start OB sender_host_entries CB  (34)
+
+	STR  shift 43
+	.  error
+
+	host_start  goto 47
+
+
+state 36
+	source_statement : SOURCE . STR  (28)
+
+	STR  shift 48
+	.  error
+
+
+state 37
+	sender_entries : sender_entries sender_entry .  (14)
+
+	.  reduce 14
+
+
+state 38
+	sender_entry : source_statement .  (15)
+
+	.  reduce 15
+
+
+state 39
+	sender_entry : directory_statement .  (16)
+
+	.  reduce 16
+
+
+state 40
+	sender_entry : sender_host_statement .  (17)
+
+	.  reduce 17
+
+
+state 41
+	certfile_statement : CERTFILE STR .  (31)
+
+	.  reduce 31
+
+
+state 42
+	directory_statement : DIRECTORY STR .  (27)
+
+	.  reduce 27
+
+
+state 43
+	host_start : STR .  (36)
+
+	.  reduce 36
+
+
+state 44
+	receiver_host_statement : HOST host_start . OB receiver_host_entries CB  (35)
+
+	OB  shift 49
+	.  error
+
+
+state 45
+	keyfile_statement : KEYFILE STR .  (32)
+
+	.  reduce 32
+
+
+state 46
+	listen_statement : LISTEN STR .  (33)
+
+	.  reduce 33
+
+
+state 47
+	sender_host_statement : HOST host_start . OB sender_host_entries CB  (34)
+
+	OB  shift 50
+	.  error
+
+
+state 48
+	source_statement : SOURCE STR .  (28)
+
+	.  reduce 28
+
+
+state 49
+	receiver_host_statement : HOST host_start OB . receiver_host_entries CB  (35)
+	receiver_host_entries : .  (44)
+
+	.  reduce 44
+
+	receiver_host_entries  goto 51
+
+
+state 50
+	sender_host_statement : HOST host_start OB . sender_host_entries CB  (34)
+	sender_host_entries : .  (37)
+
+	.  reduce 37
+
+	sender_host_entries  goto 52
+
+
+state 51
+	receiver_host_statement : HOST host_start OB receiver_host_entries . CB  (35)
+	receiver_host_entries : receiver_host_entries . receiver_host_entry  (45)
+
+	CB  shift 53
+	DIRECTORY  shift 24
+	PASSWORD  shift 54
+	REMOTE  shift 55
+	.  error
+
+	directory_statement  goto 56
+	password_statement  goto 57
+	remote_statement  goto 58
+	receiver_host_entry  goto 59
+
+
+state 52
+	sender_host_statement : HOST host_start OB sender_host_entries . CB  (34)
+	sender_host_entries : sender_host_entries . sender_host_entry  (38)
+
+	CB  shift 60
+	DIRECTORY  shift 24
+	FINGERPRINT  shift 61
+	PASSWORD  shift 54
+	REMOTE  shift 55
+	SOURCE  shift 36
+	.  error
+
+	source_statement  goto 62
+	directory_statement  goto 63
+	fingerprint_statement  goto 64
+	password_statement  goto 65
+	sender_host_entry  goto 66
+	remote_statement  goto 67
+
+
+state 53
+	receiver_host_statement : HOST host_start OB receiver_host_entries CB .  (35)
+
+	.  reduce 35
+
+
+state 54
+	password_statement : PASSWORD . STR  (30)
+
+	STR  shift 68
+	.  error
+
+
+state 55
+	remote_statement : REMOTE . STR  (49)
+
+	STR  shift 69
+	.  error
+
+
+state 56
+	receiver_host_entry : directory_statement .  (47)
+
+	.  reduce 47
+
+
+state 57
+	receiver_host_entry : password_statement .  (48)
+
+	.  reduce 48
+
+
+state 58
+	receiver_host_entry : remote_statement .  (46)
+
+	.  reduce 46
+
+
+state 59
+	receiver_host_entries : receiver_host_entries receiver_host_entry .  (45)
+
+	.  reduce 45
+
+
+state 60
+	sender_host_statement : HOST host_start OB sender_host_entries CB .  (34)
+
+	.  reduce 34
+
+
+state 61
+	fingerprint_statement : FINGERPRINT . STR  (29)
+
+	STR  shift 70
+	.  error
+
+
+state 62
+	sender_host_entry : source_statement .  (39)
+
+	.  reduce 39
+
+
+state 63
+	sender_host_entry : directory_statement .  (41)
+
+	.  reduce 41
+
+
+state 64
+	sender_host_entry : fingerprint_statement .  (42)
+
+	.  reduce 42
+
+
+state 65
+	sender_host_entry : password_statement .  (43)
+
+	.  reduce 43
+
+
+state 66
+	sender_host_entries : sender_host_entries sender_host_entry .  (38)
+
+	.  reduce 38
+
+
+state 67
+	sender_host_entry : remote_statement .  (40)
+
+	.  reduce 40
+
+
+state 68
+	password_statement : PASSWORD STR .  (30)
+
+	.  reduce 30
+
+
+state 69
+	remote_statement : REMOTE STR .  (49)
+
+	.  reduce 49
+
+
+state 70
+	fingerprint_statement : FINGERPRINT STR .  (29)
+
+	.  reduce 29
+
+
+20 terminals, 29 nonterminals
+50 grammar rules, 71 states

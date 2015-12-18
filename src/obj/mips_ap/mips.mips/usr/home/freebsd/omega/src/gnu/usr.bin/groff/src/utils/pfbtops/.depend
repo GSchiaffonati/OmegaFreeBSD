@@ -1,0 +1,17 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../../../../contrib/groff/src/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../src/include -std=gnu99 /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../../../../contrib/groff/src/utils/pfbtops/pfbtops.c
+pfbtops.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../../../../contrib/groff/src/utils/pfbtops/pfbtops.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../src/include/config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../../../../contrib/groff/src/include/nonposix.h
+pfbtops.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../src/libs/libgroff/libgroff.a

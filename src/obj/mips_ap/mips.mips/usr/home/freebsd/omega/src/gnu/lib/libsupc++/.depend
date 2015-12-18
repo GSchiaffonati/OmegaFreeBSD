@@ -1,0 +1,565 @@
+# -DIN_GLIBCPP_V3 -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/include -I/usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++ -I/usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcc -I/usr/home/freebsd/omega/src/gnu/lib/libsupc++/../libstdc++ -I. -std=gnu99 /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/libiberty/cp-demangle.c
+cp-demangle.o cp-demangle.po cp-demangle.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/libiberty/cp-demangle.c \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../libstdc++/config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/include/ansidecl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/include/demangle.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/libiberty/cp-demangle.h
+# -DIN_GLIBCPP_V3 -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcclibs/include -I/usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++ -I/usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcc -I/usr/home/freebsd/omega/src/gnu/lib/libsupc++/../libstdc++ -I. /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/del_op.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/del_opnt.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/del_opv.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/del_opvnt.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_alloc.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_arm.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_aux_runtime.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_call.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_catch.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_exception.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_globals.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_personality.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_term_handler.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_terminate.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_throw.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_type.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_unex_handler.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/guard.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_handler.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_op.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_opnt.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_opv.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_opvnt.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/pure.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/tinfo.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/tinfo2.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/vec.cc /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/vterminate.cc
+del_op.o del_op.po del_op.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/del_op.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h
+del_opnt.o del_opnt.po del_opnt.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/del_opnt.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception
+del_opv.o del_opv.po del_opv.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/del_opv.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception
+del_opvnt.o del_opvnt.po del_opvnt.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/del_opvnt.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception
+eh_alloc.o eh_alloc.po eh_alloc.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_alloc.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstring \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/climits \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  unwind.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/ext/concurrence.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/gthr.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/gthr-default.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/pthread.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_pthreadtypes.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_sigset.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sched.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/select.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timeval.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/functexcept.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h
+eh_arm.o eh_arm.po eh_arm.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_arm.cc \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  unwind.h
+eh_aux_runtime.o eh_aux_runtime.po eh_aux_runtime.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_aux_runtime.cc \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  unwind.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h
+eh_call.o eh_call.po eh_call.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_call.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  unwind.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcc/unwind-pe.h
+eh_catch.o eh_catch.po eh_catch.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_catch.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  unwind.h
+eh_exception.o eh_exception.po eh_exception.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_exception.cc \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  unwind.h
+eh_globals.o eh_globals.po eh_globals.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_globals.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  unwind.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/gthr.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/gthr-default.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/pthread.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_pthreadtypes.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_sigset.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sched.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/select.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timeval.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/unistd.h
+eh_personality.o eh_personality.po eh_personality.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_personality.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  unwind.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/gcc/unwind-pe.h
+eh_term_handler.o eh_term_handler.po eh_term_handler.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_term_handler.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  unwind.h
+eh_terminate.o eh_terminate.po eh_terminate.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_terminate.cc \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  unwind.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h
+eh_throw.o eh_throw.po eh_throw.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_throw.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  unwind.h
+eh_type.o eh_type.po eh_type.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_type.cc \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  unwind.h
+eh_unex_handler.o eh_unex_handler.po eh_unex_handler.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/eh_unex_handler.cc \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  unwind.h
+guard.o guard.po guard.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/guard.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/ext/atomicity.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/gthr.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/gthr-default.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/pthread.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_pthreadtypes.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_sigset.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sched.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/select.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timeval.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/atomic_word.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/ext/concurrence.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/functexcept.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h
+new_handler.o new_handler.po new_handler.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_handler.cc \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception
+new_op.o new_op.po new_op.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_op.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception
+new_opnt.o new_opnt.po new_opnt.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_opnt.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception
+new_opv.o new_opv.po new_opv.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_opv.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception
+new_opvnt.o new_opvnt.po new_opvnt.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new_opvnt.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception
+pure.o pure.po pure.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/pure.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  unwind.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_pthreadtypes.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/select.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_sigset.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timeval.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/unistd.h
+tinfo.o tinfo.po tinfo.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/tinfo.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/tinfo.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new
+tinfo2.o tinfo2.po tinfo2.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/tinfo2.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/tinfo.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new
+vec.o vec.po vec.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/vec.cc \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/new \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/unwind-cxx.h \
+  unwind.h
+vterminate.o vterminate.po vterminate.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/vterminate.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/c++config.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/os_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cpu_defines.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdlib \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstddef \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/exception_defines.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/cxxabi.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/bits/cxxabi_tweaks.h \
+  /usr/home/freebsd/omega/src/gnu/lib/libsupc++/../../../contrib/libstdc++/libsupc++/typeinfo \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/c++/4.2/cstdio \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h

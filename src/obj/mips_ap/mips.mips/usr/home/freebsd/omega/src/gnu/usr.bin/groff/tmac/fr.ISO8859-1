@@ -1,0 +1,112 @@
+.\" Copyright (c) 2002 Sebastien Gioria <gioria@FreeBSD.org>.
+.\" All rights reserved.
+.\"
+.\" Redistribution and use in source and binary forms, with or without
+.\" modification, are permitted provided that the following conditions
+.\" are met:
+.\" 1. Redistributions of source code must retain the above copyright
+.\"    notice, this list of conditions and the following disclaimer.
+.\" 2. Redistributions in binary form must reproduce the above copyright
+.\"    notice, this list of conditions and the following disclaimer in the
+.\"    documentation and/or other materials provided with the distribution.
+.\"
+.\" THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+.\" ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+.\" IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+.\" ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+.\" FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+.\" DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+.\" OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+.\" HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+.\" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+.\" OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+.\" SUCH DAMAGE.
+.\"
+.\" $FreeBSD$
+.\"
+.nr volume-operating-system-ateol 1
+.ds volume-ds-1 Manuel des commandes utilisateur
+.ds volume-ds-2 Manuel des appels systèmes
+.ds volume-ds-3 Manuel des fonctions de la librairie
+.ds volume-ds-4 Manuel des interfaces du noyau
+.ds volume-ds-5 Manuel des formats de fichier
+.ds volume-ds-6 Manuel des jeux
+.ds volume-ds-7 Manuel d'informations diverses
+.ds volume-ds-8 Manuel de l'administrateur
+.ds volume-ds-9 Manuel du développeur du noyau
+.ds volume-ds-USD   Documentation supplémentaire utilisateur
+.ds volume-ds-PS1   Documentation supplémentaire du programmeur
+.ds volume-ds-AMD   Documentation ancestrale
+.ds volume-ds-SMM   Manuel de l'administrateur
+.ds volume-ds-URM   Manuel de référence utilisateur
+.ds volume-ds-PRM   Manuel du programmeur
+.ds volume-ds-KM    Manuel du noyau
+.ds volume-ds-IND   Index principal des manuels
+.ds volume-ds-LOCAL Manuel local
+.ds volume-ds-CON   Manuel des logiciels contribués
+.ds operating-system-ATT-7    7th\~Edition
+.ds operating-system-BSD-3    3rd\~Distribution de Berkeley
+.ds operating-system-BSD-4    4th\~Distribution de Berkeley
+.ds operating-system-BSD-4.1  Distribution\~4.1 de Berkeley
+.ds operating-system-BSD-4.2  Distribution\~4.2 de Berkeley
+.ds operating-system-BSD-4.3  Distribution\~4.3 de Berkeley
+.ds operating-system-BSD-4.3T Distribution 4.3-Tahoe de Berkeley
+.ds operating-system-BSD-4.3R Distribution 4.3-Reno de Berkeley
+.ds section-name        NOM
+.ds section-synopsis    SYNOPSIS
+.ds section-library     BIBLIOTHÈQUE
+.ds section-description DESCRIPTION
+.ds section-see-also    VOIR
+.ds section-files       FICHIERS
+.ds section-authors     AUTEURS
+.ds str-Lb-libarm32    Bibliothèque de l'architecture ARM32 (libarm32, \-larm32)
+.ds str-Lb-libc        Bibliothèque\~C Standard (libc, \-lc)
+.ds str-Lb-libc_r      Bibliothèque\~C réentrante (libc_r, \-lc_r)
+.ds str-Lb-libcipher   Bibliothèque de cryptage FreeSec (libcipher, \-lcipher)
+.ds str-Lb-libcompat   Bibliothèque de compatibilité (libcompat, \-lcompat)
+.ds str-Lb-libcrypt    Bibliothèque de cryptage (libcrypt, \-lcrypt)
+.ds str-Lb-libcurses   Bibliothèque de Curses (libcurses, \-lcurses)
+.ds str-Lb-libdevstat  Bibliothèque de statistiques des périphériques (libdevstat, \-ldevstat)
+.ds str-Lb-libdisk     Bibliothèque d'accès à l'interface des labels de partitions (libdisk, \-ldisk)
+.ds str-Lb-libedit     Bibliothèque de l'éditeur de ligne de commande (libedit, \-ledit)
+.ds str-Lb-libfetch    Bibliothèque de transfert de fichier (libfetch, \-lfetch)
+.ds str-Lb-libi386     Bibliothèque de l'architecture i386 (libi386, \-li386)
+.ds str-Lb-libipsec    Bibliothèque de contrôle de politique IPsec (libipsec, \-lipsec)
+.ds str-Lb-libkvm      Bibliothèque d'accès aux données du noyau (libkvm, \-lkvm)
+.ds str-Lb-libm        Bibliothèque mathématique (libm, \-lm)
+.ds str-Lb-libmd       Bibliothèque de support des signatures (MD4, MD5, etc.) (libmd, \-lmd)
+.ds str-Lb-libmenu     Bibliothèque Curses des Menus (libmenu, \-lmenu)
+.ds str-Lb-libnetgraph Bibliothèque utilisateur Netgraph (libnetgraph, \-lnetgraph)
+.ds str-Lb-libossaudio Bibliothèque d'émulation audio OSS (libossaudio, \-lossaudio)
+.ds str-Lb-libpam      Bibliothèque PAM (libpam, \-lpam)
+.ds str-Lb-libposix    Bibliothèque de compatibilité \*[Px] (libposix, \-lposix)
+.ds str-Lb-libresolv   Bibliothèque du résolveur DNS (libresolv, \-lresolv)
+.ds str-Lb-librpcsvc   Bibliothèque des services RPC (librpcsvc, \-lrpcsvc)
+.ds str-Lb-libtermcap  Bibliothèque d'accès aux terminaux (libtermcap, \-ltermcap)
+.ds str-Lb-libusbhid   Bibliothèque d'accès aux routines USB HID (libusbhid, \-lusbhid)
+.ds str-Lb-libutil     Bibliothèque des utilitaires système (libutil, \-lutil)
+.ds str-Lb-libvgl      Bibliothèque graphique vidéo (libvgl, \-lvgl)
+.ds str-Lb-libz        Bibliothèque de compression (libz, \-lz)
+.ds str-Rv-std-prefix "La
+.ds str-Rv-std-suffix "fonction retourne la valeur\~0 si tout c'est bien passé;
+.as str-Rv-std-suffix " sinon la valeur \~-1 est retournée et
+.as str-Rv-std-suffix " la variable globale \*[Va-font]errno\f[P]
+.as str-Rv-std-suffix " est positionnée pour indiquer l'erreur.
+.ds str-Rv-stds-prefix "Les
+.ds str-Rv-stds-and    "et
+.ds str-Rv-stds-suffix "fonctions retournent la valeur\~0 si tout c'est bien passé;
+.as str-Rv-stds-suffix " sinon la valeur \~-1 est retournée et
+.as str-Rv-stds-suffix " la variable globale \*[Va-font]errno\f[P]
+.as str-Rv-stds-suffix " est positionnée pour indiquer l'erreur.
+.ds str-Rv-std0 "Si tout c'est bien passé, la valeur\~0 est retournée;
+.as str-Rv-std0 " sinon la valeur \~-1 est retournée et
+.as str-Rv-std0 " la variable globale \*[Va-font]errno\f[P]
+.as str-Rv-std0 " est positionnée pour indiquer l'erreur.
+.ds str-Ex-std-prefix "La commande
+.ds str-Ex-std-suffix " retourne\~0 si tout c'est bien passé,
+.as str-Ex-std-suffix " et\~>0 si une erreur survient.
+.ds str-Ex-stds-prefix "Les commandes
+.ds str-Ex-stds-suffix "retournent\~0 si tout c'est bien passé,
+.as str-Ex-stds-suffix " et\~>0 si une erreur survient.
+.ds str-Ar-default "fichier\ .\|.\|.
+.ds str-dpra "et

@@ -1,0 +1,35 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../src/include -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/utils/lookbib/lookbib.cpp
+lookbib.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/utils/lookbib/lookbib.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/assert.h \
+  /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/error.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/cset.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/refid.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/search.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/posix.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../../../../contrib/groff/src/include/nonposix.h
+lookbib.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../src/libs/libbib/libbib.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/lookbib/../../../src/libs/libgroff/libgroff.a /usr/lib/libm.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a
+lookbib.full: /usr/lib/libc++.a

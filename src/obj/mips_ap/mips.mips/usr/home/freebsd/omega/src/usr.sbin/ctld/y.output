@@ -1,0 +1,1551 @@
+   0  $accept : statements $end
+
+   1  statements :
+   2             | statements statement
+   3             | statements statement SEMICOLON
+
+   4  statement : debug
+   5            | timeout
+   6            | maxproc
+   7            | pidfile
+   8            | isns_server
+   9            | isns_period
+  10            | isns_timeout
+  11            | auth_group
+  12            | portal_group
+  13            | lun
+  14            | target
+
+  15  debug : DEBUG STR
+
+  16  timeout : TIMEOUT STR
+
+  17  maxproc : MAXPROC STR
+
+  18  pidfile : PIDFILE STR
+
+  19  isns_server : ISNS_SERVER STR
+
+  20  isns_period : ISNS_PERIOD STR
+
+  21  isns_timeout : ISNS_TIMEOUT STR
+
+  22  auth_group : AUTH_GROUP auth_group_name OPENING_BRACKET auth_group_entries CLOSING_BRACKET
+
+  23  auth_group_name : STR
+
+  24  auth_group_entries :
+  25                     | auth_group_entries auth_group_entry
+  26                     | auth_group_entries auth_group_entry SEMICOLON
+
+  27  auth_group_entry : auth_group_auth_type
+  28                   | auth_group_chap
+  29                   | auth_group_chap_mutual
+  30                   | auth_group_initiator_name
+  31                   | auth_group_initiator_portal
+
+  32  auth_group_auth_type : AUTH_TYPE STR
+
+  33  auth_group_chap : CHAP STR STR
+
+  34  auth_group_chap_mutual : CHAP_MUTUAL STR STR STR STR
+
+  35  auth_group_initiator_name : INITIATOR_NAME STR
+
+  36  auth_group_initiator_portal : INITIATOR_PORTAL STR
+
+  37  portal_group : PORTAL_GROUP portal_group_name OPENING_BRACKET portal_group_entries CLOSING_BRACKET
+
+  38  portal_group_name : STR
+
+  39  portal_group_entries :
+  40                       | portal_group_entries portal_group_entry
+  41                       | portal_group_entries portal_group_entry SEMICOLON
+
+  42  portal_group_entry : portal_group_discovery_auth_group
+  43                     | portal_group_discovery_filter
+  44                     | portal_group_foreign
+  45                     | portal_group_listen
+  46                     | portal_group_listen_iser
+  47                     | portal_group_offload
+  48                     | portal_group_option
+  49                     | portal_group_redirect
+  50                     | portal_group_tag
+
+  51  portal_group_discovery_auth_group : DISCOVERY_AUTH_GROUP STR
+
+  52  portal_group_discovery_filter : DISCOVERY_FILTER STR
+
+  53  portal_group_foreign : FOREIGN
+
+  54  portal_group_listen : LISTEN STR
+
+  55  portal_group_listen_iser : LISTEN_ISER STR
+
+  56  portal_group_offload : OFFLOAD STR
+
+  57  portal_group_option : OPTION STR STR
+
+  58  portal_group_redirect : REDIRECT STR
+
+  59  portal_group_tag : TAG STR
+
+  60  lun : LUN lun_name OPENING_BRACKET lun_entries CLOSING_BRACKET
+
+  61  lun_name : STR
+
+  62  target : TARGET target_name OPENING_BRACKET target_entries CLOSING_BRACKET
+
+  63  target_name : STR
+
+  64  target_entries :
+  65                 | target_entries target_entry
+  66                 | target_entries target_entry SEMICOLON
+
+  67  target_entry : target_alias
+  68               | target_auth_group
+  69               | target_auth_type
+  70               | target_chap
+  71               | target_chap_mutual
+  72               | target_initiator_name
+  73               | target_initiator_portal
+  74               | target_portal_group
+  75               | target_port
+  76               | target_redirect
+  77               | target_lun
+  78               | target_lun_ref
+
+  79  target_alias : ALIAS STR
+
+  80  target_auth_group : AUTH_GROUP STR
+
+  81  target_auth_type : AUTH_TYPE STR
+
+  82  target_chap : CHAP STR STR
+
+  83  target_chap_mutual : CHAP_MUTUAL STR STR STR STR
+
+  84  target_initiator_name : INITIATOR_NAME STR
+
+  85  target_initiator_portal : INITIATOR_PORTAL STR
+
+  86  target_portal_group : PORTAL_GROUP STR STR
+  87                      | PORTAL_GROUP STR
+
+  88  target_port : PORT STR
+
+  89  target_redirect : REDIRECT STR
+
+  90  target_lun : LUN lun_number OPENING_BRACKET lun_entries CLOSING_BRACKET
+
+  91  lun_number : STR
+
+  92  target_lun_ref : LUN STR STR
+
+  93  lun_entries :
+  94              | lun_entries lun_entry
+  95              | lun_entries lun_entry SEMICOLON
+
+  96  lun_entry : lun_backend
+  97            | lun_blocksize
+  98            | lun_device_id
+  99            | lun_device_type
+ 100            | lun_ctl_lun
+ 101            | lun_option
+ 102            | lun_path
+ 103            | lun_serial
+ 104            | lun_size
+
+ 105  lun_backend : BACKEND STR
+
+ 106  lun_blocksize : BLOCKSIZE STR
+
+ 107  lun_device_id : DEVICE_ID STR
+
+ 108  lun_device_type : DEVICE_TYPE STR
+
+ 109  lun_ctl_lun : CTL_LUN STR
+
+ 110  lun_option : OPTION STR STR
+
+ 111  lun_path : PATH STR
+
+ 112  lun_serial : SERIAL STR
+
+ 113  lun_size : SIZE STR
+
+state 0
+	$accept : . statements $end  (0)
+	statements : .  (1)
+
+	.  reduce 1
+
+	statements  goto 1
+
+
+state 1
+	$accept : statements . $end  (0)
+	statements : statements . statement  (2)
+	statements : statements . statement SEMICOLON  (3)
+
+	$end  accept
+	AUTH_GROUP  shift 2
+	DEBUG  shift 3
+	ISNS_SERVER  shift 4
+	ISNS_PERIOD  shift 5
+	ISNS_TIMEOUT  shift 6
+	LUN  shift 7
+	MAXPROC  shift 8
+	PIDFILE  shift 9
+	PORTAL_GROUP  shift 10
+	TARGET  shift 11
+	TIMEOUT  shift 12
+	.  error
+
+	statement  goto 13
+	debug  goto 14
+	timeout  goto 15
+	maxproc  goto 16
+	pidfile  goto 17
+	isns_server  goto 18
+	isns_period  goto 19
+	isns_timeout  goto 20
+	auth_group  goto 21
+	portal_group  goto 22
+	lun  goto 23
+	target  goto 24
+
+
+state 2
+	auth_group : AUTH_GROUP . auth_group_name OPENING_BRACKET auth_group_entries CLOSING_BRACKET  (22)
+
+	STR  shift 25
+	.  error
+
+	auth_group_name  goto 26
+
+
+state 3
+	debug : DEBUG . STR  (15)
+
+	STR  shift 27
+	.  error
+
+
+state 4
+	isns_server : ISNS_SERVER . STR  (19)
+
+	STR  shift 28
+	.  error
+
+
+state 5
+	isns_period : ISNS_PERIOD . STR  (20)
+
+	STR  shift 29
+	.  error
+
+
+state 6
+	isns_timeout : ISNS_TIMEOUT . STR  (21)
+
+	STR  shift 30
+	.  error
+
+
+state 7
+	lun : LUN . lun_name OPENING_BRACKET lun_entries CLOSING_BRACKET  (60)
+
+	STR  shift 31
+	.  error
+
+	lun_name  goto 32
+
+
+state 8
+	maxproc : MAXPROC . STR  (17)
+
+	STR  shift 33
+	.  error
+
+
+state 9
+	pidfile : PIDFILE . STR  (18)
+
+	STR  shift 34
+	.  error
+
+
+state 10
+	portal_group : PORTAL_GROUP . portal_group_name OPENING_BRACKET portal_group_entries CLOSING_BRACKET  (37)
+
+	STR  shift 35
+	.  error
+
+	portal_group_name  goto 36
+
+
+state 11
+	target : TARGET . target_name OPENING_BRACKET target_entries CLOSING_BRACKET  (62)
+
+	STR  shift 37
+	.  error
+
+	target_name  goto 38
+
+
+state 12
+	timeout : TIMEOUT . STR  (16)
+
+	STR  shift 39
+	.  error
+
+
+state 13
+	statements : statements statement .  (2)
+	statements : statements statement . SEMICOLON  (3)
+
+	SEMICOLON  shift 40
+	$end  reduce 2
+	AUTH_GROUP  reduce 2
+	DEBUG  reduce 2
+	ISNS_SERVER  reduce 2
+	ISNS_PERIOD  reduce 2
+	ISNS_TIMEOUT  reduce 2
+	LUN  reduce 2
+	MAXPROC  reduce 2
+	PIDFILE  reduce 2
+	PORTAL_GROUP  reduce 2
+	TARGET  reduce 2
+	TIMEOUT  reduce 2
+
+
+state 14
+	statement : debug .  (4)
+
+	.  reduce 4
+
+
+state 15
+	statement : timeout .  (5)
+
+	.  reduce 5
+
+
+state 16
+	statement : maxproc .  (6)
+
+	.  reduce 6
+
+
+state 17
+	statement : pidfile .  (7)
+
+	.  reduce 7
+
+
+state 18
+	statement : isns_server .  (8)
+
+	.  reduce 8
+
+
+state 19
+	statement : isns_period .  (9)
+
+	.  reduce 9
+
+
+state 20
+	statement : isns_timeout .  (10)
+
+	.  reduce 10
+
+
+state 21
+	statement : auth_group .  (11)
+
+	.  reduce 11
+
+
+state 22
+	statement : portal_group .  (12)
+
+	.  reduce 12
+
+
+state 23
+	statement : lun .  (13)
+
+	.  reduce 13
+
+
+state 24
+	statement : target .  (14)
+
+	.  reduce 14
+
+
+state 25
+	auth_group_name : STR .  (23)
+
+	.  reduce 23
+
+
+state 26
+	auth_group : AUTH_GROUP auth_group_name . OPENING_BRACKET auth_group_entries CLOSING_BRACKET  (22)
+
+	OPENING_BRACKET  shift 41
+	.  error
+
+
+state 27
+	debug : DEBUG STR .  (15)
+
+	.  reduce 15
+
+
+state 28
+	isns_server : ISNS_SERVER STR .  (19)
+
+	.  reduce 19
+
+
+state 29
+	isns_period : ISNS_PERIOD STR .  (20)
+
+	.  reduce 20
+
+
+state 30
+	isns_timeout : ISNS_TIMEOUT STR .  (21)
+
+	.  reduce 21
+
+
+state 31
+	lun_name : STR .  (61)
+
+	.  reduce 61
+
+
+state 32
+	lun : LUN lun_name . OPENING_BRACKET lun_entries CLOSING_BRACKET  (60)
+
+	OPENING_BRACKET  shift 42
+	.  error
+
+
+state 33
+	maxproc : MAXPROC STR .  (17)
+
+	.  reduce 17
+
+
+state 34
+	pidfile : PIDFILE STR .  (18)
+
+	.  reduce 18
+
+
+state 35
+	portal_group_name : STR .  (38)
+
+	.  reduce 38
+
+
+state 36
+	portal_group : PORTAL_GROUP portal_group_name . OPENING_BRACKET portal_group_entries CLOSING_BRACKET  (37)
+
+	OPENING_BRACKET  shift 43
+	.  error
+
+
+state 37
+	target_name : STR .  (63)
+
+	.  reduce 63
+
+
+state 38
+	target : TARGET target_name . OPENING_BRACKET target_entries CLOSING_BRACKET  (62)
+
+	OPENING_BRACKET  shift 44
+	.  error
+
+
+state 39
+	timeout : TIMEOUT STR .  (16)
+
+	.  reduce 16
+
+
+state 40
+	statements : statements statement SEMICOLON .  (3)
+
+	.  reduce 3
+
+
+state 41
+	auth_group : AUTH_GROUP auth_group_name OPENING_BRACKET . auth_group_entries CLOSING_BRACKET  (22)
+	auth_group_entries : .  (24)
+
+	.  reduce 24
+
+	auth_group_entries  goto 45
+
+
+state 42
+	lun : LUN lun_name OPENING_BRACKET . lun_entries CLOSING_BRACKET  (60)
+	lun_entries : .  (93)
+
+	.  reduce 93
+
+	lun_entries  goto 46
+
+
+state 43
+	portal_group : PORTAL_GROUP portal_group_name OPENING_BRACKET . portal_group_entries CLOSING_BRACKET  (37)
+	portal_group_entries : .  (39)
+
+	.  reduce 39
+
+	portal_group_entries  goto 47
+
+
+state 44
+	target : TARGET target_name OPENING_BRACKET . target_entries CLOSING_BRACKET  (62)
+	target_entries : .  (64)
+
+	.  reduce 64
+
+	target_entries  goto 48
+
+
+state 45
+	auth_group : AUTH_GROUP auth_group_name OPENING_BRACKET auth_group_entries . CLOSING_BRACKET  (22)
+	auth_group_entries : auth_group_entries . auth_group_entry  (25)
+	auth_group_entries : auth_group_entries . auth_group_entry SEMICOLON  (26)
+
+	AUTH_TYPE  shift 49
+	CHAP  shift 50
+	CHAP_MUTUAL  shift 51
+	CLOSING_BRACKET  shift 52
+	INITIATOR_NAME  shift 53
+	INITIATOR_PORTAL  shift 54
+	.  error
+
+	auth_group_entry  goto 55
+	auth_group_auth_type  goto 56
+	auth_group_chap  goto 57
+	auth_group_chap_mutual  goto 58
+	auth_group_initiator_name  goto 59
+	auth_group_initiator_portal  goto 60
+
+
+state 46
+	lun : LUN lun_name OPENING_BRACKET lun_entries . CLOSING_BRACKET  (60)
+	lun_entries : lun_entries . lun_entry  (94)
+	lun_entries : lun_entries . lun_entry SEMICOLON  (95)
+
+	BACKEND  shift 61
+	BLOCKSIZE  shift 62
+	CLOSING_BRACKET  shift 63
+	CTL_LUN  shift 64
+	DEVICE_ID  shift 65
+	DEVICE_TYPE  shift 66
+	OPTION  shift 67
+	PATH  shift 68
+	SERIAL  shift 69
+	SIZE  shift 70
+	.  error
+
+	lun_entry  goto 71
+	lun_backend  goto 72
+	lun_blocksize  goto 73
+	lun_device_id  goto 74
+	lun_device_type  goto 75
+	lun_ctl_lun  goto 76
+	lun_option  goto 77
+	lun_path  goto 78
+	lun_serial  goto 79
+	lun_size  goto 80
+
+
+state 47
+	portal_group : PORTAL_GROUP portal_group_name OPENING_BRACKET portal_group_entries . CLOSING_BRACKET  (37)
+	portal_group_entries : portal_group_entries . portal_group_entry  (40)
+	portal_group_entries : portal_group_entries . portal_group_entry SEMICOLON  (41)
+
+	CLOSING_BRACKET  shift 81
+	DISCOVERY_AUTH_GROUP  shift 82
+	DISCOVERY_FILTER  shift 83
+	FOREIGN  shift 84
+	LISTEN  shift 85
+	LISTEN_ISER  shift 86
+	OFFLOAD  shift 87
+	OPTION  shift 88
+	REDIRECT  shift 89
+	TAG  shift 90
+	.  error
+
+	portal_group_entry  goto 91
+	portal_group_discovery_auth_group  goto 92
+	portal_group_discovery_filter  goto 93
+	portal_group_foreign  goto 94
+	portal_group_listen  goto 95
+	portal_group_listen_iser  goto 96
+	portal_group_offload  goto 97
+	portal_group_option  goto 98
+	portal_group_redirect  goto 99
+	portal_group_tag  goto 100
+
+
+state 48
+	target : TARGET target_name OPENING_BRACKET target_entries . CLOSING_BRACKET  (62)
+	target_entries : target_entries . target_entry  (65)
+	target_entries : target_entries . target_entry SEMICOLON  (66)
+
+	ALIAS  shift 101
+	AUTH_GROUP  shift 102
+	AUTH_TYPE  shift 103
+	CHAP  shift 104
+	CHAP_MUTUAL  shift 105
+	CLOSING_BRACKET  shift 106
+	INITIATOR_NAME  shift 107
+	INITIATOR_PORTAL  shift 108
+	LUN  shift 109
+	PORT  shift 110
+	PORTAL_GROUP  shift 111
+	REDIRECT  shift 112
+	.  error
+
+	target_entry  goto 113
+	target_alias  goto 114
+	target_auth_group  goto 115
+	target_auth_type  goto 116
+	target_chap  goto 117
+	target_chap_mutual  goto 118
+	target_initiator_name  goto 119
+	target_initiator_portal  goto 120
+	target_portal_group  goto 121
+	target_port  goto 122
+	target_redirect  goto 123
+	target_lun  goto 124
+	target_lun_ref  goto 125
+
+
+state 49
+	auth_group_auth_type : AUTH_TYPE . STR  (32)
+
+	STR  shift 126
+	.  error
+
+
+state 50
+	auth_group_chap : CHAP . STR STR  (33)
+
+	STR  shift 127
+	.  error
+
+
+state 51
+	auth_group_chap_mutual : CHAP_MUTUAL . STR STR STR STR  (34)
+
+	STR  shift 128
+	.  error
+
+
+state 52
+	auth_group : AUTH_GROUP auth_group_name OPENING_BRACKET auth_group_entries CLOSING_BRACKET .  (22)
+
+	.  reduce 22
+
+
+state 53
+	auth_group_initiator_name : INITIATOR_NAME . STR  (35)
+
+	STR  shift 129
+	.  error
+
+
+state 54
+	auth_group_initiator_portal : INITIATOR_PORTAL . STR  (36)
+
+	STR  shift 130
+	.  error
+
+
+state 55
+	auth_group_entries : auth_group_entries auth_group_entry .  (25)
+	auth_group_entries : auth_group_entries auth_group_entry . SEMICOLON  (26)
+
+	SEMICOLON  shift 131
+	AUTH_TYPE  reduce 25
+	CHAP  reduce 25
+	CHAP_MUTUAL  reduce 25
+	CLOSING_BRACKET  reduce 25
+	INITIATOR_NAME  reduce 25
+	INITIATOR_PORTAL  reduce 25
+
+
+state 56
+	auth_group_entry : auth_group_auth_type .  (27)
+
+	.  reduce 27
+
+
+state 57
+	auth_group_entry : auth_group_chap .  (28)
+
+	.  reduce 28
+
+
+state 58
+	auth_group_entry : auth_group_chap_mutual .  (29)
+
+	.  reduce 29
+
+
+state 59
+	auth_group_entry : auth_group_initiator_name .  (30)
+
+	.  reduce 30
+
+
+state 60
+	auth_group_entry : auth_group_initiator_portal .  (31)
+
+	.  reduce 31
+
+
+state 61
+	lun_backend : BACKEND . STR  (105)
+
+	STR  shift 132
+	.  error
+
+
+state 62
+	lun_blocksize : BLOCKSIZE . STR  (106)
+
+	STR  shift 133
+	.  error
+
+
+state 63
+	lun : LUN lun_name OPENING_BRACKET lun_entries CLOSING_BRACKET .  (60)
+
+	.  reduce 60
+
+
+state 64
+	lun_ctl_lun : CTL_LUN . STR  (109)
+
+	STR  shift 134
+	.  error
+
+
+state 65
+	lun_device_id : DEVICE_ID . STR  (107)
+
+	STR  shift 135
+	.  error
+
+
+state 66
+	lun_device_type : DEVICE_TYPE . STR  (108)
+
+	STR  shift 136
+	.  error
+
+
+state 67
+	lun_option : OPTION . STR STR  (110)
+
+	STR  shift 137
+	.  error
+
+
+state 68
+	lun_path : PATH . STR  (111)
+
+	STR  shift 138
+	.  error
+
+
+state 69
+	lun_serial : SERIAL . STR  (112)
+
+	STR  shift 139
+	.  error
+
+
+state 70
+	lun_size : SIZE . STR  (113)
+
+	STR  shift 140
+	.  error
+
+
+state 71
+	lun_entries : lun_entries lun_entry .  (94)
+	lun_entries : lun_entries lun_entry . SEMICOLON  (95)
+
+	SEMICOLON  shift 141
+	BACKEND  reduce 94
+	BLOCKSIZE  reduce 94
+	CLOSING_BRACKET  reduce 94
+	CTL_LUN  reduce 94
+	DEVICE_ID  reduce 94
+	DEVICE_TYPE  reduce 94
+	OPTION  reduce 94
+	PATH  reduce 94
+	SERIAL  reduce 94
+	SIZE  reduce 94
+
+
+state 72
+	lun_entry : lun_backend .  (96)
+
+	.  reduce 96
+
+
+state 73
+	lun_entry : lun_blocksize .  (97)
+
+	.  reduce 97
+
+
+state 74
+	lun_entry : lun_device_id .  (98)
+
+	.  reduce 98
+
+
+state 75
+	lun_entry : lun_device_type .  (99)
+
+	.  reduce 99
+
+
+state 76
+	lun_entry : lun_ctl_lun .  (100)
+
+	.  reduce 100
+
+
+state 77
+	lun_entry : lun_option .  (101)
+
+	.  reduce 101
+
+
+state 78
+	lun_entry : lun_path .  (102)
+
+	.  reduce 102
+
+
+state 79
+	lun_entry : lun_serial .  (103)
+
+	.  reduce 103
+
+
+state 80
+	lun_entry : lun_size .  (104)
+
+	.  reduce 104
+
+
+state 81
+	portal_group : PORTAL_GROUP portal_group_name OPENING_BRACKET portal_group_entries CLOSING_BRACKET .  (37)
+
+	.  reduce 37
+
+
+state 82
+	portal_group_discovery_auth_group : DISCOVERY_AUTH_GROUP . STR  (51)
+
+	STR  shift 142
+	.  error
+
+
+state 83
+	portal_group_discovery_filter : DISCOVERY_FILTER . STR  (52)
+
+	STR  shift 143
+	.  error
+
+
+state 84
+	portal_group_foreign : FOREIGN .  (53)
+
+	.  reduce 53
+
+
+state 85
+	portal_group_listen : LISTEN . STR  (54)
+
+	STR  shift 144
+	.  error
+
+
+state 86
+	portal_group_listen_iser : LISTEN_ISER . STR  (55)
+
+	STR  shift 145
+	.  error
+
+
+state 87
+	portal_group_offload : OFFLOAD . STR  (56)
+
+	STR  shift 146
+	.  error
+
+
+state 88
+	portal_group_option : OPTION . STR STR  (57)
+
+	STR  shift 147
+	.  error
+
+
+state 89
+	portal_group_redirect : REDIRECT . STR  (58)
+
+	STR  shift 148
+	.  error
+
+
+state 90
+	portal_group_tag : TAG . STR  (59)
+
+	STR  shift 149
+	.  error
+
+
+state 91
+	portal_group_entries : portal_group_entries portal_group_entry .  (40)
+	portal_group_entries : portal_group_entries portal_group_entry . SEMICOLON  (41)
+
+	SEMICOLON  shift 150
+	CLOSING_BRACKET  reduce 40
+	DISCOVERY_AUTH_GROUP  reduce 40
+	DISCOVERY_FILTER  reduce 40
+	FOREIGN  reduce 40
+	LISTEN  reduce 40
+	LISTEN_ISER  reduce 40
+	OFFLOAD  reduce 40
+	OPTION  reduce 40
+	REDIRECT  reduce 40
+	TAG  reduce 40
+
+
+state 92
+	portal_group_entry : portal_group_discovery_auth_group .  (42)
+
+	.  reduce 42
+
+
+state 93
+	portal_group_entry : portal_group_discovery_filter .  (43)
+
+	.  reduce 43
+
+
+state 94
+	portal_group_entry : portal_group_foreign .  (44)
+
+	.  reduce 44
+
+
+state 95
+	portal_group_entry : portal_group_listen .  (45)
+
+	.  reduce 45
+
+
+state 96
+	portal_group_entry : portal_group_listen_iser .  (46)
+
+	.  reduce 46
+
+
+state 97
+	portal_group_entry : portal_group_offload .  (47)
+
+	.  reduce 47
+
+
+state 98
+	portal_group_entry : portal_group_option .  (48)
+
+	.  reduce 48
+
+
+state 99
+	portal_group_entry : portal_group_redirect .  (49)
+
+	.  reduce 49
+
+
+state 100
+	portal_group_entry : portal_group_tag .  (50)
+
+	.  reduce 50
+
+
+state 101
+	target_alias : ALIAS . STR  (79)
+
+	STR  shift 151
+	.  error
+
+
+state 102
+	target_auth_group : AUTH_GROUP . STR  (80)
+
+	STR  shift 152
+	.  error
+
+
+state 103
+	target_auth_type : AUTH_TYPE . STR  (81)
+
+	STR  shift 153
+	.  error
+
+
+state 104
+	target_chap : CHAP . STR STR  (82)
+
+	STR  shift 154
+	.  error
+
+
+state 105
+	target_chap_mutual : CHAP_MUTUAL . STR STR STR STR  (83)
+
+	STR  shift 155
+	.  error
+
+
+state 106
+	target : TARGET target_name OPENING_BRACKET target_entries CLOSING_BRACKET .  (62)
+
+	.  reduce 62
+
+
+state 107
+	target_initiator_name : INITIATOR_NAME . STR  (84)
+
+	STR  shift 156
+	.  error
+
+
+state 108
+	target_initiator_portal : INITIATOR_PORTAL . STR  (85)
+
+	STR  shift 157
+	.  error
+
+
+state 109
+	target_lun : LUN . lun_number OPENING_BRACKET lun_entries CLOSING_BRACKET  (90)
+	target_lun_ref : LUN . STR STR  (92)
+
+	STR  shift 158
+	.  error
+
+	lun_number  goto 159
+
+
+state 110
+	target_port : PORT . STR  (88)
+
+	STR  shift 160
+	.  error
+
+
+state 111
+	target_portal_group : PORTAL_GROUP . STR STR  (86)
+	target_portal_group : PORTAL_GROUP . STR  (87)
+
+	STR  shift 161
+	.  error
+
+
+state 112
+	target_redirect : REDIRECT . STR  (89)
+
+	STR  shift 162
+	.  error
+
+
+state 113
+	target_entries : target_entries target_entry .  (65)
+	target_entries : target_entries target_entry . SEMICOLON  (66)
+
+	SEMICOLON  shift 163
+	ALIAS  reduce 65
+	AUTH_GROUP  reduce 65
+	AUTH_TYPE  reduce 65
+	CHAP  reduce 65
+	CHAP_MUTUAL  reduce 65
+	CLOSING_BRACKET  reduce 65
+	INITIATOR_NAME  reduce 65
+	INITIATOR_PORTAL  reduce 65
+	LUN  reduce 65
+	PORT  reduce 65
+	PORTAL_GROUP  reduce 65
+	REDIRECT  reduce 65
+
+
+state 114
+	target_entry : target_alias .  (67)
+
+	.  reduce 67
+
+
+state 115
+	target_entry : target_auth_group .  (68)
+
+	.  reduce 68
+
+
+state 116
+	target_entry : target_auth_type .  (69)
+
+	.  reduce 69
+
+
+state 117
+	target_entry : target_chap .  (70)
+
+	.  reduce 70
+
+
+state 118
+	target_entry : target_chap_mutual .  (71)
+
+	.  reduce 71
+
+
+state 119
+	target_entry : target_initiator_name .  (72)
+
+	.  reduce 72
+
+
+state 120
+	target_entry : target_initiator_portal .  (73)
+
+	.  reduce 73
+
+
+state 121
+	target_entry : target_portal_group .  (74)
+
+	.  reduce 74
+
+
+state 122
+	target_entry : target_port .  (75)
+
+	.  reduce 75
+
+
+state 123
+	target_entry : target_redirect .  (76)
+
+	.  reduce 76
+
+
+state 124
+	target_entry : target_lun .  (77)
+
+	.  reduce 77
+
+
+state 125
+	target_entry : target_lun_ref .  (78)
+
+	.  reduce 78
+
+
+state 126
+	auth_group_auth_type : AUTH_TYPE STR .  (32)
+
+	.  reduce 32
+
+
+state 127
+	auth_group_chap : CHAP STR . STR  (33)
+
+	STR  shift 164
+	.  error
+
+
+state 128
+	auth_group_chap_mutual : CHAP_MUTUAL STR . STR STR STR  (34)
+
+	STR  shift 165
+	.  error
+
+
+state 129
+	auth_group_initiator_name : INITIATOR_NAME STR .  (35)
+
+	.  reduce 35
+
+
+state 130
+	auth_group_initiator_portal : INITIATOR_PORTAL STR .  (36)
+
+	.  reduce 36
+
+
+state 131
+	auth_group_entries : auth_group_entries auth_group_entry SEMICOLON .  (26)
+
+	.  reduce 26
+
+
+state 132
+	lun_backend : BACKEND STR .  (105)
+
+	.  reduce 105
+
+
+state 133
+	lun_blocksize : BLOCKSIZE STR .  (106)
+
+	.  reduce 106
+
+
+state 134
+	lun_ctl_lun : CTL_LUN STR .  (109)
+
+	.  reduce 109
+
+
+state 135
+	lun_device_id : DEVICE_ID STR .  (107)
+
+	.  reduce 107
+
+
+state 136
+	lun_device_type : DEVICE_TYPE STR .  (108)
+
+	.  reduce 108
+
+
+state 137
+	lun_option : OPTION STR . STR  (110)
+
+	STR  shift 166
+	.  error
+
+
+state 138
+	lun_path : PATH STR .  (111)
+
+	.  reduce 111
+
+
+state 139
+	lun_serial : SERIAL STR .  (112)
+
+	.  reduce 112
+
+
+state 140
+	lun_size : SIZE STR .  (113)
+
+	.  reduce 113
+
+
+state 141
+	lun_entries : lun_entries lun_entry SEMICOLON .  (95)
+
+	.  reduce 95
+
+
+state 142
+	portal_group_discovery_auth_group : DISCOVERY_AUTH_GROUP STR .  (51)
+
+	.  reduce 51
+
+
+state 143
+	portal_group_discovery_filter : DISCOVERY_FILTER STR .  (52)
+
+	.  reduce 52
+
+
+state 144
+	portal_group_listen : LISTEN STR .  (54)
+
+	.  reduce 54
+
+
+state 145
+	portal_group_listen_iser : LISTEN_ISER STR .  (55)
+
+	.  reduce 55
+
+
+state 146
+	portal_group_offload : OFFLOAD STR .  (56)
+
+	.  reduce 56
+
+
+state 147
+	portal_group_option : OPTION STR . STR  (57)
+
+	STR  shift 167
+	.  error
+
+
+state 148
+	portal_group_redirect : REDIRECT STR .  (58)
+
+	.  reduce 58
+
+
+state 149
+	portal_group_tag : TAG STR .  (59)
+
+	.  reduce 59
+
+
+state 150
+	portal_group_entries : portal_group_entries portal_group_entry SEMICOLON .  (41)
+
+	.  reduce 41
+
+
+state 151
+	target_alias : ALIAS STR .  (79)
+
+	.  reduce 79
+
+
+state 152
+	target_auth_group : AUTH_GROUP STR .  (80)
+
+	.  reduce 80
+
+
+state 153
+	target_auth_type : AUTH_TYPE STR .  (81)
+
+	.  reduce 81
+
+
+state 154
+	target_chap : CHAP STR . STR  (82)
+
+	STR  shift 168
+	.  error
+
+
+state 155
+	target_chap_mutual : CHAP_MUTUAL STR . STR STR STR  (83)
+
+	STR  shift 169
+	.  error
+
+
+state 156
+	target_initiator_name : INITIATOR_NAME STR .  (84)
+
+	.  reduce 84
+
+
+state 157
+	target_initiator_portal : INITIATOR_PORTAL STR .  (85)
+
+	.  reduce 85
+
+
+state 158
+	lun_number : STR .  (91)
+	target_lun_ref : LUN STR . STR  (92)
+
+	STR  shift 170
+	OPENING_BRACKET  reduce 91
+
+
+state 159
+	target_lun : LUN lun_number . OPENING_BRACKET lun_entries CLOSING_BRACKET  (90)
+
+	OPENING_BRACKET  shift 171
+	.  error
+
+
+state 160
+	target_port : PORT STR .  (88)
+
+	.  reduce 88
+
+
+state 161
+	target_portal_group : PORTAL_GROUP STR . STR  (86)
+	target_portal_group : PORTAL_GROUP STR .  (87)
+
+	STR  shift 172
+	ALIAS  reduce 87
+	AUTH_GROUP  reduce 87
+	AUTH_TYPE  reduce 87
+	CHAP  reduce 87
+	CHAP_MUTUAL  reduce 87
+	CLOSING_BRACKET  reduce 87
+	INITIATOR_NAME  reduce 87
+	INITIATOR_PORTAL  reduce 87
+	LUN  reduce 87
+	PORT  reduce 87
+	PORTAL_GROUP  reduce 87
+	REDIRECT  reduce 87
+	SEMICOLON  reduce 87
+
+
+state 162
+	target_redirect : REDIRECT STR .  (89)
+
+	.  reduce 89
+
+
+state 163
+	target_entries : target_entries target_entry SEMICOLON .  (66)
+
+	.  reduce 66
+
+
+state 164
+	auth_group_chap : CHAP STR STR .  (33)
+
+	.  reduce 33
+
+
+state 165
+	auth_group_chap_mutual : CHAP_MUTUAL STR STR . STR STR  (34)
+
+	STR  shift 173
+	.  error
+
+
+state 166
+	lun_option : OPTION STR STR .  (110)
+
+	.  reduce 110
+
+
+state 167
+	portal_group_option : OPTION STR STR .  (57)
+
+	.  reduce 57
+
+
+state 168
+	target_chap : CHAP STR STR .  (82)
+
+	.  reduce 82
+
+
+state 169
+	target_chap_mutual : CHAP_MUTUAL STR STR . STR STR  (83)
+
+	STR  shift 174
+	.  error
+
+
+state 170
+	target_lun_ref : LUN STR STR .  (92)
+
+	.  reduce 92
+
+
+state 171
+	target_lun : LUN lun_number OPENING_BRACKET . lun_entries CLOSING_BRACKET  (90)
+	lun_entries : .  (93)
+
+	.  reduce 93
+
+	lun_entries  goto 175
+
+
+state 172
+	target_portal_group : PORTAL_GROUP STR STR .  (86)
+
+	.  reduce 86
+
+
+state 173
+	auth_group_chap_mutual : CHAP_MUTUAL STR STR STR . STR  (34)
+
+	STR  shift 176
+	.  error
+
+
+state 174
+	target_chap_mutual : CHAP_MUTUAL STR STR STR . STR  (83)
+
+	STR  shift 177
+	.  error
+
+
+state 175
+	target_lun : LUN lun_number OPENING_BRACKET lun_entries . CLOSING_BRACKET  (90)
+	lun_entries : lun_entries . lun_entry  (94)
+	lun_entries : lun_entries . lun_entry SEMICOLON  (95)
+
+	BACKEND  shift 61
+	BLOCKSIZE  shift 62
+	CLOSING_BRACKET  shift 178
+	CTL_LUN  shift 64
+	DEVICE_ID  shift 65
+	DEVICE_TYPE  shift 66
+	OPTION  shift 67
+	PATH  shift 68
+	SERIAL  shift 69
+	SIZE  shift 70
+	.  error
+
+	lun_entry  goto 71
+	lun_backend  goto 72
+	lun_blocksize  goto 73
+	lun_device_id  goto 74
+	lun_device_type  goto 75
+	lun_ctl_lun  goto 76
+	lun_option  goto 77
+	lun_path  goto 78
+	lun_serial  goto 79
+	lun_size  goto 80
+
+
+state 176
+	auth_group_chap_mutual : CHAP_MUTUAL STR STR STR STR .  (34)
+
+	.  reduce 34
+
+
+state 177
+	target_chap_mutual : CHAP_MUTUAL STR STR STR STR .  (83)
+
+	.  reduce 83
+
+
+state 178
+	target_lun : LUN lun_number OPENING_BRACKET lun_entries CLOSING_BRACKET .  (90)
+
+	.  reduce 90
+
+
+41 terminals, 62 nonterminals
+114 grammar rules, 179 states

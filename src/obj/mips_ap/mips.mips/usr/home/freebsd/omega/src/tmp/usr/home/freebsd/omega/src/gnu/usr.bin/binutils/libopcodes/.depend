@@ -1,0 +1,115 @@
+# -DBFD_DEFAULT_TARGET_SIZE=32 -I. -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../libbfd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../libbfd -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include -DARCH_mips -D_GNU_SOURCE -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/bfd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/mips-dis.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/mips-opc.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/mips16-opc.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/dis-buf.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/dis-init.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/disassemble.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/i386-opc.c
+mips-dis.o mips-dis.po mips-dis.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/mips-dis.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/sysdep.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/ansidecl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/dis-asm.h \
+  /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/opcode/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/opintl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/elf/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/elf/reloc-macros.h
+mips-opc.o mips-opc.po mips-opc.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/mips-opc.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/sysdep.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/ansidecl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/opcode/mips.h
+mips16-opc.o mips16-opc.po mips16-opc.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/mips16-opc.c \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/sysdep.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/ansidecl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/opcode/mips.h
+dis-buf.o dis-buf.po dis-buf.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/dis-buf.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/sysdep.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/ansidecl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/dis-asm.h \
+  /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/symcat.h \
+  /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/opintl.h
+dis-init.o dis-init.po dis-init.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/dis-init.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/sysdep.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/ansidecl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/dis-asm.h \
+  /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/symcat.h
+disassemble.o disassemble.po disassemble.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/disassemble.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/sysdep.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/ansidecl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/dis-asm.h \
+  /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/symcat.h
+i386-opc.o i386-opc.po i386-opc.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/i386-opc.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/sysdep.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/ansidecl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stddef.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/i386-opc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/include/opcode/i386.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libopcodes/../../../../contrib/binutils/opcodes/i386-tbl.h

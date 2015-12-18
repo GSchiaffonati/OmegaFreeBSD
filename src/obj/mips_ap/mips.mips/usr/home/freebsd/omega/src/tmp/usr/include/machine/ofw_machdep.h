@@ -1,0 +1,1 @@
+../../../sys/mips/include/ofw_machdep.h

@@ -1,0 +1,4 @@
+^(([eE]([vV][eE][tT])?)|([eE])|([yY]([eE][sS])?)|([yY]))
+^(([hH]([aA][yY][ıI][rR])?)|([hH]([aA][yY][iI][rR])?)|([hH])|([nN]([oO])?)|([nN]))
+evet:e:EVET:E:yes:y:YES:Y
+hayır:hayir:h:HAYIR:HAYİR:H:no:n:NO:N

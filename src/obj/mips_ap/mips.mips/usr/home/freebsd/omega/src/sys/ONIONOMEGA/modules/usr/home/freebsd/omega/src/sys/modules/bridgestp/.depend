@@ -1,0 +1,93 @@
+# -nostdinc -D_KERNEL -DKLD_MODULE -DHAVE_KERNEL_OPTION_HEADERS -I. -I/usr/home/freebsd/omega/src/sys -I/usr/home/freebsd/omega/obj/mips_ap/mips.mips/usr/home/freebsd/omega/src/sys/ONIONOMEGA -std=iso9899:1999 /usr/home/freebsd/omega/src/sys/modules/bridgestp/../../net/bridgestp.c
+bridgestp.o:  \
+ /usr/home/freebsd/omega/src/sys/modules/bridgestp/../../net/bridgestp.c \
+  /usr/home/freebsd/omega/src/sys/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/sys/sys/param.h \
+  /usr/home/freebsd/omega/src/sys/sys/_null.h \
+  /usr/home/freebsd/omega/src/sys/sys/types.h machine/endian.h \
+  /usr/home/freebsd/omega/src/sys/sys/_types.h machine/_types.h \
+  /usr/home/freebsd/omega/src/sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/select.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/sys/sys/errno.h \
+  /usr/home/freebsd/omega/src/sys/sys/time.h \
+  /usr/home/freebsd/omega/src/sys/sys/priority.h machine/param.h \
+  machine/_align.h machine/cpu.h machine/cpufunc.h machine/cpuregs.h \
+  machine/frame.h /usr/home/freebsd/omega/src/sys/sys/systm.h \
+  machine/atomic.h /usr/home/freebsd/omega/src/sys/sys/callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/_callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/queue.h \
+  /usr/home/freebsd/omega/src/sys/sys/stdint.h machine/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/libkern.h \
+  /usr/home/freebsd/omega/src/sys/sys/mbuf.h \
+  /usr/home/freebsd/omega/src/sys/vm/uma.h \
+  /usr/home/freebsd/omega/src/sys/sys/malloc.h \
+  /usr/home/freebsd/omega/src/sys/sys/_lock.h \
+  /usr/home/freebsd/omega/src/sys/sys/_mutex.h \
+  /usr/home/freebsd/omega/src/sys/sys/socket.h \
+  /usr/home/freebsd/omega/src/sys/sys/_iovec.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sockaddr_storage.h \
+  /usr/home/freebsd/omega/src/sys/sys/sockio.h \
+  /usr/home/freebsd/omega/src/sys/sys/ioccom.h \
+  /usr/home/freebsd/omega/src/sys/sys/kernel.h \
+  /usr/home/freebsd/omega/src/sys/sys/linker_set.h \
+  /usr/home/freebsd/omega/src/sys/sys/module.h \
+  /usr/home/freebsd/omega/src/sys/sys/proc.h \
+  /usr/home/freebsd/omega/src/sys/sys/event.h \
+  /usr/home/freebsd/omega/src/sys/sys/condvar.h \
+  /usr/home/freebsd/omega/src/sys/sys/lock_profile.h \
+  /usr/home/freebsd/omega/src/sys/sys/osd.h \
+  /usr/home/freebsd/omega/src/sys/sys/rtprio.h \
+  /usr/home/freebsd/omega/src/sys/sys/runq.h machine/runq.h \
+  /usr/home/freebsd/omega/src/sys/sys/resource.h \
+  /usr/home/freebsd/omega/src/sys/sys/sigio.h \
+  /usr/home/freebsd/omega/src/sys/sys/signal.h machine/_limits.h \
+  machine/signal.h /usr/home/freebsd/omega/src/sys/sys/signalvar.h \
+  /usr/home/freebsd/omega/src/sys/sys/pcpu.h \
+  /usr/home/freebsd/omega/src/sys/sys/_cpuset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_bitset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sx.h \
+  /usr/home/freebsd/omega/src/sys/sys/_rmlock.h \
+  /usr/home/freebsd/omega/src/sys/sys/vmmeter.h machine/pcpu.h \
+  machine/pte.h /usr/home/freebsd/omega/src/sys/sys/ucontext.h \
+  machine/ucontext.h /usr/home/freebsd/omega/src/sys/sys/ucred.h \
+  /usr/home/freebsd/omega/src/sys/bsm/audit.h \
+  /usr/home/freebsd/omega/src/sys/sys/_vm_domain.h \
+  /usr/home/freebsd/omega/src/sys/sys/seq.h \
+  /usr/home/freebsd/omega/src/sys/sys/lock.h \
+  /usr/home/freebsd/omega/src/sys/sys/ktr_class.h machine/proc.h \
+  /usr/home/freebsd/omega/src/sys/sys/mutex.h \
+  /usr/home/freebsd/omega/src/sys/sys/lockstat.h \
+  /usr/home/freebsd/omega/src/sys/sys/sdt.h \
+  /usr/home/freebsd/omega/src/sys/sys/taskqueue.h \
+  /usr/home/freebsd/omega/src/sys/sys/_task.h \
+  /usr/home/freebsd/omega/src/sys/net/if.h \
+  /usr/home/freebsd/omega/src/sys/net/if_var.h \
+  /usr/home/freebsd/omega/src/sys/sys/buf_ring.h \
+  /usr/home/freebsd/omega/src/sys/net/vnet.h \
+  /usr/home/freebsd/omega/src/sys/sys/counter.h machine/counter.h \
+  /usr/home/freebsd/omega/src/sys/sys/rwlock.h \
+  /usr/home/freebsd/omega/src/sys/sys/_rwlock.h \
+  /usr/home/freebsd/omega/src/sys/sys/sx.h \
+  /usr/home/freebsd/omega/src/sys/net/altq/if_altq.h \
+  /usr/home/freebsd/omega/src/sys/net/ifq.h \
+  /usr/home/freebsd/omega/src/sys/net/if_dl.h \
+  /usr/home/freebsd/omega/src/sys/net/if_types.h \
+  /usr/home/freebsd/omega/src/sys/net/if_llc.h \
+  /usr/home/freebsd/omega/src/sys/net/if_media.h \
+  /usr/home/freebsd/omega/src/sys/netinet/in.h \
+  /usr/home/freebsd/omega/src/sys/netinet6/in6.h \
+  /usr/home/freebsd/omega/src/sys/netinet/in_systm.h \
+  /usr/home/freebsd/omega/src/sys/netinet/in_var.h \
+  /usr/home/freebsd/omega/src/sys/sys/fnv_hash.h \
+  /usr/home/freebsd/omega/src/sys/sys/tree.h \
+  /usr/home/freebsd/omega/src/sys/netinet6/in6_var.h \
+  /usr/home/freebsd/omega/src/sys/netinet/if_ether.h \
+  /usr/home/freebsd/omega/src/sys/net/ethernet.h \
+  /usr/home/freebsd/omega/src/sys/net/if_arp.h \
+  /usr/home/freebsd/omega/src/sys/net/bridgestp.h

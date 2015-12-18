@@ -1,0 +1,229 @@
+# bsdbox.cache - parm cache generated from bsdbox.conf by crunchgen  0.2
+
+
+special ls srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/ls
+special ls objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/ls
+special ls objs cmp.o ls.o print.o util.o
+
+special cat srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/cat
+special cat objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/cat
+special cat objs cat.o
+
+special dd srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/dd
+special dd objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/dd
+special dd objs args.o conv.o conv_tab.o dd.o misc.o position.o
+
+special df srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/df
+special df objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/df
+special df objs df.o vfslist.o
+
+special cp srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/cp
+special cp objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/cp
+special cp objs cp.o utils.o
+
+special hostname srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/hostname
+special hostname objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/hostname
+special hostname objs hostname.o
+
+special kill srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/kill
+special kill objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/kill
+special kill objs kill.o
+
+special mkdir srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/mkdir
+special mkdir objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/mkdir
+special mkdir objs mkdir.o
+
+special sleep srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/sleep
+special sleep objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/sleep
+special sleep objs sleep.o
+
+special ps srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/ps
+special ps objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/ps
+special ps objs fmt.o keyword.o nlist.o print.o ps.o
+
+special ln srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/ln
+special ln objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/ln
+special ln objs ln.o
+
+special rm srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/rm
+special rm objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/rm
+special rm objs rm.o
+
+special kenv srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/kenv
+special kenv objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/kenv
+special kenv objs kenv.o
+
+special mv srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/mv
+special mv objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/mv
+special mv objs mv.o
+
+special expr srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/expr
+special expr objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/expr
+special expr objs expr.o
+
+special sh srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../bin/sh
+special sh objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/bin/sh
+special sh objs alias.o arith_yacc.o arith_yylex.o cd.o echo.o error.o eval.o exec.o expand.o histedit.o input.o jobs.o kill.o mail.o main.o memalloc.o miscbltin.o mystring.o options.o output.o parser.o printf.o redir.o show.o test.o trap.o var.o builtins.o nodes.o syntax.o
+
+special dmesg srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/dmesg
+special dmesg objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/dmesg
+special dmesg objs dmesg.o
+
+special sysctl srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/sysctl
+special sysctl objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/sysctl
+special sysctl objs sysctl.o
+
+special init srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/init
+special init objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/init
+special init objs init.o getmntopts.o
+
+special reboot srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/reboot
+special reboot objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/reboot
+special reboot objs reboot.o
+
+special mount srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/mount
+special mount objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/mount
+special mount objs mount.o mount_fs.o getmntopts.o vfslist.o
+
+special umount srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/umount
+special umount objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/umount
+special umount objs umount.o vfslist.o mounttab.o
+
+special route srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/route
+special route objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/route
+special route objs route.o
+
+special ping srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/ping
+special ping objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/ping
+special ping objs ping.o
+
+special ifconfig srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/ifconfig
+special ifconfig objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/ifconfig
+special ifconfig objs ifconfig.o af_link.o af_inet.o af_inet6.o af_nd6.o ifclone.o ifmac.o ifmedia.o iffib.o ifvlan.o ifvxlan.o ifgre.o ifgif.o sfp.o ifieee80211.o carp.o ifgroup.o ifpfsync.o ifbridge.o iflagg.o
+
+special kldload srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/kldload
+special kldload objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/kldload
+special kldload objs kldload.o
+
+special kldunload srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/kldunload
+special kldunload objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/kldunload
+special kldunload objs kldunload.o
+
+special kldstat srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/kldstat
+special kldstat objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/kldstat
+special kldstat objs kldstat.o
+
+special mdmfs srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/mdmfs
+special mdmfs objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/mdmfs
+special mdmfs objs mdmfs.o
+
+special mdconfig srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/mdconfig
+special mdconfig objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/mdconfig
+special mdconfig objs mdconfig.o
+
+special newfs srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../sbin/newfs
+special newfs objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/sbin/newfs
+special newfs objs newfs.o mkfs.o geom_bsd_enc.o
+
+special true srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/true
+special true objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/true
+special true objs true.o
+
+special false srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/false
+special false objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/false
+special false objs false.o
+
+special hexdump srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/hexdump
+special hexdump objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/hexdump
+special hexdump objs conv.o display.o hexdump.o hexsyntax.o odsyntax.o parse.o
+
+special tail srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/tail
+special tail objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/tail
+special tail objs forward.o misc.o read.o reverse.o tail.o
+
+special nc srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/nc
+special nc objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/nc
+special nc objs netcat.o atomicio.o socks.o
+
+special w srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/w
+special w objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/w
+special w objs fmt.o pr_time.o proc_compare.o w.o
+
+special head srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/head
+special head objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/head
+special head objs head.o
+
+special uname srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/uname
+special uname objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/uname
+special uname objs uname.o
+
+special tset srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/tset
+special tset objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/tset
+special tset objs map.o misc.o set.o term.o tset.o wrterm.o
+
+special vmstat srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/vmstat
+special vmstat objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/vmstat
+special vmstat objs vmstat.o
+
+special cpio srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/cpio
+special cpio objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/cpio
+special cpio objs cpio.o cmdline.o err.o line_reader.o
+
+special tput srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/tput
+special tput objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/tput
+special tput objs tput.o
+
+special passwd srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/passwd
+special passwd objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/passwd
+special passwd objs passwd.o
+
+special gzip srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/gzip
+special gzip objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/gzip
+special gzip objs gzip.o
+
+special netstat srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/netstat
+special netstat objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/netstat
+special netstat objs if.o inet.o main.o mbuf.o mroute.o netisr.o nl_symbols.o route.o unix.o mroute6.o ipsec.o bpf.o pfkey.o sctp.o flowtable.o inet6.o netgraph.o
+
+special cap_mkdb srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.bin/cap_mkdb
+special cap_mkdb objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.bin/cap_mkdb
+special cap_mkdb objs cap_mkdb.o
+
+special gpioctl srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/gpioctl
+special gpioctl objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/gpioctl
+special gpioctl objs gpioctl.o
+
+special chown srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/chown
+special chown objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/chown
+special chown objs chown.o
+
+special arp srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/arp
+special arp objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/arp
+special arp objs arp.o
+
+special inetd srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/inetd
+special inetd objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/inetd
+special inetd objs inetd.o builtins.o
+
+special wlandebug srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/wlandebug
+special wlandebug objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/wlandebug
+special wlandebug objs wlandebug.o
+
+special tcpdump srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/tcpdump
+special tcpdump objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/tcpdump
+
+special hostapd srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/wpa/hostapd
+special hostapd objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/wpa/hostapd
+special hostapd objs accounting.o aes-omac1.o ap_config.o ap_drv_ops.o ap_mlme.o authsrv.o base64.o beacon.o bss_load.o chap.o common.o config_file.o ctrl_iface.o ctrl_iface_ap.o driver_common.o l2_packet_freebsd.o driver_bsd.o drivers.o drv_callbacks.o eap_common.o eap_peap_common.o eap_register.o eap_server.o eap_server_methods.o eap_user_db.o eapol_auth_dump.o eapol_auth_sm.o eloop.o gas.o gas_serv.o hostapd.o hs20.o http_client.o http_server.o httpread.o hw_features_common.o ieee802_11_auth.o ieee802_11_common.o ieee802_11_shared.o ieee802_1x.o ip_addr.o main.o ms_funcs.o os_unix.o peerkey_auth.o pmksa_cache_auth.o preauth_auth.o radius.o radius_client.o radius_das.o sta_info.o tkip_countermeasures.o upnp_xml.o utils.o uuid.o vlan_init.o wpa_auth.o wpa_auth_glue.o wpa_auth_ie.o wpa_common.o wpa_debug.o wpabuf.o wps.o wps_attr_build.o wps_attr_parse.o wps_attr_process.o wps_common.o wps_dev_attr.o wps_enrollee.o wps_hostapd.o wps_registrar.o wps_upnp.o wps_upnp_ap.o wps_upnp_event.o wps_upnp_ssdp.o wps_upnp_web.o eap_server_gtc.o eap_server_identity.o eap_server_md5.o eap_server_mschapv2.o eap_server_peap.o eap_server_tls.o eap_server_tls_common.o eap_server_ttls.o eap_server_wsc.o eap_wsc_common.o eap_sim_common.o eap_sim_db.o crypto_openssl.o random.o sha1-prf.o sha256-prf.o sha256-tlsprf.o tls_openssl.o fips_prf_openssl.o sha1-tlsprf.o
+
+special hostapd_cli srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/wpa/hostapd_cli
+special hostapd_cli objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/wpa/hostapd_cli
+special hostapd_cli objs common.o edit.o eloop.o hostapd_cli.o os_unix.o wpa_ctrl.o wpa_debug.o
+
+special pwd_mkdb srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../usr.sbin/pwd_mkdb
+special pwd_mkdb objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/usr.sbin/pwd_mkdb
+special pwd_mkdb objs pw_scan.o pwd_mkdb.o
+
+special getty srcdir /usr/home/freebsd/omega/src/tools/bsdbox/../../libexec/getty
+special getty objdir /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/bsdbox//usr/home/freebsd/omega/src/libexec/getty
+special getty objs main.o init.o subr.o chat.o

@@ -1,0 +1,210 @@
+# -DHAVE_FCNTL_H=1 -DHAVE_MKSTEMP=1 -DMAXTABLE=INT_MAX -DMIXEDCASE_FILENAMES=1 -DYYPATCH=20141006 -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/closure.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/error.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/graph.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/lalr.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/lr0.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/main.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/mkpar.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/mstring.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/output.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/reader.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/yaccpar.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/symtab.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/verbose.c /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/warshall.c
+closure.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/closure.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+error.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/error.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+graph.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/graph.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+lalr.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/lalr.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+lr0.o: /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/lr0.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+main.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/main.c \
+  /usr/include/signal.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/signal.h \
+  /usr/include/sys/_sigset.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/unistd.h /usr/include/sys/_null.h \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h
+mkpar.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/mkpar.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+mstring.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/mstring.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/errno.h \
+  /usr/include/assert.h
+output.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/output.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+reader.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/reader.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+yaccpar.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/yaccpar.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+symtab.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/symtab.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+verbose.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/verbose.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+warshall.o: \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/warshall.c \
+  /usr/home/freebsd/omega/src/usr.bin/yacc/../../contrib/byacc/defs.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/errno.h /usr/include/assert.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h
+yacc.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

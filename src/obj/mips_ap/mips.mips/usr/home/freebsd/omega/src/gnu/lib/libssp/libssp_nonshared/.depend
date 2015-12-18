@@ -1,0 +1,4 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/lib/libssp/libssp_nonshared/.. -I/usr/home/freebsd/omega/src/gnu/lib/libssp/libssp_nonshared/../../../../contrib/gcclibs/libssp -I/usr/home/freebsd/omega/src/gnu/lib/libssp/libssp_nonshared/../../../../contrib/gcclibs/include -DPIC -std=gnu99 /usr/home/freebsd/omega/src/gnu/lib/libssp/libssp_nonshared/../../../../contrib/gcclibs/libssp/ssp-local.c
+ssp-local.o ssp-local.po ssp-local.So:  \
+ /usr/home/freebsd/omega/src/gnu/lib/libssp/libssp_nonshared/../../../../contrib/gcclibs/libssp/ssp-local.c \
+  /usr/home/freebsd/omega/src/gnu/lib/libssp/libssp_nonshared/../config.h

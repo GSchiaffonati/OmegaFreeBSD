@@ -1,0 +1,4 @@
+# -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/false/false.c
+false.o: /usr/home/freebsd/omega/src/usr.bin/false/false.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h
+false.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a

@@ -1,0 +1,4 @@
+^(([tT]([aA][iI][pP])?)|([tT])|([yY]([eE][sS])?)|([yY]))
+^(([nN]([eE])?)|([nN])|([nN]([oO])?)|([nN]))
+taip:t:TAIP:T:yes:y:YES:Y
+ne:n:NE:N:no:n:NO:N

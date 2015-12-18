@@ -1,0 +1,70 @@
+# -DNLIST_ELF32 -DNLIST_ELF64 -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/crunchide.c /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/exec_elf32.c /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/exec_elf64.c
+crunchide.o: \
+  /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/crunchide.c \
+  /usr/include/sys/cdefs.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_time.h \
+  /usr/include/sys/errno.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/fcntl.h /usr/include/a.out.h /usr/include/machine/exec.h \
+  /usr/include/sys/endian.h /usr/include/sys/imgact_aout.h \
+  /usr/include/machine/reloc.h /usr/include/nlist.h \
+  /usr/include/sys/nlist_aout.h \
+  /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/extern.h
+exec_elf32.o: \
+  /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/exec_elf32.c \
+  /usr/include/sys/cdefs.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/endian.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h /usr/include/sys/_null.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stddef.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/extern.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf_generic.h
+exec_elf64.o: \
+  /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/exec_elf64.c \
+  /usr/include/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/exec_elf32.c \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/endian.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_time.h \
+  /usr/include/errno.h /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/stddef.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.sbin/crunch/crunchide/extern.h \
+  /usr/include/sys/elf64.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf_generic.h
+crunchide.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

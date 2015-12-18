@@ -1,0 +1,470 @@
+# -DCTF_OLD_VERSIONS -I/usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris -I/usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include -I/usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/head -I/usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf -I/usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/lib/libctf/common -I/usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common -DNEED_SOLARIS_BOOLEAN -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_create.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_decl.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_error.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_hash.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_labels.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/lib/libctf/common/ctf_lib.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_lookup.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_open.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/lib/libctf/common/ctf_subr.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_types.c /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_util.c
+ctf_create.o ctf_create.po ctf_create.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_create.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/mman.h \
+  /usr/include/sys/mman.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/debug.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/debug.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/note.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/assfail.h
+ctf_decl.o ctf_decl.po ctf_decl.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_decl.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h
+ctf_error.o ctf_error.po ctf_error.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_error.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h
+ctf_hash.o ctf_hash.po ctf_hash.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_hash.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h
+ctf_labels.o ctf_labels.po ctf_labels.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_labels.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h
+ctf_lib.o ctf_lib.po ctf_lib.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/lib/libctf/common/ctf_lib.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/stat.h \
+  /usr/include/sys/stat.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/time.h \
+  /usr/include/sys/time.h /usr/include/time.h /usr/include/sys/_null.h \
+  /usr/include/xlocale/_time.h /usr/include/sys/disk.h \
+  /usr/include/sys/ioccom.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/mman.h \
+  /usr/include/sys/mman.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/zmod.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/fcntl.h \
+  /usr/include/fcntl.h /usr/include/zlib.h /usr/include/zconf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h
+ctf_lookup.o ctf_lookup.po ctf_lookup.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_lookup.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h
+ctf_open.o ctf_open.po ctf_open.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_open.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/mman.h \
+  /usr/include/sys/mman.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/zmod.h
+ctf_subr.o ctf_subr.po ctf_subr.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/lib/libctf/common/ctf_subr.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/mman.h \
+  /usr/include/sys/mman.h
+ctf_types.o ctf_types.po ctf_types.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_types.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h
+ctf_util.o ctf_util.po ctf_util.So: \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_util.c \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_impl.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/types.h \
+  /usr/include/sys/stdint.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/errno.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/sysmacros.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/param.h \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/isa_defs.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/compat/opensolaris/sys/elf.h \
+  /usr/include/sys/elf.h /usr/include/machine/elf.h \
+  /usr/include/x86/elf.h /usr/include/sys/elf32.h \
+  /usr/include/sys/elf_common.h /usr/include/sys/elf64.h \
+  /usr/include/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../sys/cddl/contrib/opensolaris/uts/common/sys/ctf.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/strings.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/string.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/cddl/lib/libctf/../../../cddl/compat/opensolaris/include/stdio.h \
+  /usr/include/stdio.h /usr/include/limits.h /usr/include/ctype.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h

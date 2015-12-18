@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Restore the configuration from the cfg partition.
+
+. /etc/board.cfg || exit 1
+
+echo "*** Restoring from ${CFG_PATH} .. "
+cd /
+dd if=${CFG_PATH} bs=${CFG_SIZE} | gunzip | cpio -iudv || exit 1
+
+echo "*** Completed."

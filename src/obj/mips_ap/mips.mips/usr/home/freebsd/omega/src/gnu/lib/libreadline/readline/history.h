@@ -1,0 +1,1 @@
+/usr/home/freebsd/omega/src/gnu/lib/libreadline/readline/../../../../contrib/libreadline/history.h

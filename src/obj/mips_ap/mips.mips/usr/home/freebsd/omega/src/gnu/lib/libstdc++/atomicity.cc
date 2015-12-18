@@ -1,0 +1,1 @@
+/usr/home/freebsd/omega/src/gnu/lib/libstdc++/../../../contrib/libstdc++/config/cpu/mips/atomicity.h

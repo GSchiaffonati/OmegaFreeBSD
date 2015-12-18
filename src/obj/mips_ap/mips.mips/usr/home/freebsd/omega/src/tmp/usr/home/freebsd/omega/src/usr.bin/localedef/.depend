@@ -1,0 +1,245 @@
+# -I. -I/usr/home/freebsd/omega/src/usr.bin/localedef -I/usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale -I/usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/stdtime -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/localedef/charmap.c /usr/home/freebsd/omega/src/usr.bin/localedef/collate.c /usr/home/freebsd/omega/src/usr.bin/localedef/ctype.c /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.c /usr/home/freebsd/omega/src/usr.bin/localedef/messages.c /usr/home/freebsd/omega/src/usr.bin/localedef/monetary.c /usr/home/freebsd/omega/src/usr.bin/localedef/numeric.c parser.c /usr/home/freebsd/omega/src/usr.bin/localedef/scanner.c /usr/home/freebsd/omega/src/usr.bin/localedef/time.c /usr/home/freebsd/omega/src/usr.bin/localedef/wide.c
+charmap.o: /usr/home/freebsd/omega/src/usr.bin/localedef/charmap.c \
+  /usr/include/sys/cdefs.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/tree.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h
+collate.o: /usr/home/freebsd/omega/src/usr.bin/localedef/collate.c \
+  /usr/include/sys/cdefs.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/tree.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/errno.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/wchar.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_wchar.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/collate.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/xlocale_private.h \
+  /usr/include/xlocale.h /usr/include/locale.h \
+  /usr/include/xlocale/_locale.h /usr/include/xlocale/_stdlib.h \
+  /usr/include/xlocale/_stdio.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/machine/atomic.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/setlocale.h
+ctype.o: /usr/home/freebsd/omega/src/usr.bin/localedef/ctype.c \
+  /usr/include/sys/cdefs.h /usr/include/sys/tree.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stddef.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/wchar.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_wchar.h /usr/include/ctype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/wctype.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/runefile.h
+localedef.o: /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/errno.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/libgen.h /usr/include/stddef.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/locale.h \
+  /usr/include/xlocale/_locale.h /usr/include/dirent.h \
+  /usr/include/sys/dirent.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h
+messages.o: /usr/home/freebsd/omega/src/usr.bin/localedef/messages.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/errno.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/lmessages.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/xlocale_private.h \
+  /usr/include/xlocale.h /usr/include/locale.h \
+  /usr/include/xlocale/_locale.h /usr/include/xlocale/_stdlib.h \
+  /usr/include/xlocale/_stdio.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/machine/atomic.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/setlocale.h
+monetary.o: /usr/home/freebsd/omega/src/usr.bin/localedef/monetary.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/errno.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/lmonetary.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/xlocale_private.h \
+  /usr/include/xlocale.h /usr/include/locale.h \
+  /usr/include/xlocale/_locale.h /usr/include/xlocale/_stdlib.h \
+  /usr/include/xlocale/_stdio.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/machine/atomic.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/setlocale.h
+numeric.o: /usr/home/freebsd/omega/src/usr.bin/localedef/numeric.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/errno.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/lnumeric.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/xlocale_private.h \
+  /usr/include/xlocale.h /usr/include/locale.h \
+  /usr/include/xlocale/_locale.h /usr/include/xlocale/_stdlib.h \
+  /usr/include/xlocale/_stdio.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/machine/atomic.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/setlocale.h
+parser.o: parser.c /usr/include/wchar.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_wchar.h /usr/include/stdio.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h
+scanner.o: /usr/home/freebsd/omega/src/usr.bin/localedef/scanner.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/wchar.h \
+  /usr/include/xlocale/_wchar.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/assert.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h
+time.o: /usr/home/freebsd/omega/src/usr.bin/localedef/time.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/errno.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h parser.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/stdtime/timelocal.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/xlocale_private.h \
+  /usr/include/xlocale.h /usr/include/locale.h \
+  /usr/include/xlocale/_locale.h /usr/include/xlocale/_stdlib.h \
+  /usr/include/xlocale/_stdio.h /usr/include/stdint.h \
+  /usr/include/machine/_stdint.h /usr/include/x86/_stdint.h \
+  /usr/include/machine/atomic.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/../../lib/libc/locale/setlocale.h
+wide.o: /usr/home/freebsd/omega/src/usr.bin/localedef/wide.c \
+  /usr/include/sys/cdefs.h /usr/include/ctype.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/wchar.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/xlocale/_wchar.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/usr.bin/localedef/localedef.h \
+  /usr/include/stdio.h /usr/include/stdarg.h /usr/include/x86/stdarg.h
+localedef.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

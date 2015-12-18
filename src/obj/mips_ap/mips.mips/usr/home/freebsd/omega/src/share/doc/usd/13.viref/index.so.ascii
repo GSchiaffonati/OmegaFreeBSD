@@ -1,0 +1,260 @@
+! 	30, 60
+"" 	59
+# 	31, 61
+$ 	31
+% 	32
+& 	32, 73
+\&'<character> 	33
+( 	33
+) 	34
+* 	61
++ 	27
+, 	34
+- 	34
+\&. 	35
+/RE/ 	35
+0 	36
+0<control-D> 	54
+: 	36
+; 	37
+< 	37, 61
+<carriage-return> 	20
+<control-A> 	25
+<control-B> 	25
+<control-D> 	25, 54, 60
+<control-E> 	26
+<control-F> 	26
+<control-G> 	26
+<control-H> 	26, 54
+<control-J> 	27
+<control-L> 	27
+<control-M> 	27
+<control-N> 	27
+<control-P> 	27
+<control-R> 	27
+<control-T> 	28, 54
+<control-U> 	28
+<control-W> 	28, 55
+<control-X> 	55
+<control-Y> 	28
+<control-Z> 	29, 74
+<control-]> 	29
+<control-^> 	29
+<end-of-file> 	58, 60
+<erase> 	54
+<escape> 	29, 55
+<interrupt> 	17, 53, 55
+<line erase> 	55
+<literal-next> 	17, 54
+<newline> 	20
+<nul> 	54
+<space> 	30
+<word erase> 	55
+= 	62
+> 	37, 62
+?RE? 	35
+@ 	38, 61
+A 	38
+B 	38
+C 	39
+D 	39
+E 	39
+F 	40
+G 	40
+H 	40
+I 	40
+J 	41
+L 	41
+M 	41
+N 	35
+O 	42
+P 	42
+Q 	42
+R 	42
+S 	43
+T 	43
+U 	43
+W 	43
+X 	44
+Y 	44
+ZZ 	44
+[[ 	44
+]] 	45
+^ 	45
+^<control-D> 	54
+_ 	45
+`<character> 	33
+a 	45
+abbrev 	62
+alternate pathname 	18
+altwerase 	80
+append 	63
+args 	63
+autoindent 	80
+autoprint 	81
+autowrite 	81
+b 	46
+backup 	81
+beautify 	82
+bg 	63
+bigword 	24
+buffer 	18
+c 	46
+cd 	64
+cdpath 	82
+cedit 	82
+change 	64
+chdir 	64
+columns 	83
+comment 	83
+copy 	64
+count 	23, 58
+cscope 	64
+current pathname 	18
+d 	46
+delete 	64
+directory 	83
+display 	65
+e 	47
+edcompatible 	83
+edit 	65
+errorbells 	83
+escapetime 	83
+exrc 	83
+extended 	84
+exusage 	66
+f 	47
+fg 	66
+file 	58, 66
+filec 	84
+flags 	58
+flash 	84
+global 	66
+hardtabs 	84
+help 	67
+i 	47
+iclower 	84
+ignorecase 	85
+insert 	67
+j 	27
+join 	68
+k 	27, 69
+keytime 	85
+l 	30
+leftright 	85
+line 	58
+lines 	85
+lisp 	85
+list 	68, 85
+lock 	85
+m 	47
+magic 	85
+map 	68
+mark 	69
+matchtime 	86
+mesg 	86
+mkexrc 	69
+modelines 	86
+motion 	22
+move 	69
+msgcat 	86
+n 	35
+next 	69
+noprint 	87
+number 	61, 87
+o 	48
+octal 	87
+open 	70, 87
+optimize 	87
+p 	48
+paragraph 	24
+paragraphs 	87
+path 	88
+preserve 	70
+previous 	70
+previous context 	22
+print 	71, 88
+prompt 	88
+put 	71
+quit 	71
+r 	48
+range 	58
+read 	71
+readonly 	88
+recdir 	88
+recover 	72
+redraw 	89
+remap 	89
+report 	89
+resize 	72
+rewind 	72
+ruler 	89
+s 	48
+scroll 	90
+searchincr 	90
+section 	24
+sections 	90
+secure 	90
+sentence 	24
+set 	72
+shell 	73, 90
+shellmeta 	90
+shiftwidth 	91
+showmatch 	91
+showmode 	91
+sidescroll 	91
+slowopen 	91
+source 	73
+sourceany 	91
+stop 	74
+substitute 	73
+suspend 	74
+t 	49, 64
+tabstop 	91
+tag 	74
+taglength 	91
+tagnext 	75
+tagpop 	75
+tagprev 	75
+tags 	92
+tagtop 	76
+term 	92
+terse 	92
+tildeop 	92
+timeout 	92
+ttywerase 	92
+u 	49
+unabbrev 	76
+undo 	76
+unmap 	76
+unnamed buffer 	19
+v 	67
+verbose 	92
+version 	76
+visual 	76, 77
+viusage 	77
+w 	49
+w1200 	92
+w300 	92
+w9600 	93
+warn 	93
+whitespace 	20
+window 	93
+windowname 	93
+wn 	77
+word 	23
+wq 	77
+wraplen 	93
+wrapmargin 	94
+wrapscan 	94
+write 	77
+writeany 	94
+x 	50
+xit 	78
+y 	50
+yank 	78
+z 	50, 78
+{ 	51
+| 	51
+} 	52
+~ 	52, 73

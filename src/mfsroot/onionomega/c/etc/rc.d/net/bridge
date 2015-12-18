@@ -1,0 +1,77 @@
+#!/bin/sh
+
+# This configures a bridge device
+
+. /etc/rc.subr
+. /etc/rc.conf.default
+. /etc/cfg/rc.conf
+
+# variables:
+#
+# netif_IF_type="bridge"
+# netif_IF_enable="yes|no"
+# netif_IF_addrtype="static|dhcp"
+# netif_IF_descr="description"
+# netif_IF_name="bridge0"
+# netif_IF_members_stp="arge0"
+# netif_IF_members="wlan0"
+#
+# for static addresses:
+# netif_IF_ipv4_address="x.x.x.x"
+# netif_IF_ipv4_netmask="y.y.y.y"
+#
+# TODO: speed/duplex
+
+cmd=$1
+shift
+
+ifname=$1
+shift
+
+interface_enable=`get_if_var $ifname netif_IF_enable no`
+interface_addrtype=`get_if_var $ifname netif_IF_addrtype`
+interface_descr=`get_if_var $ifname netif_IF_descr`
+interface_name=`get_if_var $ifname netif_IF_name`
+interface_members_stp=`get_if_var $ifname netif_IF_members_stp`
+interface_members=`get_if_var $ifname netif_IF_members`
+
+interface_ipv4_address=`get_if_var $ifname netif_IF_ipv4_address`
+interface_ipv4_netmask=`get_if_var $ifname netif_IF_ipv4_netmask`
+
+case $cmd in
+	'start')
+		echo "*** Interface: ${ifname}: start"
+		ifconfig ${interface_name} create
+		ifconfig ${interface_name} up
+
+		# XXX force MAC address?
+
+		for i in ${interface_members}; do
+			ifconfig ${interface_name} addm ${i} -stp ${i}
+		done
+		for i in ${interface_members_stp}; do
+			ifconfig ${interface_name} addm ${i}
+		done
+		
+		if [ "x${interface_addrtype}" = "xstatic" ]; then
+			ifconfig ${interface_name} inet ${interface_ipv4_address} netmask \
+			    ${interface_ipv4_netmask}
+		elif [ "x${interface_addrtype}" = "xdhcp" ]; then
+			dhclient ${interface_name} &
+		fi
+		echo "*** Interface: ${ifname}: done"
+		exit 0
+	;;
+	'stop')
+		echo "*** Interface: ${ifname}: stop"
+		ifconfig ${interface_name} down
+		# XXX should there be up/down/destroy options?
+		ifconfig ${interface_name} destroy
+		echo "*** Interface: ${ifname}: done"
+		exit 0
+	;;
+	*)
+		echo "Usage: $0 {start|stop} {name}"
+esac
+
+exit 0

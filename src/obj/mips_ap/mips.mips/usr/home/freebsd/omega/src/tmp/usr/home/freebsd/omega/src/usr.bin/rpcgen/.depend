@@ -1,0 +1,181 @@
+# -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_main.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_clntout.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_cout.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_hout.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_sample.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_svcout.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_tblout.c /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.c
+rpc_main.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_main.c \
+  /usr/include/sys/cdefs.h /usr/include/err.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/include/sys/param.h /usr/include/sys/syslimits.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/machine/param.h \
+  /usr/include/machine/_align.h /usr/include/x86/_align.h \
+  /usr/include/sys/limits.h /usr/include/sys/file.h \
+  /usr/include/sys/fcntl.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_clntout.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_clntout.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/rpc/types.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/time.h \
+  /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/include/netconfig.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_cout.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_cout.c \
+  /usr/include/sys/cdefs.h /usr/include/ctype.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_hout.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_hout.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_parse.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/rpc/types.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/time.h \
+  /usr/include/time.h /usr/include/xlocale/_time.h \
+  /usr/include/netconfig.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_sample.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_sample.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_scan.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.c \
+  /usr/include/sys/cdefs.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/wait.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_svcout.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_svcout.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_tblout.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_tblout.c \
+  /usr/include/sys/cdefs.h /usr/include/err.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpc_util.o: /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.c \
+  /usr/include/sys/cdefs.h /usr/include/err.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/stdio.h \
+  /usr/include/sys/_null.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_parse.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_scan.h \
+  /usr/home/freebsd/omega/src/usr.bin/rpcgen/rpc_util.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h
+rpcgen.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

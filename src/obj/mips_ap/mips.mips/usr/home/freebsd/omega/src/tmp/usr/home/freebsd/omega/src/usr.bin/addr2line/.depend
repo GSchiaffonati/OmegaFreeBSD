@@ -1,0 +1,39 @@
+# -I/usr/home/freebsd/omega/src/usr.bin/addr2line/../../contrib/elftoolchain/libelftc -I/usr/home/freebsd/omega/src/usr.bin/addr2line/../../contrib/elftoolchain/common -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/addr2line/../../contrib/elftoolchain/addr2line/addr2line.c
+addr2line.o: \
+  /usr/home/freebsd/omega/src/usr.bin/addr2line/../../contrib/elftoolchain/addr2line/addr2line.c \
+  /usr/include/sys/param.h /usr/include/sys/_null.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/dwarf.h \
+  /usr/include/err.h /usr/include/fcntl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/gelf.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libelf.h \
+  /usr/include/sys/elf32.h /usr/include/sys/elf_common.h \
+  /usr/include/sys/elf64.h /usr/include/getopt.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/libdwarf.h \
+  /usr/home/freebsd/omega/src/usr.bin/addr2line/../../contrib/elftoolchain/libelftc/libelftc.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/libgen.h \
+  /usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/usr.bin/addr2line/../../contrib/elftoolchain/common/uthash.h \
+  /usr/include/stddef.h /usr/include/inttypes.h \
+  /usr/include/machine/_inttypes.h /usr/include/x86/_inttypes.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h \
+  /usr/home/freebsd/omega/src/usr.bin/addr2line/../../contrib/elftoolchain/common/_elftc.h \
+  /usr/include/osreldate.h /usr/include/sys/endian.h
+addr2line.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/lib/libelftc/libelftc.a /usr/lib/libdwarf.a /usr/lib/libelf.a /usr/lib/libelf.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

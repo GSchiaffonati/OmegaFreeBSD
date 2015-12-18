@@ -1,0 +1,51 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../src/include -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/preproc/tbl/main.cpp /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/preproc/tbl/table.cpp
+main.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/preproc/tbl/main.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/preproc/tbl/table.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/cset.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/cmap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/error.h
+table.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/preproc/tbl/table.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/preproc/tbl/table.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/assert.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/cset.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/cmap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../../../../contrib/groff/src/include/error.h
+tbl.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/tbl/../../../src/libs/libgroff/libgroff.a /usr/lib/libm.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a
+tbl.full: /usr/lib/libc++.a

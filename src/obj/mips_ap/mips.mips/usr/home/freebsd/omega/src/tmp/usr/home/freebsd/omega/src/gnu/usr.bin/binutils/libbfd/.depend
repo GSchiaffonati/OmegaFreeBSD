@@ -1,0 +1,1447 @@
+# -DBFD_DEFAULT_TARGET_SIZE=32 -I. -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../libbfd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../libbfd -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include -D_GNU_SOURCE -I/usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd -DSELECT_ARCHITECTURES= &bfd_mips_arch -DHAVE_bfd_elf32_tradbigmips_vec -DHAVE_bfd_elf32_tradlittlemips_vec -DHAVE_bfd_elf32_ntradbigmips_vec -DHAVE_bfd_elf32_ntradlittlemips_vec -DHAVE_bfd_elf64_tradbigmips_vec -DHAVE_bfd_elf64_tradlittlemips_vec -DHAVE_ecoff_little_vec -DHAVE_ecoff_big_vec -DSELECT_VECS= &bfd_elf32_tradbigmips_vec ,&bfd_elf32_tradlittlemips_vec ,&bfd_elf32_ntradbigmips_vec ,&bfd_elf32_ntradlittlemips_vec ,&bfd_elf64_tradbigmips_vec ,&bfd_elf64_tradlittlemips_vec ,&ecoff_little_vec ,&ecoff_big_vec -DDEFAULT_VECTOR=bfd_elf32_tradbigmips_vec -DDEBUGDIR=NULL -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/coff-mips.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/cpu-mips.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ecoff.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ecofflink.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf32.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf64.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfn32-mips.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf32-mips.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf64-mips.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfxx-mips.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elflink.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/archive.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/archive64.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/archures.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/bfd.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/bfdio.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/bfdwin.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/binary.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/cache.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/coffgen.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/corefile.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/dwarf1.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/dwarf2.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-attrs.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-eh-frame.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-strtab.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-vxworks.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/format.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/hash.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ihex.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/init.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/linker.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/merge.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/opncls.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/reloc.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/section.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/simple.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/srec.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/stab-syms.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/stabs.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/syms.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/targets.c /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/tekhex.c
+coff-mips.o coff-mips.po coff-mips.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/coff-mips.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/symconst.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libcoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/coffswap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ecoffswap.h
+cpu-mips.o cpu-mips.po cpu-mips.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/cpu-mips.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+ecoff.o ecoff.po ecoff.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ecoff.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/ar.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/ranlib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab_gnu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libaout.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/aout64.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/symconst.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libcoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h
+ecofflink.o ecofflink.po ecofflink.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ecofflink.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/objalloc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab_gnu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/symconst.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libcoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libecoff.h
+elf32.o elf32.po elf32.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf32.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfcode.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfcore.h
+elf64.o elf64.po elf64.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf64.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfcode.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfcore.h
+elfn32-mips.o elfn32-mips.po elfn32-mips.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfn32-mips.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/genlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfxx-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/reloc-macros.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/symconst.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ecoffswap.h \
+  elf32-target.h
+elf32-mips.o elf32-mips.po elf32-mips.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf32-mips.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/genlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfxx-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/reloc-macros.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-vxworks.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/symconst.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ecoffswap.h \
+  elf32-target.h
+elf64-mips.o elf64-mips.po elf64-mips.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf64-mips.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/ar.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/genlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfxx-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/reloc-macros.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/symconst.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/alpha.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ecoffswap.h \
+  elf64-target.h
+elfxx-mips.o elfxx-mips.po elfxx-mips.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfxx-mips.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elfxx-mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/reloc-macros.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-vxworks.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/symconst.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/mips.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/external.h
+elflink.o elflink.po elflink.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elflink.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/objalloc.h
+archive.o archive.po archive.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/archive.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/ar.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/ranlib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h
+archive64.o archive64.po archive64.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/archive64.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/ar.h
+archures.o archures.po archures.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/archures.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h
+bfd.o bfd.po bfd.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/bfd.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  bfdver.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/demangle.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/sym.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libcoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/ecoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h
+bfdio.o bfdio.po bfdio.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/bfdio.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+bfdwin.o bfdwin.po bfdwin.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/bfdwin.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+binary.o binary.po binary.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/binary.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+cache.o cache.po cache.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/cache.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h
+coffgen.o coffgen.po coffgen.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/coffgen.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/coff/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libcoff.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h
+corefile.o corefile.po corefile.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/corefile.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+dwarf1.o dwarf1.po dwarf1.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/dwarf1.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/dwarf.h
+dwarf2.o dwarf2.po dwarf2.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/dwarf2.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/dwarf2.h
+elf-attrs.o elf-attrs.po elf-attrs.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-attrs.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h
+elf-eh-frame.o elf-eh-frame.po elf-eh-frame.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-eh-frame.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/dwarf2.h
+elf-strtab.o elf-strtab.po elf-strtab.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-strtab.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h
+elf-vxworks.o elf-vxworks.po elf-vxworks.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-vxworks.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-vxworks.h
+elf.o elf.po elf.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/elf-bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/common.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/internal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/elf/external.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/include/sys/procfs.h /usr/include/sys/param.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/machine/signal.h /usr/include/x86/signal.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/machine/param.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/limits.h \
+  /usr/include/machine/reg.h /usr/include/x86/reg.h
+format.o format.po format.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/format.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+hash.o hash.po hash.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/hash.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/objalloc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h
+ihex.o ihex.po ihex.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/ihex.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h
+init.o init.po init.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/init.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+libbfd.o libbfd.po libbfd.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+linker.o linker.po linker.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/linker.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/genlink.h
+merge.o merge.po merge.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/merge.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h
+opncls.o opncls.po opncls.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/opncls.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/objalloc.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h
+reloc.o reloc.po reloc.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/reloc.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h
+section.o section.po section.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/section.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h
+simple.o simple.po simple.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/simple.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h
+srec.o srec.po srec.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/srec.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h
+stab-syms.o stab-syms.po stab-syms.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/stab-syms.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libaout.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/aout64.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab.def
+stabs.o stabs.po stabs.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/stabs.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab_gnu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab.def \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h
+syms.o syms.po syms.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/syms.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/safe-ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/bfdlink.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab_gnu.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/aout/stab.def
+targets.o targets.po targets.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/targets.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fnmatch.h \
+  targmatch.h
+tekhex.o tekhex.po tekhex.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/tekhex.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/sysdep.h \
+  config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/ansidecl.h \
+  /usr/include/stddef.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/errno.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/fopen-same.h \
+  /usr/include/fcntl.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/filenames.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/bfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/symcat.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/bfd/libbfd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/hashtab.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/binutils/libbfd/../../../../contrib/binutils/include/libiberty.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h

@@ -1,0 +1,1 @@
+../../../sys/mips/include/locore.h

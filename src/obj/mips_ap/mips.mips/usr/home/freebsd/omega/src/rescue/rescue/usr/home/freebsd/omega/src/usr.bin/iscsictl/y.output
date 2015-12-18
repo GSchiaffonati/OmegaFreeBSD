@@ -1,0 +1,599 @@
+   0  $accept : targets $end
+
+   1  targets :
+   2          | targets target
+
+   3  target : STR OPENING_BRACKET target_entries CLOSING_BRACKET
+
+   4  target_entries :
+   5                 | target_entries target_entry
+   6                 | target_entries target_entry SEMICOLON
+
+   7  target_entry : target_name
+   8               | target_address
+   9               | initiator_name
+  10               | initiator_address
+  11               | initiator_alias
+  12               | user
+  13               | secret
+  14               | mutual_user
+  15               | mutual_secret
+  16               | auth_method
+  17               | header_digest
+  18               | data_digest
+  19               | session_type
+  20               | offload
+  21               | protocol
+  22               | ignored
+
+  23  target_name : TARGET_NAME EQUALS STR
+
+  24  target_address : TARGET_ADDRESS EQUALS STR
+
+  25  initiator_name : INITIATOR_NAME EQUALS STR
+
+  26  initiator_address : INITIATOR_ADDRESS EQUALS STR
+
+  27  initiator_alias : INITIATOR_ALIAS EQUALS STR
+
+  28  user : USER EQUALS STR
+
+  29  secret : SECRET EQUALS STR
+
+  30  mutual_user : MUTUAL_USER EQUALS STR
+
+  31  mutual_secret : MUTUAL_SECRET EQUALS STR
+
+  32  auth_method : AUTH_METHOD EQUALS STR
+
+  33  header_digest : HEADER_DIGEST EQUALS STR
+
+  34  data_digest : DATA_DIGEST EQUALS STR
+
+  35  session_type : SESSION_TYPE EQUALS STR
+
+  36  offload : OFFLOAD EQUALS STR
+
+  37  protocol : PROTOCOL EQUALS STR
+
+  38  ignored : IGNORED EQUALS STR
+
+state 0
+	$accept : . targets $end  (0)
+	targets : .  (1)
+
+	.  reduce 1
+
+	targets  goto 1
+
+
+state 1
+	$accept : targets . $end  (0)
+	targets : targets . target  (2)
+
+	$end  accept
+	STR  shift 2
+	.  error
+
+	target  goto 3
+
+
+state 2
+	target : STR . OPENING_BRACKET target_entries CLOSING_BRACKET  (3)
+
+	OPENING_BRACKET  shift 4
+	.  error
+
+
+state 3
+	targets : targets target .  (2)
+
+	.  reduce 2
+
+
+state 4
+	target : STR OPENING_BRACKET . target_entries CLOSING_BRACKET  (3)
+	target_entries : .  (4)
+
+	.  reduce 4
+
+	target_entries  goto 5
+
+
+state 5
+	target : STR OPENING_BRACKET target_entries . CLOSING_BRACKET  (3)
+	target_entries : target_entries . target_entry  (5)
+	target_entries : target_entries . target_entry SEMICOLON  (6)
+
+	AUTH_METHOD  shift 6
+	HEADER_DIGEST  shift 7
+	DATA_DIGEST  shift 8
+	TARGET_NAME  shift 9
+	TARGET_ADDRESS  shift 10
+	INITIATOR_NAME  shift 11
+	INITIATOR_ADDRESS  shift 12
+	INITIATOR_ALIAS  shift 13
+	USER  shift 14
+	SECRET  shift 15
+	MUTUAL_USER  shift 16
+	MUTUAL_SECRET  shift 17
+	SESSION_TYPE  shift 18
+	PROTOCOL  shift 19
+	OFFLOAD  shift 20
+	IGNORED  shift 21
+	CLOSING_BRACKET  shift 22
+	.  error
+
+	target_entry  goto 23
+	target_name  goto 24
+	target_address  goto 25
+	initiator_name  goto 26
+	initiator_address  goto 27
+	initiator_alias  goto 28
+	user  goto 29
+	secret  goto 30
+	mutual_user  goto 31
+	mutual_secret  goto 32
+	auth_method  goto 33
+	header_digest  goto 34
+	data_digest  goto 35
+	session_type  goto 36
+	offload  goto 37
+	protocol  goto 38
+	ignored  goto 39
+
+
+state 6
+	auth_method : AUTH_METHOD . EQUALS STR  (32)
+
+	EQUALS  shift 40
+	.  error
+
+
+state 7
+	header_digest : HEADER_DIGEST . EQUALS STR  (33)
+
+	EQUALS  shift 41
+	.  error
+
+
+state 8
+	data_digest : DATA_DIGEST . EQUALS STR  (34)
+
+	EQUALS  shift 42
+	.  error
+
+
+state 9
+	target_name : TARGET_NAME . EQUALS STR  (23)
+
+	EQUALS  shift 43
+	.  error
+
+
+state 10
+	target_address : TARGET_ADDRESS . EQUALS STR  (24)
+
+	EQUALS  shift 44
+	.  error
+
+
+state 11
+	initiator_name : INITIATOR_NAME . EQUALS STR  (25)
+
+	EQUALS  shift 45
+	.  error
+
+
+state 12
+	initiator_address : INITIATOR_ADDRESS . EQUALS STR  (26)
+
+	EQUALS  shift 46
+	.  error
+
+
+state 13
+	initiator_alias : INITIATOR_ALIAS . EQUALS STR  (27)
+
+	EQUALS  shift 47
+	.  error
+
+
+state 14
+	user : USER . EQUALS STR  (28)
+
+	EQUALS  shift 48
+	.  error
+
+
+state 15
+	secret : SECRET . EQUALS STR  (29)
+
+	EQUALS  shift 49
+	.  error
+
+
+state 16
+	mutual_user : MUTUAL_USER . EQUALS STR  (30)
+
+	EQUALS  shift 50
+	.  error
+
+
+state 17
+	mutual_secret : MUTUAL_SECRET . EQUALS STR  (31)
+
+	EQUALS  shift 51
+	.  error
+
+
+state 18
+	session_type : SESSION_TYPE . EQUALS STR  (35)
+
+	EQUALS  shift 52
+	.  error
+
+
+state 19
+	protocol : PROTOCOL . EQUALS STR  (37)
+
+	EQUALS  shift 53
+	.  error
+
+
+state 20
+	offload : OFFLOAD . EQUALS STR  (36)
+
+	EQUALS  shift 54
+	.  error
+
+
+state 21
+	ignored : IGNORED . EQUALS STR  (38)
+
+	EQUALS  shift 55
+	.  error
+
+
+state 22
+	target : STR OPENING_BRACKET target_entries CLOSING_BRACKET .  (3)
+
+	.  reduce 3
+
+
+state 23
+	target_entries : target_entries target_entry .  (5)
+	target_entries : target_entries target_entry . SEMICOLON  (6)
+
+	SEMICOLON  shift 56
+	AUTH_METHOD  reduce 5
+	HEADER_DIGEST  reduce 5
+	DATA_DIGEST  reduce 5
+	TARGET_NAME  reduce 5
+	TARGET_ADDRESS  reduce 5
+	INITIATOR_NAME  reduce 5
+	INITIATOR_ADDRESS  reduce 5
+	INITIATOR_ALIAS  reduce 5
+	USER  reduce 5
+	SECRET  reduce 5
+	MUTUAL_USER  reduce 5
+	MUTUAL_SECRET  reduce 5
+	SESSION_TYPE  reduce 5
+	PROTOCOL  reduce 5
+	OFFLOAD  reduce 5
+	IGNORED  reduce 5
+	CLOSING_BRACKET  reduce 5
+
+
+state 24
+	target_entry : target_name .  (7)
+
+	.  reduce 7
+
+
+state 25
+	target_entry : target_address .  (8)
+
+	.  reduce 8
+
+
+state 26
+	target_entry : initiator_name .  (9)
+
+	.  reduce 9
+
+
+state 27
+	target_entry : initiator_address .  (10)
+
+	.  reduce 10
+
+
+state 28
+	target_entry : initiator_alias .  (11)
+
+	.  reduce 11
+
+
+state 29
+	target_entry : user .  (12)
+
+	.  reduce 12
+
+
+state 30
+	target_entry : secret .  (13)
+
+	.  reduce 13
+
+
+state 31
+	target_entry : mutual_user .  (14)
+
+	.  reduce 14
+
+
+state 32
+	target_entry : mutual_secret .  (15)
+
+	.  reduce 15
+
+
+state 33
+	target_entry : auth_method .  (16)
+
+	.  reduce 16
+
+
+state 34
+	target_entry : header_digest .  (17)
+
+	.  reduce 17
+
+
+state 35
+	target_entry : data_digest .  (18)
+
+	.  reduce 18
+
+
+state 36
+	target_entry : session_type .  (19)
+
+	.  reduce 19
+
+
+state 37
+	target_entry : offload .  (20)
+
+	.  reduce 20
+
+
+state 38
+	target_entry : protocol .  (21)
+
+	.  reduce 21
+
+
+state 39
+	target_entry : ignored .  (22)
+
+	.  reduce 22
+
+
+state 40
+	auth_method : AUTH_METHOD EQUALS . STR  (32)
+
+	STR  shift 57
+	.  error
+
+
+state 41
+	header_digest : HEADER_DIGEST EQUALS . STR  (33)
+
+	STR  shift 58
+	.  error
+
+
+state 42
+	data_digest : DATA_DIGEST EQUALS . STR  (34)
+
+	STR  shift 59
+	.  error
+
+
+state 43
+	target_name : TARGET_NAME EQUALS . STR  (23)
+
+	STR  shift 60
+	.  error
+
+
+state 44
+	target_address : TARGET_ADDRESS EQUALS . STR  (24)
+
+	STR  shift 61
+	.  error
+
+
+state 45
+	initiator_name : INITIATOR_NAME EQUALS . STR  (25)
+
+	STR  shift 62
+	.  error
+
+
+state 46
+	initiator_address : INITIATOR_ADDRESS EQUALS . STR  (26)
+
+	STR  shift 63
+	.  error
+
+
+state 47
+	initiator_alias : INITIATOR_ALIAS EQUALS . STR  (27)
+
+	STR  shift 64
+	.  error
+
+
+state 48
+	user : USER EQUALS . STR  (28)
+
+	STR  shift 65
+	.  error
+
+
+state 49
+	secret : SECRET EQUALS . STR  (29)
+
+	STR  shift 66
+	.  error
+
+
+state 50
+	mutual_user : MUTUAL_USER EQUALS . STR  (30)
+
+	STR  shift 67
+	.  error
+
+
+state 51
+	mutual_secret : MUTUAL_SECRET EQUALS . STR  (31)
+
+	STR  shift 68
+	.  error
+
+
+state 52
+	session_type : SESSION_TYPE EQUALS . STR  (35)
+
+	STR  shift 69
+	.  error
+
+
+state 53
+	protocol : PROTOCOL EQUALS . STR  (37)
+
+	STR  shift 70
+	.  error
+
+
+state 54
+	offload : OFFLOAD EQUALS . STR  (36)
+
+	STR  shift 71
+	.  error
+
+
+state 55
+	ignored : IGNORED EQUALS . STR  (38)
+
+	STR  shift 72
+	.  error
+
+
+state 56
+	target_entries : target_entries target_entry SEMICOLON .  (6)
+
+	.  reduce 6
+
+
+state 57
+	auth_method : AUTH_METHOD EQUALS STR .  (32)
+
+	.  reduce 32
+
+
+state 58
+	header_digest : HEADER_DIGEST EQUALS STR .  (33)
+
+	.  reduce 33
+
+
+state 59
+	data_digest : DATA_DIGEST EQUALS STR .  (34)
+
+	.  reduce 34
+
+
+state 60
+	target_name : TARGET_NAME EQUALS STR .  (23)
+
+	.  reduce 23
+
+
+state 61
+	target_address : TARGET_ADDRESS EQUALS STR .  (24)
+
+	.  reduce 24
+
+
+state 62
+	initiator_name : INITIATOR_NAME EQUALS STR .  (25)
+
+	.  reduce 25
+
+
+state 63
+	initiator_address : INITIATOR_ADDRESS EQUALS STR .  (26)
+
+	.  reduce 26
+
+
+state 64
+	initiator_alias : INITIATOR_ALIAS EQUALS STR .  (27)
+
+	.  reduce 27
+
+
+state 65
+	user : USER EQUALS STR .  (28)
+
+	.  reduce 28
+
+
+state 66
+	secret : SECRET EQUALS STR .  (29)
+
+	.  reduce 29
+
+
+state 67
+	mutual_user : MUTUAL_USER EQUALS STR .  (30)
+
+	.  reduce 30
+
+
+state 68
+	mutual_secret : MUTUAL_SECRET EQUALS STR .  (31)
+
+	.  reduce 31
+
+
+state 69
+	session_type : SESSION_TYPE EQUALS STR .  (35)
+
+	.  reduce 35
+
+
+state 70
+	protocol : PROTOCOL EQUALS STR .  (37)
+
+	.  reduce 37
+
+
+state 71
+	offload : OFFLOAD EQUALS STR .  (36)
+
+	.  reduce 36
+
+
+state 72
+	ignored : IGNORED EQUALS STR .  (38)
+
+	.  reduce 38
+
+
+23 terminals, 21 nonterminals
+39 grammar rules, 73 states

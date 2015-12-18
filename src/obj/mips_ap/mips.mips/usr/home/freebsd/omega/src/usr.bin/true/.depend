@@ -1,0 +1,3 @@
+# -std=gnu99 /usr/home/freebsd/omega/src/usr.bin/true/true.c
+true.o: /usr/home/freebsd/omega/src/usr.bin/true/true.c
+true.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a

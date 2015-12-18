@@ -1,0 +1,1 @@
+/usr/home/freebsd/omega/src/usr.bin/vacation/../../contrib/sendmail/include/sm/os/sm_os_freebsd.h

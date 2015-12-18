@@ -1,0 +1,28 @@
+# -DATH_DEFAULT="ath0" -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../common -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/dev/ath -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/dev/ath/ath_hal -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/contrib/dev/ath/ath_hal -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print -DATH_DEFAULT="ath0" -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../common -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/dev/ath -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/dev/ath/ath_hal -I/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/contrib/dev/ath/ath_hal -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print -std=gnu99 /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/ath_ee_v14_print.c
+ath_ee_v14_print.o:  \
+ /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/ath_ee_v14_print.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/_null.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/select.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/sys/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/err.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/dev/ath/ath_hal/ah_eeprom_v14.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/ath_ee_v14_print/../../../../sys/dev/ath/ath_hal/ah_eeprom.h
+ath_ee_v14_print.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a

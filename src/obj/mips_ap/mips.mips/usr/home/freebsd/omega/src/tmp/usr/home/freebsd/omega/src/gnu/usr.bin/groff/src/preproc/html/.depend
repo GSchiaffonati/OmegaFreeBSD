@@ -1,0 +1,82 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../src/include -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/preproc/html/pre-html.cpp /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/preproc/html/pushback.cpp
+pre-html.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/preproc/html/pre-html.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/_sigset.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/assert.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/error.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/posix.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../src/include/defs.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/searchpath.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/paper.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/device.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/font.h \
+  /usr/include/sys/wait.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/nonposix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/preproc/html/pre-html.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/preproc/html/pushback.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/html-strings.h
+pushback.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/preproc/html/pushback.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/sys/_sigset.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/ctype.h /usr/include/_ctype.h \
+  /usr/include/runetype.h /usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/assert.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/error.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/posix.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h \
+  /usr/include/xlocale/_time.h /usr/include/fcntl.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/include/nonposix.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/preproc/html/pushback.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../../../../contrib/groff/src/preproc/html/pre-html.h
+pre-grohtml.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/preproc/html/../../../src/libs/libgroff/libgroff.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a
+pre-grohtml.full: /usr/lib/libc++.a

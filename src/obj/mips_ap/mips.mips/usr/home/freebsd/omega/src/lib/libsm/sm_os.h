@@ -1,0 +1,1 @@
+/usr/home/freebsd/omega/src/lib/libsm/../../contrib/sendmail/include/sm/os/sm_os_freebsd.h

@@ -1,0 +1,760 @@
+   0  $accept : config_file $end
+
+   1  config_file : config_list
+   2              |
+
+   3  config_list : config
+   4              | config_list config
+
+   5  config : option_block
+   6         | attach_block
+   7         | detach_block
+   8         | nomatch_block
+   9         | notify_block
+
+  10  option_block : OPTIONS BEGINBLOCK options ENDBLOCK SEMICOLON
+
+  11  options : option
+  12          | options option
+
+  13  option : directory_option
+  14         | pid_file_option
+  15         | set_option
+
+  16  directory_option : DIRECTORY STRING SEMICOLON
+
+  17  pid_file_option : PID_FILE STRING SEMICOLON
+
+  18  set_option : SET ID STRING SEMICOLON
+
+  19  attach_block : ATTACH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON
+  20               | ATTACH NUMBER BEGINBLOCK ENDBLOCK SEMICOLON
+
+  21  detach_block : DETACH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON
+  22               | DETACH NUMBER BEGINBLOCK ENDBLOCK SEMICOLON
+
+  23  nomatch_block : NOMATCH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON
+  24                | NOMATCH NUMBER BEGINBLOCK ENDBLOCK SEMICOLON
+
+  25  notify_block : NOTIFY NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON
+  26               | NOTIFY NUMBER BEGINBLOCK ENDBLOCK SEMICOLON
+
+  27  match_or_action_list : match_or_action
+  28                       | match_or_action_list match_or_action
+
+  29  match_or_action : match
+  30                  | action
+
+  31  match : MATCH STRING STRING SEMICOLON
+  32        | DEVICE_NAME STRING SEMICOLON
+  33        | MEDIA_TYPE STRING SEMICOLON
+  34        | CLASS STRING SEMICOLON
+  35        | SUBDEVICE STRING SEMICOLON
+
+  36  action : ACTION STRING SEMICOLON
+
+state 0
+	$accept : . config_file $end  (0)
+	config_file : .  (2)
+
+	OPTIONS  shift 1
+	ATTACH  shift 2
+	DETACH  shift 3
+	NOMATCH  shift 4
+	NOTIFY  shift 5
+	$end  reduce 2
+
+	config_file  goto 6
+	config_list  goto 7
+	config  goto 8
+	option_block  goto 9
+	attach_block  goto 10
+	detach_block  goto 11
+	nomatch_block  goto 12
+	notify_block  goto 13
+
+
+state 1
+	option_block : OPTIONS . BEGINBLOCK options ENDBLOCK SEMICOLON  (10)
+
+	BEGINBLOCK  shift 14
+	.  error
+
+
+state 2
+	attach_block : ATTACH . NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON  (19)
+	attach_block : ATTACH . NUMBER BEGINBLOCK ENDBLOCK SEMICOLON  (20)
+
+	NUMBER  shift 15
+	.  error
+
+
+state 3
+	detach_block : DETACH . NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON  (21)
+	detach_block : DETACH . NUMBER BEGINBLOCK ENDBLOCK SEMICOLON  (22)
+
+	NUMBER  shift 16
+	.  error
+
+
+state 4
+	nomatch_block : NOMATCH . NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON  (23)
+	nomatch_block : NOMATCH . NUMBER BEGINBLOCK ENDBLOCK SEMICOLON  (24)
+
+	NUMBER  shift 17
+	.  error
+
+
+state 5
+	notify_block : NOTIFY . NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON  (25)
+	notify_block : NOTIFY . NUMBER BEGINBLOCK ENDBLOCK SEMICOLON  (26)
+
+	NUMBER  shift 18
+	.  error
+
+
+state 6
+	$accept : config_file . $end  (0)
+
+	$end  accept
+
+
+state 7
+	config_file : config_list .  (1)
+	config_list : config_list . config  (4)
+
+	OPTIONS  shift 1
+	ATTACH  shift 2
+	DETACH  shift 3
+	NOMATCH  shift 4
+	NOTIFY  shift 5
+	$end  reduce 1
+
+	config  goto 19
+	option_block  goto 9
+	attach_block  goto 10
+	detach_block  goto 11
+	nomatch_block  goto 12
+	notify_block  goto 13
+
+
+state 8
+	config_list : config .  (3)
+
+	.  reduce 3
+
+
+state 9
+	config : option_block .  (5)
+
+	.  reduce 5
+
+
+state 10
+	config : attach_block .  (6)
+
+	.  reduce 6
+
+
+state 11
+	config : detach_block .  (7)
+
+	.  reduce 7
+
+
+state 12
+	config : nomatch_block .  (8)
+
+	.  reduce 8
+
+
+state 13
+	config : notify_block .  (9)
+
+	.  reduce 9
+
+
+state 14
+	option_block : OPTIONS BEGINBLOCK . options ENDBLOCK SEMICOLON  (10)
+
+	SET  shift 20
+	DIRECTORY  shift 21
+	PID_FILE  shift 22
+	.  error
+
+	options  goto 23
+	option  goto 24
+	directory_option  goto 25
+	pid_file_option  goto 26
+	set_option  goto 27
+
+
+state 15
+	attach_block : ATTACH NUMBER . BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON  (19)
+	attach_block : ATTACH NUMBER . BEGINBLOCK ENDBLOCK SEMICOLON  (20)
+
+	BEGINBLOCK  shift 28
+	.  error
+
+
+state 16
+	detach_block : DETACH NUMBER . BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON  (21)
+	detach_block : DETACH NUMBER . BEGINBLOCK ENDBLOCK SEMICOLON  (22)
+
+	BEGINBLOCK  shift 29
+	.  error
+
+
+state 17
+	nomatch_block : NOMATCH NUMBER . BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON  (23)
+	nomatch_block : NOMATCH NUMBER . BEGINBLOCK ENDBLOCK SEMICOLON  (24)
+
+	BEGINBLOCK  shift 30
+	.  error
+
+
+state 18
+	notify_block : NOTIFY NUMBER . BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON  (25)
+	notify_block : NOTIFY NUMBER . BEGINBLOCK ENDBLOCK SEMICOLON  (26)
+
+	BEGINBLOCK  shift 31
+	.  error
+
+
+state 19
+	config_list : config_list config .  (4)
+
+	.  reduce 4
+
+
+state 20
+	set_option : SET . ID STRING SEMICOLON  (18)
+
+	ID  shift 32
+	.  error
+
+
+state 21
+	directory_option : DIRECTORY . STRING SEMICOLON  (16)
+
+	STRING  shift 33
+	.  error
+
+
+state 22
+	pid_file_option : PID_FILE . STRING SEMICOLON  (17)
+
+	STRING  shift 34
+	.  error
+
+
+state 23
+	option_block : OPTIONS BEGINBLOCK options . ENDBLOCK SEMICOLON  (10)
+	options : options . option  (12)
+
+	ENDBLOCK  shift 35
+	SET  shift 20
+	DIRECTORY  shift 21
+	PID_FILE  shift 22
+	.  error
+
+	option  goto 36
+	directory_option  goto 25
+	pid_file_option  goto 26
+	set_option  goto 27
+
+
+state 24
+	options : option .  (11)
+
+	.  reduce 11
+
+
+state 25
+	option : directory_option .  (13)
+
+	.  reduce 13
+
+
+state 26
+	option : pid_file_option .  (14)
+
+	.  reduce 14
+
+
+state 27
+	option : set_option .  (15)
+
+	.  reduce 15
+
+
+state 28
+	attach_block : ATTACH NUMBER BEGINBLOCK . match_or_action_list ENDBLOCK SEMICOLON  (19)
+	attach_block : ATTACH NUMBER BEGINBLOCK . ENDBLOCK SEMICOLON  (20)
+
+	ENDBLOCK  shift 37
+	DEVICE_NAME  shift 38
+	ACTION  shift 39
+	MATCH  shift 40
+	MEDIA_TYPE  shift 41
+	CLASS  shift 42
+	SUBDEVICE  shift 43
+	.  error
+
+	match_or_action_list  goto 44
+	match_or_action  goto 45
+	match  goto 46
+	action  goto 47
+
+
+state 29
+	detach_block : DETACH NUMBER BEGINBLOCK . match_or_action_list ENDBLOCK SEMICOLON  (21)
+	detach_block : DETACH NUMBER BEGINBLOCK . ENDBLOCK SEMICOLON  (22)
+
+	ENDBLOCK  shift 48
+	DEVICE_NAME  shift 38
+	ACTION  shift 39
+	MATCH  shift 40
+	MEDIA_TYPE  shift 41
+	CLASS  shift 42
+	SUBDEVICE  shift 43
+	.  error
+
+	match_or_action_list  goto 49
+	match_or_action  goto 45
+	match  goto 46
+	action  goto 47
+
+
+state 30
+	nomatch_block : NOMATCH NUMBER BEGINBLOCK . match_or_action_list ENDBLOCK SEMICOLON  (23)
+	nomatch_block : NOMATCH NUMBER BEGINBLOCK . ENDBLOCK SEMICOLON  (24)
+
+	ENDBLOCK  shift 50
+	DEVICE_NAME  shift 38
+	ACTION  shift 39
+	MATCH  shift 40
+	MEDIA_TYPE  shift 41
+	CLASS  shift 42
+	SUBDEVICE  shift 43
+	.  error
+
+	match_or_action_list  goto 51
+	match_or_action  goto 45
+	match  goto 46
+	action  goto 47
+
+
+state 31
+	notify_block : NOTIFY NUMBER BEGINBLOCK . match_or_action_list ENDBLOCK SEMICOLON  (25)
+	notify_block : NOTIFY NUMBER BEGINBLOCK . ENDBLOCK SEMICOLON  (26)
+
+	ENDBLOCK  shift 52
+	DEVICE_NAME  shift 38
+	ACTION  shift 39
+	MATCH  shift 40
+	MEDIA_TYPE  shift 41
+	CLASS  shift 42
+	SUBDEVICE  shift 43
+	.  error
+
+	match_or_action_list  goto 53
+	match_or_action  goto 45
+	match  goto 46
+	action  goto 47
+
+
+state 32
+	set_option : SET ID . STRING SEMICOLON  (18)
+
+	STRING  shift 54
+	.  error
+
+
+state 33
+	directory_option : DIRECTORY STRING . SEMICOLON  (16)
+
+	SEMICOLON  shift 55
+	.  error
+
+
+state 34
+	pid_file_option : PID_FILE STRING . SEMICOLON  (17)
+
+	SEMICOLON  shift 56
+	.  error
+
+
+state 35
+	option_block : OPTIONS BEGINBLOCK options ENDBLOCK . SEMICOLON  (10)
+
+	SEMICOLON  shift 57
+	.  error
+
+
+state 36
+	options : options option .  (12)
+
+	.  reduce 12
+
+
+state 37
+	attach_block : ATTACH NUMBER BEGINBLOCK ENDBLOCK . SEMICOLON  (20)
+
+	SEMICOLON  shift 58
+	.  error
+
+
+state 38
+	match : DEVICE_NAME . STRING SEMICOLON  (32)
+
+	STRING  shift 59
+	.  error
+
+
+state 39
+	action : ACTION . STRING SEMICOLON  (36)
+
+	STRING  shift 60
+	.  error
+
+
+state 40
+	match : MATCH . STRING STRING SEMICOLON  (31)
+
+	STRING  shift 61
+	.  error
+
+
+state 41
+	match : MEDIA_TYPE . STRING SEMICOLON  (33)
+
+	STRING  shift 62
+	.  error
+
+
+state 42
+	match : CLASS . STRING SEMICOLON  (34)
+
+	STRING  shift 63
+	.  error
+
+
+state 43
+	match : SUBDEVICE . STRING SEMICOLON  (35)
+
+	STRING  shift 64
+	.  error
+
+
+state 44
+	attach_block : ATTACH NUMBER BEGINBLOCK match_or_action_list . ENDBLOCK SEMICOLON  (19)
+	match_or_action_list : match_or_action_list . match_or_action  (28)
+
+	ENDBLOCK  shift 65
+	DEVICE_NAME  shift 38
+	ACTION  shift 39
+	MATCH  shift 40
+	MEDIA_TYPE  shift 41
+	CLASS  shift 42
+	SUBDEVICE  shift 43
+	.  error
+
+	match_or_action  goto 66
+	match  goto 46
+	action  goto 47
+
+
+state 45
+	match_or_action_list : match_or_action .  (27)
+
+	.  reduce 27
+
+
+state 46
+	match_or_action : match .  (29)
+
+	.  reduce 29
+
+
+state 47
+	match_or_action : action .  (30)
+
+	.  reduce 30
+
+
+state 48
+	detach_block : DETACH NUMBER BEGINBLOCK ENDBLOCK . SEMICOLON  (22)
+
+	SEMICOLON  shift 67
+	.  error
+
+
+state 49
+	detach_block : DETACH NUMBER BEGINBLOCK match_or_action_list . ENDBLOCK SEMICOLON  (21)
+	match_or_action_list : match_or_action_list . match_or_action  (28)
+
+	ENDBLOCK  shift 68
+	DEVICE_NAME  shift 38
+	ACTION  shift 39
+	MATCH  shift 40
+	MEDIA_TYPE  shift 41
+	CLASS  shift 42
+	SUBDEVICE  shift 43
+	.  error
+
+	match_or_action  goto 66
+	match  goto 46
+	action  goto 47
+
+
+state 50
+	nomatch_block : NOMATCH NUMBER BEGINBLOCK ENDBLOCK . SEMICOLON  (24)
+
+	SEMICOLON  shift 69
+	.  error
+
+
+state 51
+	nomatch_block : NOMATCH NUMBER BEGINBLOCK match_or_action_list . ENDBLOCK SEMICOLON  (23)
+	match_or_action_list : match_or_action_list . match_or_action  (28)
+
+	ENDBLOCK  shift 70
+	DEVICE_NAME  shift 38
+	ACTION  shift 39
+	MATCH  shift 40
+	MEDIA_TYPE  shift 41
+	CLASS  shift 42
+	SUBDEVICE  shift 43
+	.  error
+
+	match_or_action  goto 66
+	match  goto 46
+	action  goto 47
+
+
+state 52
+	notify_block : NOTIFY NUMBER BEGINBLOCK ENDBLOCK . SEMICOLON  (26)
+
+	SEMICOLON  shift 71
+	.  error
+
+
+state 53
+	notify_block : NOTIFY NUMBER BEGINBLOCK match_or_action_list . ENDBLOCK SEMICOLON  (25)
+	match_or_action_list : match_or_action_list . match_or_action  (28)
+
+	ENDBLOCK  shift 72
+	DEVICE_NAME  shift 38
+	ACTION  shift 39
+	MATCH  shift 40
+	MEDIA_TYPE  shift 41
+	CLASS  shift 42
+	SUBDEVICE  shift 43
+	.  error
+
+	match_or_action  goto 66
+	match  goto 46
+	action  goto 47
+
+
+state 54
+	set_option : SET ID STRING . SEMICOLON  (18)
+
+	SEMICOLON  shift 73
+	.  error
+
+
+state 55
+	directory_option : DIRECTORY STRING SEMICOLON .  (16)
+
+	.  reduce 16
+
+
+state 56
+	pid_file_option : PID_FILE STRING SEMICOLON .  (17)
+
+	.  reduce 17
+
+
+state 57
+	option_block : OPTIONS BEGINBLOCK options ENDBLOCK SEMICOLON .  (10)
+
+	.  reduce 10
+
+
+state 58
+	attach_block : ATTACH NUMBER BEGINBLOCK ENDBLOCK SEMICOLON .  (20)
+
+	.  reduce 20
+
+
+state 59
+	match : DEVICE_NAME STRING . SEMICOLON  (32)
+
+	SEMICOLON  shift 74
+	.  error
+
+
+state 60
+	action : ACTION STRING . SEMICOLON  (36)
+
+	SEMICOLON  shift 75
+	.  error
+
+
+state 61
+	match : MATCH STRING . STRING SEMICOLON  (31)
+
+	STRING  shift 76
+	.  error
+
+
+state 62
+	match : MEDIA_TYPE STRING . SEMICOLON  (33)
+
+	SEMICOLON  shift 77
+	.  error
+
+
+state 63
+	match : CLASS STRING . SEMICOLON  (34)
+
+	SEMICOLON  shift 78
+	.  error
+
+
+state 64
+	match : SUBDEVICE STRING . SEMICOLON  (35)
+
+	SEMICOLON  shift 79
+	.  error
+
+
+state 65
+	attach_block : ATTACH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK . SEMICOLON  (19)
+
+	SEMICOLON  shift 80
+	.  error
+
+
+state 66
+	match_or_action_list : match_or_action_list match_or_action .  (28)
+
+	.  reduce 28
+
+
+state 67
+	detach_block : DETACH NUMBER BEGINBLOCK ENDBLOCK SEMICOLON .  (22)
+
+	.  reduce 22
+
+
+state 68
+	detach_block : DETACH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK . SEMICOLON  (21)
+
+	SEMICOLON  shift 81
+	.  error
+
+
+state 69
+	nomatch_block : NOMATCH NUMBER BEGINBLOCK ENDBLOCK SEMICOLON .  (24)
+
+	.  reduce 24
+
+
+state 70
+	nomatch_block : NOMATCH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK . SEMICOLON  (23)
+
+	SEMICOLON  shift 82
+	.  error
+
+
+state 71
+	notify_block : NOTIFY NUMBER BEGINBLOCK ENDBLOCK SEMICOLON .  (26)
+
+	.  reduce 26
+
+
+state 72
+	notify_block : NOTIFY NUMBER BEGINBLOCK match_or_action_list ENDBLOCK . SEMICOLON  (25)
+
+	SEMICOLON  shift 83
+	.  error
+
+
+state 73
+	set_option : SET ID STRING SEMICOLON .  (18)
+
+	.  reduce 18
+
+
+state 74
+	match : DEVICE_NAME STRING SEMICOLON .  (32)
+
+	.  reduce 32
+
+
+state 75
+	action : ACTION STRING SEMICOLON .  (36)
+
+	.  reduce 36
+
+
+state 76
+	match : MATCH STRING STRING . SEMICOLON  (31)
+
+	SEMICOLON  shift 84
+	.  error
+
+
+state 77
+	match : MEDIA_TYPE STRING SEMICOLON .  (33)
+
+	.  reduce 33
+
+
+state 78
+	match : CLASS STRING SEMICOLON .  (34)
+
+	.  reduce 34
+
+
+state 79
+	match : SUBDEVICE STRING SEMICOLON .  (35)
+
+	.  reduce 35
+
+
+state 80
+	attach_block : ATTACH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON .  (19)
+
+	.  reduce 19
+
+
+state 81
+	detach_block : DETACH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON .  (21)
+
+	.  reduce 21
+
+
+state 82
+	nomatch_block : NOMATCH NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON .  (23)
+
+	.  reduce 23
+
+
+state 83
+	notify_block : NOTIFY NUMBER BEGINBLOCK match_or_action_list ENDBLOCK SEMICOLON .  (25)
+
+	.  reduce 25
+
+
+state 84
+	match : MATCH STRING STRING SEMICOLON .  (31)
+
+	.  reduce 31
+
+
+23 terminals, 18 nonterminals
+37 grammar rules, 85 states

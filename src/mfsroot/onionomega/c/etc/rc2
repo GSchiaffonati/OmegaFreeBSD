@@ -1,0 +1,55 @@
+#!/bin/sh
+
+# This is run once rc has setup /tmp, /etc and /var; it's our
+# responsibility to set things up to run.
+
+# Directories
+echo "*** Populating /var .."
+
+mkdir -p /var/run/hostapd
+mkdir -p /var/log
+mkdir -p /var/tmp
+mkdir -p /var/db
+mkdir -p /var/empty
+mkdir -p /var/cron
+mkdir -p /var/cron/tabs
+
+echo "*** Loading configuration files .."
+cfg_load
+
+# At this point a base configuration file exists in /etc/cfg/rc.conf.
+
+. /etc/rc.conf.default
+. /etc/cfg/rc.conf
+
+echo "*** setting up hostname"
+/bin/hostname ${system_hostname}
+
+echo "*** Load kernel modules"
+for i in ${kernel_modules}; do
+	echo "  .. ${i}"
+	/sbin/kldload ${i}
+done
+
+# Disable random entropy gathering for high-overhead things
+echo "*** Setting kern.random.harvest.mask=511"
+sysctl kern.random.harvest.mask=511
+
+# Bring up loopback
+echo "*** bringing up loopback .."
+/sbin/ifconfig lo0 inet 127.0.0.1/8 up
+
+echo "*** Default password/login databases .."
+/usr/sbin/pwd_mkdb /etc/master.passwd
+/usr/bin/cap_mkdb /etc/login.conf
+
+# Start network
+echo "*** Starting networking via /etc/rc.d/base/net"
+/etc/rc.d/base/net start
+
+echo "*** inetd"
+/usr/sbin/inetd
+
+echo "*** Done!"
+
+exit 0

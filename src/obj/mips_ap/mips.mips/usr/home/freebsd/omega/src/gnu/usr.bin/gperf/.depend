@@ -1,0 +1,213 @@
+# -I/usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib -I/usr/home/freebsd/omega/src/gnu/usr.bin/gperf /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/bool-array.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/hash-table.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/input.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword-list.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/main.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/output.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/search.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/version.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib/getline.cc /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib/hash.cc
+bool-array.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/bool-array.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/bool-array.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/bool-array.icc
+hash-table.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/hash-table.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/hash-table.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib/hash.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h
+input.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/input.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/input.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword-list.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib/getline.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h
+keyword-list.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword-list.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword-list.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword-list.icc
+keyword.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.icc
+main.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/main.cc \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/input.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword-list.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/search.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/bool-array.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/output.h
+options.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/version.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.icc
+output.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/output.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/output.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword-list.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/runetype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/version.h
+positions.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.icc
+search.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/search.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/search.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword-list.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/keyword.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/positions.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/bool-array.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_timespec.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_time.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/math.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/limits.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/options.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/hash-table.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/config.h
+version.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/version.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/src/version.h
+getline.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib/getline.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib/getline.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/assert.h
+hash.o:  \
+ /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib/hash.cc \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/gperf/../../../contrib/gperf/lib/hash.h
+gperf.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a
+gperf.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libstdc++.a

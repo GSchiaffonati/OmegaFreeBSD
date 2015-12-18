@@ -1,0 +1,282 @@
+   0  $accept : conf $end
+
+   1  conf :
+   2       | conf jail
+   3       | conf param ';'
+   4       | conf ';'
+
+   5  jail : STR '{' param_l '}'
+
+   6  param_l :
+   7          | param_l param ';'
+   8          | param_l ';'
+
+   9  param : name
+  10        | name '=' value
+  11        | name PLEQ value
+  12        | name value
+  13        | error
+
+  14  name : STR
+  15       | VAR
+
+  16  value : string
+  17        | value ',' string
+
+  18  string : STR
+  19         | VAR
+  20         | string STR1
+  21         | string VAR1
+
+state 0
+	$accept : . conf $end  (0)
+	conf : .  (1)
+
+	.  reduce 1
+
+	conf  goto 1
+
+
+state 1
+	$accept : conf . $end  (0)
+	conf : conf . jail  (2)
+	conf : conf . param ';'  (3)
+	conf : conf . ';'  (4)
+
+	$end  accept
+	error  shift 2
+	STR  shift 3
+	VAR  shift 4
+	';'  shift 5
+	.  error
+
+	jail  goto 6
+	param  goto 7
+	name  goto 8
+
+
+state 2
+	param : error .  (13)
+
+	.  reduce 13
+
+
+state 3
+	jail : STR . '{' param_l '}'  (5)
+	name : STR .  (14)
+
+	'{'  shift 9
+	PLEQ  reduce 14
+	STR  reduce 14
+	VAR  reduce 14
+	';'  reduce 14
+	'='  reduce 14
+
+
+state 4
+	name : VAR .  (15)
+
+	.  reduce 15
+
+
+state 5
+	conf : conf ';' .  (4)
+
+	.  reduce 4
+
+
+state 6
+	conf : conf jail .  (2)
+
+	.  reduce 2
+
+
+state 7
+	conf : conf param . ';'  (3)
+
+	';'  shift 10
+	.  error
+
+
+state 8
+	param : name .  (9)
+	param : name . '=' value  (10)
+	param : name . PLEQ value  (11)
+	param : name . value  (12)
+
+	PLEQ  shift 11
+	STR  shift 12
+	VAR  shift 13
+	'='  shift 14
+	';'  reduce 9
+
+	value  goto 15
+	string  goto 16
+
+
+state 9
+	jail : STR '{' . param_l '}'  (5)
+	param_l : .  (6)
+
+	.  reduce 6
+
+	param_l  goto 17
+
+
+state 10
+	conf : conf param ';' .  (3)
+
+	.  reduce 3
+
+
+state 11
+	param : name PLEQ . value  (11)
+
+	STR  shift 12
+	VAR  shift 13
+	.  error
+
+	value  goto 18
+	string  goto 16
+
+
+state 12
+	string : STR .  (18)
+
+	.  reduce 18
+
+
+state 13
+	string : VAR .  (19)
+
+	.  reduce 19
+
+
+state 14
+	param : name '=' . value  (10)
+
+	STR  shift 12
+	VAR  shift 13
+	.  error
+
+	value  goto 19
+	string  goto 16
+
+
+state 15
+	param : name value .  (12)
+	value : value . ',' string  (17)
+
+	','  shift 20
+	';'  reduce 12
+
+
+state 16
+	value : string .  (16)
+	string : string . STR1  (20)
+	string : string . VAR1  (21)
+
+	STR1  shift 21
+	VAR1  shift 22
+	';'  reduce 16
+	','  reduce 16
+
+
+state 17
+	jail : STR '{' param_l . '}'  (5)
+	param_l : param_l . param ';'  (7)
+	param_l : param_l . ';'  (8)
+
+	error  shift 2
+	STR  shift 23
+	VAR  shift 4
+	';'  shift 24
+	'}'  shift 25
+	.  error
+
+	param  goto 26
+	name  goto 8
+
+
+state 18
+	param : name PLEQ value .  (11)
+	value : value . ',' string  (17)
+
+	','  shift 20
+	';'  reduce 11
+
+
+state 19
+	param : name '=' value .  (10)
+	value : value . ',' string  (17)
+
+	','  shift 20
+	';'  reduce 10
+
+
+state 20
+	value : value ',' . string  (17)
+
+	STR  shift 12
+	VAR  shift 13
+	.  error
+
+	string  goto 27
+
+
+state 21
+	string : string STR1 .  (20)
+
+	.  reduce 20
+
+
+state 22
+	string : string VAR1 .  (21)
+
+	.  reduce 21
+
+
+state 23
+	name : STR .  (14)
+
+	.  reduce 14
+
+
+state 24
+	param_l : param_l ';' .  (8)
+
+	.  reduce 8
+
+
+state 25
+	jail : STR '{' param_l '}' .  (5)
+
+	.  reduce 5
+
+
+state 26
+	param_l : param_l param . ';'  (7)
+
+	';'  shift 28
+	.  error
+
+
+state 27
+	value : value ',' string .  (17)
+	string : string . STR1  (20)
+	string : string . VAR1  (21)
+
+	STR1  shift 21
+	VAR1  shift 22
+	';'  reduce 17
+	','  reduce 17
+
+
+state 28
+	param_l : param_l param ';' .  (7)
+
+	.  reduce 7
+
+
+12 terminals, 8 nonterminals
+22 grammar rules, 29 states

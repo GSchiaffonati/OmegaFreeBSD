@@ -1,0 +1,35 @@
+# -nostdinc -D_KERNEL -DKLD_MODULE -DHAVE_KERNEL_OPTION_HEADERS -I. -I/usr/home/freebsd/omega/src/sys -I/usr/home/freebsd/omega/obj/mips_ap/mips.mips/usr/home/freebsd/omega/src/sys/ONIONOMEGA -std=iso9899:1999 urtwn-rtl8188eufw.c
+urtwn-rtl8188eufw.o: urtwn-rtl8188eufw.c \
+  /usr/home/freebsd/omega/src/sys/sys/param.h \
+  /usr/home/freebsd/omega/src/sys/sys/_null.h \
+  /usr/home/freebsd/omega/src/sys/sys/types.h \
+  /usr/home/freebsd/omega/src/sys/sys/cdefs.h machine/endian.h \
+  /usr/home/freebsd/omega/src/sys/sys/_types.h machine/_types.h \
+  /usr/home/freebsd/omega/src/sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/select.h \
+  /usr/home/freebsd/omega/src/sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/sys/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/sys/sys/errno.h \
+  /usr/home/freebsd/omega/src/sys/sys/time.h \
+  /usr/home/freebsd/omega/src/sys/sys/priority.h machine/param.h \
+  machine/_align.h machine/cpu.h machine/cpufunc.h machine/cpuregs.h \
+  machine/frame.h /usr/home/freebsd/omega/src/sys/sys/kernel.h \
+  /usr/home/freebsd/omega/src/sys/sys/linker_set.h \
+  /usr/home/freebsd/omega/src/sys/sys/queue.h \
+  /usr/home/freebsd/omega/src/sys/sys/module.h \
+  /usr/home/freebsd/omega/src/sys/sys/linker.h machine/elf.h \
+  /usr/home/freebsd/omega/src/sys/sys/elf32.h \
+  /usr/home/freebsd/omega/src/sys/sys/elf_common.h \
+  /usr/home/freebsd/omega/src/sys/sys/elf64.h \
+  /usr/home/freebsd/omega/src/sys/sys/elf_generic.h \
+  /usr/home/freebsd/omega/src/sys/sys/kobj.h \
+  /usr/home/freebsd/omega/src/sys/sys/firmware.h \
+  /usr/home/freebsd/omega/src/sys/sys/systm.h machine/atomic.h \
+  /usr/home/freebsd/omega/src/sys/sys/callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/_callout.h \
+  /usr/home/freebsd/omega/src/sys/sys/stdint.h machine/_stdint.h \
+  /usr/home/freebsd/omega/src/sys/sys/libkern.h

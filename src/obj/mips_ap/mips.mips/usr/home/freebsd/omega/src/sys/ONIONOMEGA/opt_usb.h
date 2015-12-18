@@ -1,0 +1,3 @@
+#define USB_DEBUG 1
+#define USB_EHCI_BIG_ENDIAN_DESC 1
+#define USB_HOST_ALIGN 32

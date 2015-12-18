@@ -1,0 +1,13 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../../../../contrib/groff/src/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../src/include -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../../../../contrib/groff/src/utils/pfbtops/pfbtops.c
+pfbtops.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../../../../contrib/groff/src/utils/pfbtops/pfbtops.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../src/include/config.h \
+  /usr/include/stdio.h /usr/include/sys/cdefs.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/getopt.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../../../../contrib/groff/src/include/nonposix.h
+pfbtops.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/utils/pfbtops/../../../src/libs/libgroff/libgroff.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a

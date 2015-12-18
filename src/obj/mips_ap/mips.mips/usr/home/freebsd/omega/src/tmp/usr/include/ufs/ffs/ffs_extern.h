@@ -1,0 +1,1 @@
+../../../../sys/ufs/ffs/ffs_extern.h

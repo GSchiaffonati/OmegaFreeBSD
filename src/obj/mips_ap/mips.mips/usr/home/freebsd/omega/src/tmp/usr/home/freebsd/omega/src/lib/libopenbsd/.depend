@@ -1,0 +1,66 @@
+# -I/usr/home/freebsd/omega/src/lib/libopenbsd -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/lib/libopenbsd/getdtablecount.c /usr/home/freebsd/omega/src/lib/libopenbsd/imsg-buffer.c /usr/home/freebsd/omega/src/lib/libopenbsd/imsg.c /usr/home/freebsd/omega/src/lib/libopenbsd/ohash.c
+getdtablecount.o getdtablecount.po getdtablecount.So: \
+  /usr/home/freebsd/omega/src/lib/libopenbsd/getdtablecount.c \
+  /usr/include/sys/cdefs.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/lib/libopenbsd/sys/sysctl.h \
+  /usr/include/sys/sysctl.h /usr/include/sys/queue.h \
+  /usr/include/stddef.h /usr/include/sys/_null.h
+imsg-buffer.o imsg-buffer.po imsg-buffer.So: /usr/home/freebsd/omega/src/lib/libopenbsd/imsg-buffer.c \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/queue.h /usr/include/sys/socket.h \
+  /usr/include/sys/_iovec.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/_sockaddr_storage.h \
+  /usr/include/sys/uio.h /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h /usr/include/errno.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/lib/libopenbsd/imsg.h
+imsg.o imsg.po imsg.So: /usr/home/freebsd/omega/src/lib/libopenbsd/imsg.c \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/queue.h /usr/include/sys/socket.h \
+  /usr/include/sys/_iovec.h /usr/include/machine/_align.h \
+  /usr/include/x86/_align.h /usr/include/sys/_sockaddr_storage.h \
+  /usr/include/sys/uio.h /usr/include/errno.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libopenbsd/unistd.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/home/freebsd/omega/src/lib/libopenbsd/imsg.h
+ohash.o ohash.po ohash.So: /usr/home/freebsd/omega/src/lib/libopenbsd/ohash.c \
+  /usr/include/sys/cdefs.h /usr/include/stddef.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/sys/_stdint.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/limits.h /usr/include/sys/limits.h \
+  /usr/include/machine/_limits.h /usr/include/x86/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /usr/home/freebsd/omega/src/lib/libopenbsd/ohash.h

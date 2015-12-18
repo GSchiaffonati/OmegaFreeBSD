@@ -1,0 +1,144 @@
+# -DHAVE_CONFIG_H -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../src/include -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/post-html.cpp /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-table.cpp /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-text.cpp /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/output.cpp
+post-html.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/post-html.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/driver.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stddef.h /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/assert.h \
+  /usr/include/math.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/error.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/font.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/printer.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/color.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/symbol.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/geometry.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/cset.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-text.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-table.h \
+  /usr/include/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/xlocale/_time.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/unistd.h \
+  /usr/include/fcntl.h
+html-table.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-table.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/driver.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stddef.h /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/assert.h \
+  /usr/include/math.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/error.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/font.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/printer.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/color.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/symbol.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/geometry.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/cset.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-table.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-text.h
+html-text.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-text.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/driver.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stddef.h /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/assert.h \
+  /usr/include/math.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/error.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/font.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/printer.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/color.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/symbol.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/geometry.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/cset.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-text.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html-table.h
+output.o: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/output.cpp \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/driver.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/lib.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../src/include/config.h \
+  /usr/include/getopt.h /usr/include/sys/cdefs.h /usr/include/locale.h \
+  /usr/include/sys/_null.h /usr/include/xlocale/_locale.h \
+  /usr/include/stdio.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/stdarg.h /usr/include/x86/stdarg.h /usr/include/limits.h \
+  /usr/include/sys/limits.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/sys/syslimits.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/stddef.h /usr/include/errno.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/assert.h \
+  /usr/include/math.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/errarg.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/error.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/font.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/printer.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/color.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/symbol.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/geometry.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/stringclass.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/include/cset.h \
+  /usr/include/time.h /usr/include/sys/timespec.h \
+  /usr/include/sys/_timespec.h /usr/include/xlocale/_time.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../../../../contrib/groff/src/devices/grohtml/html.h \
+  /usr/include/unistd.h /usr/include/sys/types.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_pthreadtypes.h /usr/include/sys/_stdint.h \
+  /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+  /usr/include/sys/_timeval.h /usr/include/sys/unistd.h
+post-grohtml.full: /usr/lib/libc.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../src/libs/libdriver/libdriver.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/groff/src/devices/grohtml/../../../src/libs/libgroff/libgroff.a /usr/lib/libm.a /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/lib/libegacy.a
+post-grohtml.full: /usr/lib/libc++.a

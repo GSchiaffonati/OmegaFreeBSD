@@ -1,0 +1,111 @@
+.\" Copyright (c) 2001-2003 Ruslan Ermilov <ru@FreeBSD.org>.
+.\" All rights reserved.
+.\"
+.\" Redistribution and use in source and binary forms, with or without
+.\" modification, are permitted provided that the following conditions
+.\" are met:
+.\" 1. Redistributions of source code must retain the above copyright
+.\"    notice, this list of conditions and the following disclaimer.
+.\" 2. Redistributions in binary form must reproduce the above copyright
+.\"    notice, this list of conditions and the following disclaimer in the
+.\"    documentation and/or other materials provided with the distribution.
+.\"
+.\" THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+.\" ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+.\" IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+.\" ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+.\" FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+.\" DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+.\" OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+.\" HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+.\" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+.\" OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+.\" SUCH DAMAGE.
+.\"
+.\" $FreeBSD$
+.\"
+.nr volume-operating-system-ateol 1
+.ds volume-ds-1 Справочник основных команд
+.ds volume-ds-2 Справочник системных вызовов
+.ds volume-ds-3 Справочник библиотечных функций
+.ds volume-ds-4 Справочник интерфейсов ядра
+.ds volume-ds-5 Справочник форматов файлов
+.ds volume-ds-6 Справочник игр
+.ds volume-ds-7 Справочник разной информации
+.ds volume-ds-8 Справочник системного администратора
+.ds volume-ds-9 Справочник разработчика ядра
+.ds volume-ds-USD   Дополнительные документы для пользователя
+.ds volume-ds-PS1   Дополнительные документы для программиста
+.ds volume-ds-AMD   Документы унаследованного справочника
+.ds volume-ds-SMM   Руководство системного администратора
+.ds volume-ds-URM   Справочное руководство
+.ds volume-ds-PRM   Руководство программиста
+.ds volume-ds-KM    Руководство по ядру
+.ds volume-ds-IND   Основной предметный указатель справочника
+.ds volume-ds-LOCAL Локальный справочник
+.ds volume-ds-CON   Справочник по дополнительному ПО
+.ds operating-system-ATT-7    7я\~редакция
+.ds operating-system-BSD-3    3й\~дистрибутив Беркли
+.ds operating-system-BSD-4    4й\~дистрибутив Беркли
+.ds operating-system-BSD-4.1  4.1\~дистрибутив Беркли
+.ds operating-system-BSD-4.2  4.2\~дистрибутив Беркли
+.ds operating-system-BSD-4.3  4.3\~дистрибутив Беркли
+.ds operating-system-BSD-4.3T 4.3-Tahoe дистрибутив Беркли
+.ds operating-system-BSD-4.3R 4.3-Reno дистрибутив Беркли
+.ds section-name        НАЗВАНИЕ
+.ds section-synopsis    СИНТАКСИС
+.ds section-library     БИБЛИОТЕКА
+.ds section-description ОПИСАНИЕ
+.ds section-see-also    СМОТРИ
+.ds section-files       ФАЙЛЫ
+.ds section-authors     АВТОРЫ
+.ds str-Lb-libarm32    Библиотека архитектуры ARM32 (libarm32, \-larm32)
+.ds str-Lb-libc        Стандартная библиотека\~C (libc, \-lc)
+.ds str-Lb-libc_r      Реентерабельная библиотека\~C (libc_r, \-lc_r)
+.ds str-Lb-libcalendar Библиотека календарной арифметики (libcalendar, \-lcalendar)
+.ds str-Lb-libcam      Пользовательская библиотека CAM (libcam, \-lcam)
+.ds str-Lb-libcipher   Библиотека криптографии FreeSec (libcipher, \-lcipher)
+.ds str-Lb-libcompat   Библиотека совместимости (libcompat, \-lcompat)
+.ds str-Lb-libcrypt    Библиотека криптографии (libcrypt, \-lcrypt)
+.ds str-Lb-libdevstat  Библиотека статистики устройств (libdevstat, \-ldevstat)
+.ds str-Lb-libedit     Библиотека редактора командной строки (libedit, \-ledit)
+.ds str-Lb-libfetch    Библиотека файловой передачи (libfetch, \-lfetch)
+.ds str-Lb-libgeom     Пользовательская API библиотека подсистемы ядра GEOM (libgeom, \-lgeom)
+.ds str-Lb-libi386     Библиотека архитектуры i386 (libi386, \-li386)
+.ds str-Lb-libipsec    Библиотека управления IPsec Policy (libipsec, \-lipsec)
+.ds str-Lb-libkvm      Библиотека доступа к данным ядра (libkvm, \-lkvm)
+.ds str-Lb-libm        Библиотека математических функций (libm, \-lm)
+.ds str-Lb-libnetgraph Пользовательская библиотека Netgraph (libnetgraph, \-lnetgraph)
+.ds str-Lb-libossaudio Библиотека эмуляции OSS Audio (libossaudio, \-lossaudio)
+.ds str-Lb-libpam      Библиотека PAM (libpam, \-lpam)
+.ds str-Lb-libposix    Библиотека \*[Px]\-совместимости (libposix, \-lposix)
+.ds str-Lb-librpcsvc   Библиотека служб RPC (librpcsvc, \-lrpcsvc)
+.ds str-Lb-libtermcap  Библиотека доступа к termcap (libtermcap, \-ltermcap)
+.ds str-Lb-libufs      Библиотека доступа к файловой системе UFS (libufs, \-lufs)
+.ds str-Lb-libusbhid   Библиотека функций доступа к USB HID (libusbhid, \-lusbhid)
+.ds str-Lb-libutil     Библиотека системных утилит (libutil, \-lutil)
+.ds str-Lb-libvgl      Библиотека видео-графики (libvgl, \-lvgl)
+.ds str-Lb-libz        Библиотека компрессии (libz, \-lz)
+.ds str-Rv-std-prefix "Функция
+.ds str-Rv-std-suffix "возвращает\~0 в случае успешного завершения;
+.as str-Rv-std-suffix " в противном случае она возвращает\~-1,
+.as str-Rv-std-suffix " а код ошибки сохраняется в глобальной
+.as str-Rv-std-suffix " переменной \*[Va-font]errno\f[P].
+.ds str-Rv-stds-prefix "Функции
+.ds str-Rv-stds-and    "и
+.ds str-Rv-stds-suffix "возвращают\~0 в случае успешного завершения;
+.as str-Rv-stds-suffix " в противном случае они возвращают\~-1,
+.as str-Rv-stds-suffix " а код ошибки сохраняется в глобальной
+.as str-Rv-stds-suffix " переменной \*[Va-font]errno\f[P].
+.ds str-Rv-std0 "В случае успешного завершения возвращается\~0;
+.as str-Rv-std0 " в противном случае возвращается\~-1,
+.as str-Rv-std0 " а код ошибки сохраняется в глобальной
+.as str-Rv-std0 " переменной \*[Va-font]errno\f[P].
+.ds str-Ex-std-prefix "Утилита
+.ds str-Ex-std-suffix "возвращает\~0 в случае успешного завершения
+.as str-Ex-std-suffix " и\~>0 в случае возникновения ошибки.
+.ds str-Ex-stds-prefix "Утилиты
+.ds str-Ex-stds-suffix "возвращают\~0 в случае успешного завершения
+.as str-Ex-stds-suffix " и\~>0 в случае возникновения ошибки.
+.ds str-Ar-default "файл\ .\|.\|.
+.ds str-dpra "и

@@ -1,0 +1,17 @@
+# -I/usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../../../contrib/openpam/include -I/usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../libpam -DOPENPAM_DEBUG -std=gnu99 /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/pam_deny.c
+pam_deny.o pam_deny.po pam_deny.So:  \
+ /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/pam_deny.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../../../contrib/openpam/include/security/pam_appl.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../../../contrib/openpam/include/security/pam_types.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../../../contrib/openpam/include/security/pam_constants.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../../../contrib/openpam/include/security/openpam_version.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../../../contrib/openpam/include/security/openpam_attr.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../../../contrib/openpam/include/security/pam_modules.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_deny/../../../../contrib/openpam/include/security/openpam.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdarg.h
+pam_deny.so.5.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libpam.a

@@ -1,0 +1,1 @@
+/usr/home/freebsd/omega/src/gnu/usr.bin/cc/cc_tools/../../../../contrib/gcc/gthr-posix.h

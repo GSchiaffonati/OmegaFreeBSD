@@ -1,0 +1,21 @@
+# -I/usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../../../contrib/openpam/include -I/usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../libpam -DOPENPAM_DEBUG -std=gnu99 /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/pam_guest.c
+pam_guest.o pam_guest.po pam_guest.So:  \
+ /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/pam_guest.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/string.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_null.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_strings.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../../../contrib/openpam/include/security/pam_appl.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../../../contrib/openpam/include/security/pam_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stddef.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../../../contrib/openpam/include/security/pam_constants.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../../../contrib/openpam/include/security/openpam_version.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../../../contrib/openpam/include/security/openpam_attr.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../../../contrib/openpam/include/security/pam_modules.h \
+  /usr/home/freebsd/omega/src/lib/libpam/modules/pam_guest/../../../../contrib/openpam/include/security/openpam.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdarg.h
+pam_guest.so.5.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libpam.a

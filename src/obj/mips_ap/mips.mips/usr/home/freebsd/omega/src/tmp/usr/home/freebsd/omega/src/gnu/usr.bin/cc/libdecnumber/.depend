@@ -1,0 +1,152 @@
+# -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber -I. -DGCCVER="4.2" -DIN_GCC -DHAVE_CONFIG_H -DPREFIX="/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr" -DCROSS_DIRECTORY_STRUCTURE -DMIPS_ABI_DEFAULT=ABI_32 -DMIPS_CPU_STRING_DEFAULT="mips32" -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcc -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcc/config -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libcpp/include -I/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu89 /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumber.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decContext.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decUtility.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal32.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal64.c /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal128.c
+decNumber.o decNumber.po decNumber.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumber.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/stdio.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/xlocale/_strings.h /usr/include/xlocale/_string.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /usr/include/xlocale/_ctype.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumber.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decContext.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/gstdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumberLocal.h
+decContext.o decContext.po decContext.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decContext.c \
+  /usr/include/string.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decContext.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/gstdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumberLocal.h
+decUtility.o decUtility.po decUtility.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decUtility.c \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumber.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decContext.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/gstdint.h \
+  /usr/include/sys/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/endian.h /usr/include/x86/endian.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumberLocal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decUtility.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decDPD.h
+decimal32.o decimal32.po decimal32.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal32.c \
+  /usr/include/string.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumber.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decContext.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/gstdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumberLocal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal32.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decUtility.h
+decimal64.o decimal64.po decimal64.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal64.c \
+  /usr/include/string.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumber.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decContext.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/gstdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumberLocal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal64.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decUtility.h
+decimal128.o decimal128.po decimal128.So: \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal128.c \
+  /usr/include/string.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_null.h /usr/include/sys/_types.h \
+  /usr/include/machine/_types.h /usr/include/x86/_types.h \
+  /usr/include/strings.h /usr/include/xlocale/_strings.h \
+  /usr/include/xlocale/_string.h /usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/config.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/size-host.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumber.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decContext.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../cc_tools/gstdint.h \
+  /usr/include/sys/types.h /usr/include/machine/endian.h \
+  /usr/include/x86/endian.h /usr/include/sys/_pthreadtypes.h \
+  /usr/include/sys/_stdint.h /usr/include/sys/select.h \
+  /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
+  /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
+  /usr/include/sys/stdint.h /usr/include/machine/_stdint.h \
+  /usr/include/x86/_stdint.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/machine/_limits.h \
+  /usr/include/x86/_limits.h /usr/include/machine/signal.h \
+  /usr/include/x86/signal.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decNumberLocal.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decimal128.h \
+  /usr/home/freebsd/omega/src/gnu/usr.bin/cc/libdecnumber/../../../../contrib/gcclibs/libdecnumber/decUtility.h

@@ -1,0 +1,11 @@
+# -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include -std=gnu99 /usr/home/freebsd/omega/src/lib/liby/main.c /usr/home/freebsd/omega/src/lib/liby/yyerror.c
+main.o main.po main.So: /usr/home/freebsd/omega/src/lib/liby/main.c \
+  /usr/include/sys/cdefs.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/legacy/usr/include/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h
+yyerror.o yyerror.po yyerror.So: /usr/home/freebsd/omega/src/lib/liby/yyerror.c \
+  /usr/include/sys/cdefs.h /usr/include/stdio.h /usr/include/sys/_null.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/x86/_types.h

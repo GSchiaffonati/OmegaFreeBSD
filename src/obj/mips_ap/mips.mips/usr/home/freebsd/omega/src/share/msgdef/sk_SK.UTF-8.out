@@ -1,0 +1,4 @@
+^(([áÁ]([nN][oO])?)|([aA])|([yY]([eE][sS])?)|([yY]))
+^(([nN]([iI][eE])?)|([nN])|([nN]([oO])?)|([nN]))
+áno:a:ÁNO:A:yes:y:YES:Y
+nie:n:NIE:N:no:n:NO:N

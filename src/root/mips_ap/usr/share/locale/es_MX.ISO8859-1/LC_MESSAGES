@@ -1,0 +1,4 @@
+^(([sS]([íÍ])?)|([sS])|([yY]([eE][sS])?)|([yY]))
+^(([nN]([oO])?)|([nN]))
+sí:s:SÍ:S:yes:y:YES:Y
+no:n:NO:N

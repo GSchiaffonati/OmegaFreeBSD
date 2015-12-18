@@ -1,0 +1,2 @@
+#define SCSI_NO_SENSE_STRINGS 1
+#define SCSI_NO_OP_STRINGS 1

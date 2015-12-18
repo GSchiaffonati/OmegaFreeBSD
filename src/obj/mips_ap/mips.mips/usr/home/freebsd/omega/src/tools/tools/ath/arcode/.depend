@@ -1,0 +1,24 @@
+# -DATH_DEFAULT="ath0" -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../common -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/dev/ath -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/dev/ath/ath_hal -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/contrib/dev/ath/ath_hal -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/tools/ath/arcode -DATH_DEFAULT="ath0" -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../common -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/dev/ath -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/dev/ath/ath_hal -I/usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/contrib/dev/ath/ath_hal -I/home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tools/tools/ath/arcode -std=gnu99 /usr/home/freebsd/omega/src/tools/tools/ath/arcode/arcode.c
+arcode.o: /usr/home/freebsd/omega/src/tools/tools/ath/arcode/arcode.c \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdio.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/cdefs.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/_null.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/_types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/stdlib.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/unistd.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/types.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/machine/endian.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/_pthreadtypes.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/_stdint.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/select.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/_sigset.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/_timeval.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/timespec.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/_timespec.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/unistd.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/fcntl.h \
+  /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/include/errno.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/sys/alq.h \
+  /usr/home/freebsd/omega/src/tools/tools/ath/arcode/../../../../sys/dev/ath/ath_hal/ah_decode.h
+arcode.full: /home/freebsd/omega/src/../obj/mips_ap//mips.mips/usr/home/freebsd/omega/src/tmp/usr/lib/libc.a
